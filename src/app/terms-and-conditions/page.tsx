@@ -4,8 +4,8 @@ import { SITE_CONFIG } from '@/lib/config';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Terms & Conditions | Shivansh Tour & Travels',
-  description: 'Terms and conditions for taxi and cab booking with Shivansh Tour & Travels, Jamshedpur.',
+  title: 'Terms & Conditions | Shivansh Tour & Travel',
+  description: 'Terms and conditions for taxi and cab booking with Shivansh Tour & Travel, Jamshedpur.',
   alternates: { canonical: `${SITE_CONFIG.url}/terms-and-conditions` },
   robots: { index: true, follow: false },
 };
@@ -30,7 +30,7 @@ export default function TermsPage() {
             {[
               {
                 title: '1. Booking Confirmation',
-                content: 'A booking is confirmed only after explicit verbal or written confirmation from Shivansh Tour & Travels. A booking enquiry (via WhatsApp, phone, or form) does not constitute a confirmed booking.',
+                content: 'A booking is confirmed only after explicit verbal or written confirmation from Shivansh Tour & Travel. A booking enquiry (via WhatsApp, phone, or form) does not constitute a confirmed booking.',
               },
               {
                 title: '2. Fare Estimates',
@@ -62,7 +62,7 @@ export default function TermsPage() {
               },
               {
                 title: '9. Liability',
-                content: 'Shivansh Tour & Travels\'s liability is limited to the confirmed fare paid. We are not liable for indirect, consequential, or incidental damages arising from travel delays or changes.',
+                content: 'Shivansh Tour & Travel\'s liability is limited to the confirmed fare paid. We are not liable for indirect, consequential, or incidental damages arising from travel delays or changes.',
               },
               {
                 title: '10. Jurisdiction',

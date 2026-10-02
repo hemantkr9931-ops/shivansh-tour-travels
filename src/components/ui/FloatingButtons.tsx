@@ -64,7 +64,7 @@ export default function FloatingButtons() {
       >
         {/* WhatsApp */}
         <a
-          href={getWhatsAppLink('Hello Shivansh Tour & Travels, I want to book a cab. Please share availability and fare.')}
+          href={getWhatsAppLink('Hello Shivansh Tour & Travel, I want to book a cab. Please share availability and fare.')}
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Chat on WhatsApp"

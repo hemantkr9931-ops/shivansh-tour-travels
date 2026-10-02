@@ -83,7 +83,7 @@ export default function Header() {
             <Link href="/" className="header-logo" aria-label={`${SITE_CONFIG.name} — Home`}>
               <Image
                 src="/shivansh tour & travel logo.jpeg"
-                alt="Shivansh Tour & Travels logo"
+                alt="Shivansh Tour & Travel logo"
                 width={52}
                 height={52}
                 priority
@@ -91,7 +91,7 @@ export default function Header() {
               />
               <div className="logo-text">
                 <span className="logo-name">Shivansh</span>
-                <span className="logo-sub">Tour & Travels</span>
+                <span className="logo-sub">Tour & Travel</span>
               </div>
             </Link>
 
@@ -229,14 +229,14 @@ export default function Header() {
             <div className="header-logo">
               <Image
                 src="/shivansh tour & travel logo.jpeg"
-                alt="Shivansh Tour & Travels logo"
+                alt="Shivansh Tour & Travel logo"
                 width={44}
                 height={44}
                 style={{ borderRadius: '50%', objectFit: 'cover', flexShrink: 0 }}
               />
               <div className="logo-text">
                 <span className="logo-name">Shivansh</span>
-                <span className="logo-sub">Tour & Travels</span>
+                <span className="logo-sub">Tour & Travel</span>
               </div>
             </div>
             <button

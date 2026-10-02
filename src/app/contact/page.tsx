@@ -7,9 +7,9 @@ import HeroSlider from '@/components/ui/HeroSlider';
 import MapEmbed from '@/components/ui/MapEmbed';
 
 export const metadata: Metadata = {
-  title: 'Contact Shivansh Tour & Travels | Book Cab in Jamshedpur | +91 7061767617',
+  title: 'Contact Shivansh Tour & Travel | Book Cab in Jamshedpur | +91 7061767617',
   description:
-    'Contact Shivansh Tour & Travels for cab booking and taxi enquiries in Jamshedpur. Call +91 7061767617, WhatsApp, or email us. Based in Sonari, Jamshedpur, Jharkhand.',
+    'Contact Shivansh Tour & Travel for cab booking and taxi enquiries in Jamshedpur. Call +91 7061767617, WhatsApp, or email us. Based in Sonari, Jamshedpur, Jharkhand.',
   alternates: { canonical: `${SITE_CONFIG.url}/contact` },
 };
 
@@ -23,7 +23,7 @@ export default function ContactPage() {
           <Breadcrumbs items={[{ label: 'Contact Us' }]} dark />
           <div style={{ marginTop: '16px', maxWidth: '600px' }}>
             <h1 style={{ fontSize: 'clamp(1.75rem, 4vw, 2.75rem)', fontWeight: 800, color: 'white', lineHeight: 1.15, marginBottom: '16px' }}>
-              Contact Shivansh Tour & Travels
+              Contact Shivansh Tour & Travel
             </h1>
             <p style={{ color: 'rgba(255,255,255,0.75)', fontSize: '16px', lineHeight: 1.7 }}>
               To book a cab or enquire about our taxi services, call, WhatsApp, or use the booking form below. We will respond promptly.
@@ -59,7 +59,7 @@ export default function ContactPage() {
                     title: 'WhatsApp',
                     value: SITE_CONFIG.phone,
                     desc: 'Book via WhatsApp message',
-                    href: getWhatsAppLink('Hello Shivansh Tour & Travels, I would like to enquire about a cab booking.'),
+                    href: getWhatsAppLink('Hello Shivansh Tour & Travel, I would like to enquire about a cab booking.'),
                     cta: 'WhatsApp Us',
                     style: { background: 'linear-gradient(135deg, #25d366, #1ba852)', color: 'white' },
                     external: true,
@@ -227,7 +227,7 @@ export default function ContactPage() {
               <div style={{ marginTop: '20px' }}>
                 <MapEmbed
                   query={SITE_CONFIG.mapQuery}
-                  label="Shivansh Tour & Travels — Sonari, Jamshedpur"
+                  label="Shivansh Tour & Travel — Sonari, Jamshedpur"
                   height={320}
                 />
               </div>

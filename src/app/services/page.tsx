@@ -9,7 +9,7 @@ import HeroSlider from '@/components/ui/HeroSlider';
 export const metadata: Metadata = {
   title: 'Cab Services | Local Taxi, Outstation, Airport Transfer | Shivansh Jamshedpur',
   description:
-    'All cab and taxi services by Shivansh Tour & Travels — local taxi, outstation cab, one-way taxi, round trip, airport transfer, corporate travel, wedding cars, Tempo Traveller.',
+    'All cab and taxi services by Shivansh Tour & Travel — local taxi, outstation cab, one-way taxi, round trip, airport transfer, corporate travel, wedding cars, Tempo Traveller.',
   alternates: { canonical: `${SITE_CONFIG.url}/services` },
 };
 
@@ -26,7 +26,7 @@ export default function ServicesPage() {
               All Taxi & Cab Services
             </h1>
             <p style={{ color: 'rgba(255,255,255,0.75)', fontSize: '16px', lineHeight: 1.7 }}>
-              From local Jamshedpur rides to outstation journeys, airport transfers, corporate travel, and group tours — explore all services offered by Shivansh Tour & Travels.
+              From local Jamshedpur rides to outstation journeys, airport transfers, corporate travel, and group tours — explore all services offered by Shivansh Tour & Travel.
             </p>
           </div>
         </div>

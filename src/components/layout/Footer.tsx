@@ -45,7 +45,7 @@ export default function Footer() {
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '14px' }}>
               <Image
                 src="/shivansh tour & travel logo.jpeg"
-                alt="Shivansh Tour & Travels logo"
+                alt="Shivansh Tour & Travel logo"
                 width={56}
                 height={56}
                 style={{ borderRadius: '50%', objectFit: 'cover', flexShrink: 0, border: '2px solid rgba(245,166,35,0.4)' }}

@@ -7,7 +7,7 @@ import Breadcrumbs from '@/components/ui/Breadcrumbs';
 import HeroSlider from '@/components/ui/HeroSlider';
 
 export const metadata: Metadata = {
-  title: 'Outstation Cab Routes from Jamshedpur | Shivansh Tour & Travels',
+  title: 'Outstation Cab Routes from Jamshedpur | Shivansh Tour & Travel',
   description:
     'Browse all outstation cab routes from Jamshedpur — to Ranchi, Kolkata, Dhanbad, Bokaro, Deoghar, Bhubaneswar, Puri, Patna and more. One-way and round-trip taxi.',
   alternates: { canonical: `${SITE_CONFIG.url}/routes` },

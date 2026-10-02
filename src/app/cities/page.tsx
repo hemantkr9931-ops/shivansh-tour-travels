@@ -6,9 +6,9 @@ import { getIndexedCities } from '@/data/cities';
 import type { City } from '@/data/types';
 
 export const metadata: Metadata = {
-  title: 'Cities We Serve | Taxi & Cab Service | Shivansh Tour & Travels',
+  title: 'Cities We Serve | Taxi & Cab Service | Shivansh Tour & Travel',
   description:
-    'Shivansh Tour & Travels provides cab and taxi service across Jharkhand, West Bengal, Odisha, and Bihar. Browse all covered cities and book your cab today.',
+    'Shivansh Tour & Travel provides cab and taxi service across Jharkhand, West Bengal, Odisha, and Bihar. Browse all covered cities and book your cab today.',
   alternates: { canonical: `${SITE_CONFIG.url}/cities` },
 };
 
@@ -47,7 +47,7 @@ export default function CitiesPage() {
             Cities We Serve
           </h1>
           <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '17px', maxWidth: '620px', margin: '0 auto', lineHeight: 1.7 }}>
-            Shivansh Tour &amp; Travels operates across Jharkhand, West Bengal, Odisha &amp; Bihar.
+            Shivansh Tour &amp; Travel operates across Jharkhand, West Bengal, Odisha &amp; Bihar.
             Click any city to see cab fares, routes, and local information.
           </p>
         </div>

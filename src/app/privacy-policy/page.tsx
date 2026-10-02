@@ -4,8 +4,8 @@ import { SITE_CONFIG, getEmailLink } from '@/lib/config';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Shivansh Tour & Travels',
-  description: 'Privacy policy for Shivansh Tour & Travels website and cab booking service.',
+  title: 'Privacy Policy | Shivansh Tour & Travel',
+  description: 'Privacy policy for Shivansh Tour & Travel website and cab booking service.',
   alternates: { canonical: `${SITE_CONFIG.url}/privacy-policy` },
   robots: { index: true, follow: false },
 };

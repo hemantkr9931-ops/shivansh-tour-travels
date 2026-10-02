@@ -10,7 +10,7 @@ import HeroSlider from '@/components/ui/HeroSlider';
 export const metadata: Metadata = {
   title: 'Our Fleet | Sedan, SUV, MUV & Tempo Traveller in Jamshedpur | Shivansh Tour',
   description:
-    'View vehicle fleet of Shivansh Tour & Travels — Sedan, MUV, SUV, Premium SUV, and Tempo Traveller for local taxi, outstation cab, and group travel from Jamshedpur.',
+    'View vehicle fleet of Shivansh Tour & Travel — Sedan, MUV, SUV, Premium SUV, and Tempo Traveller for local taxi, outstation cab, and group travel from Jamshedpur.',
   alternates: { canonical: `${SITE_CONFIG.url}/fleet` },
 };
 
@@ -27,7 +27,7 @@ export default function FleetPage() {
               Our Cab Fleet
             </h1>
             <p style={{ color: 'rgba(255,255,255,0.75)', fontSize: '16px', lineHeight: 1.7 }}>
-              Shivansh Tour & Travels offers a range of well-maintained vehicle categories to suit your travel needs — from economical sedans to spacious Tempo Travellers for group trips.
+              Shivansh Tour & Travel offers a range of well-maintained vehicle categories to suit your travel needs — from economical sedans to spacious Tempo Travellers for group trips.
             </p>
           </div>
         </div>
@@ -174,7 +174,7 @@ export default function FleetPage() {
 
                   <a
                     href={getWhatsAppLink(
-                      `Hello Shivansh Tour & Travels, I want to book a ${vehicle.name}. Please share availability and fare.`
+                      `Hello Shivansh Tour & Travel, I want to book a ${vehicle.name}. Please share availability and fare.`
                     )}
                     className="btn btn-primary"
                     style={{ width: '100%', justifyContent: 'center' }}

@@ -7,9 +7,9 @@ import HeroSlider from '@/components/ui/HeroSlider';
 import MapEmbed from '@/components/ui/MapEmbed';
 
 export const metadata: Metadata = {
-  title: 'About Shivansh Tour & Travels | Jamshedpur Cab Service',
+  title: 'About Shivansh Tour & Travel | Jamshedpur Cab Service',
   description:
-    'Learn about Shivansh Tour & Travels — a reliable cab and taxi service based in Jamshedpur, Jharkhand. We provide local, outstation, airport, corporate, and wedding transportation.',
+    'Learn about Shivansh Tour & Travel — a reliable cab and taxi service based in Jamshedpur, Jharkhand. We provide local, outstation, airport, corporate, and wedding transportation.',
   alternates: { canonical: `${SITE_CONFIG.url}/about` },
 };
 
@@ -56,7 +56,7 @@ export default function AboutPage() {
           <Breadcrumbs items={[{ label: 'About Us' }]} dark />
           <div style={{ marginTop: '16px', maxWidth: '600px' }}>
             <h1 style={{ fontSize: 'clamp(1.75rem, 4vw, 2.75rem)', fontWeight: 800, color: 'white', lineHeight: 1.15, marginBottom: '16px' }}>
-              About Shivansh Tour & Travels
+              About Shivansh Tour & Travel
             </h1>
             <p style={{ color: 'rgba(255,255,255,0.75)', fontSize: '16px', lineHeight: 1.7 }}>
               A reliable cab and taxi service based in Jamshedpur, Jharkhand — providing local, outstation, airport, corporate, and wedding transportation across the region.
@@ -76,7 +76,7 @@ export default function AboutPage() {
                 Who We Are
               </h2>
               <p style={{ color: 'var(--color-gray-700)', lineHeight: 1.8, fontSize: '15px', marginBottom: '20px' }}>
-                Shivansh Tour & Travels is a taxi and cab service based in Sonari, Jamshedpur, Jharkhand. We operate local taxi service within Jamshedpur city and outstation cab service to destinations across Jharkhand, West Bengal, Odisha, and Bihar.
+                Shivansh Tour & Travel is a taxi and cab service based in Sonari, Jamshedpur, Jharkhand. We operate local taxi service within Jamshedpur city and outstation cab service to destinations across Jharkhand, West Bengal, Odisha, and Bihar.
               </p>
               <p style={{ color: 'var(--color-gray-700)', lineHeight: 1.8, fontSize: '15px', marginBottom: '20px' }}>
                 We serve a variety of travel needs — from daily local trips and railway/airport transfers to multi-day outstation journeys, pilgrimages, corporate travel, wedding convoys, and group tours by Tempo Traveller. Our aim is to provide reliable, comfortable, and fairly priced transportation.
@@ -124,14 +124,14 @@ export default function AboutPage() {
               <div style={{ marginBottom: '24px' }}>
                 <MapEmbed
                   query={SITE_CONFIG.mapQuery}
-                  label="Shivansh Tour & Travels — Sonari, Jamshedpur"
+                  label="Shivansh Tour & Travel — Sonari, Jamshedpur"
                   height={340}
                 />
               </div>
 
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
                 <a
-                  href={getWhatsAppLink('Hello Shivansh Tour & Travels, I would like to book a cab. Please share details.')}
+                  href={getWhatsAppLink('Hello Shivansh Tour & Travel, I would like to book a cab. Please share details.')}
                   className="btn btn-whatsapp btn-lg"
                   target="_blank"
                   rel="noopener noreferrer"

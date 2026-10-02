@@ -72,7 +72,7 @@ export default async function RoutePage({
     .map((id) => getRouteBySlug(id) || getIndexedRoutes().find((r) => r.id === id))
     .filter(Boolean);
 
-  const bookingMsg = `Hello Shivansh Tour & Travels,
+  const bookingMsg = `Hello Shivansh Tour & Travel,
 
 I want to book a cab for the following route:
 

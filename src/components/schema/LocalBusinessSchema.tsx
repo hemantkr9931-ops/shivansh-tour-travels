@@ -8,7 +8,7 @@ export default function LocalBusinessSchema() {
     '@type': ['TaxiService', 'LocalBusiness'],
     '@id': `${SITE_CONFIG.url}/#localbusiness`,
     name: SITE_CONFIG.name,
-    alternateName: ['Shivansh Tour Travels', 'Shivansh Cab Jamshedpur', 'JSR Taxi Shivansh'],
+    alternateName: ['Shivansh Tour Travel', 'Shivansh Cab Jamshedpur', 'JSR Taxi Shivansh'],
     description: SITE_CONFIG.description,
     url: SITE_CONFIG.url,
     telephone: SITE_CONFIG.phone,
@@ -33,7 +33,7 @@ export default function LocalBusinessSchema() {
       latitude: '22.7948',
       longitude: '86.1897',
     },
-    hasMap: `https://www.google.com/maps/search/Shivansh+Tour+Travels+Sonari+Jamshedpur`,
+    hasMap: `https://www.google.com/maps/search/Shivansh+Tour+Travel+Sonari+Jamshedpur`,
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',

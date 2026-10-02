@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   keywords: [
     'Jamshedpur taxi service',
     'Jamshedpur cab service',
-    'Shivansh Tour Travels',
+    'Shivansh Tour Travel',
     'taxi service in Jamshedpur',
     'cab service Jamshedpur',
     'outstation taxi Jamshedpur',
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
         url: '/shivansh tour & travel logo.jpeg',
         width: 512,
         height: 512,
-        alt: 'Shivansh Tour & Travels — Jamshedpur Taxi Service Logo',
+        alt: 'Shivansh Tour & Travel — Jamshedpur Taxi Service Logo',
       },
     ],
   },

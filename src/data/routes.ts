@@ -22,7 +22,7 @@ export const routes: Route[] = [
       'Ranchi: Jharkhand state capital and administrative hub',
     ],
     routeDescription:
-      'The Jamshedpur to Ranchi cab route is the most travelled road corridor in Jharkhand. Covering approximately 130–140 km on NH-33, this journey passes through Adityapur industrial township, Gamharia, the scenic ghats near Chandil Dam, and the green hills of Ramgarh before descending into Ranchi — the state capital. Ranchi is the destination for government offices, Birsa Munda Airport (IXR), Ranchi University, RIMS Hospital, and countless family visits. With well-maintained NH-33, travel time is typically 2.5 to 3.5 hours. Shivansh Tour & Travels operates this route daily with AC Sedans, SUVs, and MUVs. Our drivers are experienced on this corridor and know the toll plaza locations, fuel stops, and shortcut routes through congested Chandil town.',
+      'The Jamshedpur to Ranchi cab route is the most travelled road corridor in Jharkhand. Covering approximately 130–140 km on NH-33, this journey passes through Adityapur industrial township, Gamharia, the scenic ghats near Chandil Dam, and the green hills of Ramgarh before descending into Ranchi — the state capital. Ranchi is the destination for government offices, Birsa Munda Airport (IXR), Ranchi University, RIMS Hospital, and countless family visits. With well-maintained NH-33, travel time is typically 2.5 to 3.5 hours. Shivansh Tour & Travel operates this route daily with AC Sedans, SUVs, and MUVs. Our drivers are experienced on this corridor and know the toll plaza locations, fuel stops, and shortcut routes through congested Chandil town.',
     travelTips: [
       'Peak traffic near Adityapur GAMDA toll gate adds 15–20 minutes — plan accordingly.',
       'Ranchi Airport (IXR) is located at Nagri, approximately 25 km from Ranchi city centre — factor this into your timing.',
@@ -47,7 +47,7 @@ export const routes: Route[] = [
       },
       {
         question: 'Is cab service available from Jamshedpur to Ranchi Airport?',
-        answer: 'Yes. Shivansh Tour & Travels provides cab directly to Birsa Munda Airport (IXR), Ranchi. Share your flight time when booking for a precise pickup.',
+        answer: 'Yes. Shivansh Tour & Travel provides cab directly to Birsa Munda Airport (IXR), Ranchi. Share your flight time when booking for a precise pickup.',
       },
       {
         question: 'Can I book a round-trip cab from Jamshedpur to Ranchi?',
@@ -82,7 +82,7 @@ export const routes: Route[] = [
       'Tatanagar Junction pickup available in Jamshedpur',
     ],
     routeDescription:
-      'The Ranchi to Jamshedpur cab is the return direction of the busiest Jharkhand highway corridor. Whether you have just landed at Birsa Munda Airport (IXR) or completed work at the state capital, Shivansh Tour & Travels provides reliable, door-to-door cab service back to Jamshedpur. We offer airport pickup service — share your flight number and arrival time, and our driver will be at the terminal when you land. The 135 km journey on NH-33 takes approximately 3 hours under normal traffic conditions. Pickup is available from Ranchi Airport, Ranchi Railway Station, or any hotel/office in Ranchi city.',
+      'The Ranchi to Jamshedpur cab is the return direction of the busiest Jharkhand highway corridor. Whether you have just landed at Birsa Munda Airport (IXR) or completed work at the state capital, Shivansh Tour & Travel provides reliable, door-to-door cab service back to Jamshedpur. We offer airport pickup service — share your flight number and arrival time, and our driver will be at the terminal when you land. The 135 km journey on NH-33 takes approximately 3 hours under normal traffic conditions. Pickup is available from Ranchi Airport, Ranchi Railway Station, or any hotel/office in Ranchi city.',
     travelTips: [
       'If arriving by flight, book your cab before departure and share flight number for tracking.',
       'Allow extra buffer time during Ranchi city rush hours (8–10 AM and 5–8 PM).',
@@ -106,7 +106,7 @@ export const routes: Route[] = [
     index: true,
     priority: 0.85,
     seoTitle: 'Ranchi to Jamshedpur Taxi | Ranchi Airport to Jamshedpur Cab | Shivansh',
-    seoDescription: 'Book cab from Ranchi to Jamshedpur from ₹1,599. Ranchi Airport pickup. One-way and round-trip. Call Shivansh Tour & Travels: +91 7061767617.',
+    seoDescription: 'Book cab from Ranchi to Jamshedpur from ₹1,599. Ranchi Airport pickup. One-way and round-trip. Call Shivansh Tour & Travel: +91 7061767617.',
     primaryKeyword: 'Ranchi to Jamshedpur cab',
   },
 
@@ -129,7 +129,7 @@ export const routes: Route[] = [
       'Jharkhand\'s second most important industrial city',
     ],
     routeDescription:
-      'The Jamshedpur to Dhanbad cab route connects two of Jharkhand\'s most important industrial cities. At approximately 150–160 km, the journey takes about 2.5–3 hours via the Adityapur–Gamharia–Jharia corridor. Dhanbad is known as the coal capital of India and hosts Dhanbad Junction — one of the busiest railway stations in the country, IIM Dhanbad (Indian Institute of Management), and numerous coal company headquarters. Shivansh Tour & Travels serves this route regularly for corporate professionals, students, and families. Our sedan and SUV cabs are fully AC and maintained to a high standard.',
+      'The Jamshedpur to Dhanbad cab route connects two of Jharkhand\'s most important industrial cities. At approximately 150–160 km, the journey takes about 2.5–3 hours via the Adityapur–Gamharia–Jharia corridor. Dhanbad is known as the coal capital of India and hosts Dhanbad Junction — one of the busiest railway stations in the country, IIM Dhanbad (Indian Institute of Management), and numerous coal company headquarters. Shivansh Tour & Travel serves this route regularly for corporate professionals, students, and families. Our sedan and SUV cabs are fully AC and maintained to a high standard.',
     travelTips: [
       'Dhanbad city traffic is heavy near the station area — allow 30 extra minutes if heading there.',
       'Industrial area toll charges add approximately ₹150–180 to the journey.',
@@ -157,7 +157,7 @@ export const routes: Route[] = [
     railwayRelevance: 'Dhanbad Junction (DHN) — major railway hub for the region.',
     index: true,
     priority: 0.85,
-    seoTitle: 'Jamshedpur to Dhanbad Cab | One Way Taxi ₹2,399 | Shivansh Tour & Travels',
+    seoTitle: 'Jamshedpur to Dhanbad Cab | One Way Taxi ₹2,399 | Shivansh Tour & Travel',
     seoDescription: 'Book Jamshedpur to Dhanbad cab — Sedan ₹2,399, SUV ₹2,999. Station drop available. AC cab, no hidden charges. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Dhanbad cab',
   },
@@ -174,7 +174,7 @@ export const routes: Route[] = [
     approxDurationHours: 3,
     routeHighlights: ['Dhanbad Junction pickup available', 'Coal belt to Steel City corridor', 'IIM Dhanbad pickup available'],
     routeDescription:
-      'Return cab service from Dhanbad to Jamshedpur. Shivansh Tour & Travels provides reliable pickup from Dhanbad Junction, IIM Dhanbad, or any city location for the 150–160 km journey back to Jamshedpur (Steel City). Ideal for corporate travellers, students, and families.',
+      'Return cab service from Dhanbad to Jamshedpur. Shivansh Tour & Travel provides reliable pickup from Dhanbad Junction, IIM Dhanbad, or any city location for the 150–160 km journey back to Jamshedpur (Steel City). Ideal for corporate travellers, students, and families.',
     travelTips: ['Book in advance during peak hours. Dhanbad station area can have heavy congestion.'],
     services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
     recommendedVehicles: ['sedan', 'muv', 'suv'],
@@ -188,7 +188,7 @@ export const routes: Route[] = [
     relatedCityIds: ['dhanbad', 'jamshedpur'],
     index: true,
     priority: 0.75,
-    seoTitle: 'Dhanbad to Jamshedpur Taxi | Cab Service | Shivansh Tour & Travels',
+    seoTitle: 'Dhanbad to Jamshedpur Taxi | Cab Service | Shivansh Tour & Travel',
     seoDescription: 'Book cab from Dhanbad to Jamshedpur. Sedan ₹2,399, SUV ₹2,999. Station pickup available. Call Shivansh: +91 7061767617.',
     primaryKeyword: 'Dhanbad to Jamshedpur cab',
   },
@@ -212,7 +212,7 @@ export const routes: Route[] = [
       'SAIL Bokaro Steel Plant area',
     ],
     routeDescription:
-      'Jamshedpur to Bokaro Steel City is an important industrial route in Jharkhand covering approximately 155–170 km. Bokaro is home to one of India\'s largest integrated steel plants (SAIL BSL) and is a major destination for professionals, their families, and transfer postings in the steel sector. The route can be taken via Dhanbad or via Ramgarh depending on traffic conditions. Shivansh Tour & Travels provides this service with experienced drivers who know both route options.',
+      'Jamshedpur to Bokaro Steel City is an important industrial route in Jharkhand covering approximately 155–170 km. Bokaro is home to one of India\'s largest integrated steel plants (SAIL BSL) and is a major destination for professionals, their families, and transfer postings in the steel sector. The route can be taken via Dhanbad or via Ramgarh depending on traffic conditions. Shivansh Tour & Travel provides this service with experienced drivers who know both route options.',
     travelTips: [
       'Via Dhanbad route adds toll but is faster on certain days. Confirm preferred route at booking.',
       'SAIL Bokaro plant sector addresses are spread across a large township — confirm exact locality.',
@@ -234,7 +234,7 @@ export const routes: Route[] = [
     relatedCityIds: ['jamshedpur', 'bokaro'],
     index: true,
     priority: 0.8,
-    seoTitle: 'Jamshedpur to Bokaro Cab | One Way Taxi ₹1,999 | Shivansh Tour & Travels',
+    seoTitle: 'Jamshedpur to Bokaro Cab | One Way Taxi ₹1,999 | Shivansh Tour & Travel',
     seoDescription: 'Book Jamshedpur to Bokaro cab — Sedan ₹1,999, SUV ₹2,799. SAIL township drop. AC cab. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Bokaro cab',
   },
@@ -265,7 +265,7 @@ export const routes: Route[] = [
     relatedCityIds: ['bokaro', 'jamshedpur'],
     index: true,
     priority: 0.7,
-    seoTitle: 'Bokaro to Jamshedpur Taxi | Cab Service | Shivansh Tour & Travels',
+    seoTitle: 'Bokaro to Jamshedpur Taxi | Cab Service | Shivansh Tour & Travel',
     seoDescription: 'Book cab from Bokaro to Jamshedpur. Sedan ₹1,999, SUV ₹2,799. Reliable service. Call +91 7061767617.',
     primaryKeyword: 'Bokaro to Jamshedpur cab',
   },
@@ -289,7 +289,7 @@ export const routes: Route[] = [
       'Howrah Bridge and Kolkata metro city — 5.5–6 hour journey',
     ],
     routeDescription:
-      'The Jamshedpur to Kolkata cab is the most popular long-distance outstation route from Jamshedpur. At approximately 260–280 km via NH-16, the journey takes 5.5–6.5 hours and passes through the scenic riverside town of Ghatsila and the IIT city of Kharagpur. Kolkata — the nearest metro city to Jamshedpur — is the destination for Netaji Subhas Chandra Bose Airport (CCU), SSKM Hospital, specialized medical treatment, major shopping malls, business meetings, and family connections. Shivansh Tour & Travels is well-equipped for this intercity corridor with AC Sedans, MUVs, Innova Crysta, and premium SUVs.',
+      'The Jamshedpur to Kolkata cab is the most popular long-distance outstation route from Jamshedpur. At approximately 260–280 km via NH-16, the journey takes 5.5–6.5 hours and passes through the scenic riverside town of Ghatsila and the IIT city of Kharagpur. Kolkata — the nearest metro city to Jamshedpur — is the destination for Netaji Subhas Chandra Bose Airport (CCU), SSKM Hospital, specialized medical treatment, major shopping malls, business meetings, and family connections. Shivansh Tour & Travel is well-equipped for this intercity corridor with AC Sedans, MUVs, Innova Crysta, and premium SUVs.',
     travelTips: [
       'Kharagpur city traffic adds 20–30 minutes — account for this.',
       'Kolkata city traffic is severe in the Ultadanga–VIP Road stretch — leave extra buffer if heading to the airport.',
@@ -343,7 +343,7 @@ export const routes: Route[] = [
       'Howrah / Sealdah station pickup available',
     ],
     routeDescription:
-      'Kolkata to Jamshedpur cab — the return direction of the busy Jharkhand–West Bengal corridor. Whether arriving by flight at Netaji Subhas Chandra Bose Airport, by train at Howrah or Sealdah, or needing pickup from any Kolkata neighbourhood, Shivansh Tour & Travels provides seamless door-to-door cab service. The 270 km NH-16 journey takes approximately 5.5–6 hours. Our drivers are experienced on the Kolkata–Jamshedpur route and know the best exit routes from Kolkata to avoid peak city traffic.',
+      'Kolkata to Jamshedpur cab — the return direction of the busy Jharkhand–West Bengal corridor. Whether arriving by flight at Netaji Subhas Chandra Bose Airport, by train at Howrah or Sealdah, or needing pickup from any Kolkata neighbourhood, Shivansh Tour & Travel provides seamless door-to-door cab service. The 270 km NH-16 journey takes approximately 5.5–6 hours. Our drivers are experienced on the Kolkata–Jamshedpur route and know the best exit routes from Kolkata to avoid peak city traffic.',
     travelTips: [
       'Start early from Kolkata (before 7 AM) to avoid city traffic.',
       'Howrah Bridge area is congested on weekdays — allow 30–40 minutes buffer from Howrah Station.',
@@ -385,7 +385,7 @@ export const routes: Route[] = [
       'Major pilgrimage destination for Jharkhand, Bihar, and Bengal devotees',
     ],
     routeDescription:
-      'The Jamshedpur to Deoghar cab is one of the most spiritually significant routes from Jamshedpur. Deoghar is home to Baidyanath Dham — a Jyotirlinga temple revered by millions of Shiva devotees across India. The approximately 210–230 km journey via Dhanbad and Giridih takes about 4–5 hours. Devotees visit year-round, with enormous crowds during Shravan month (July–August) and Mahashivratri. Shivansh Tour & Travels is experienced in serving pilgrims on this route — our drivers are respectful and familiar with the temple area, parking zones, and Jasidih Station pickup. Group pilgrims can book our AC Tempo Traveller (12–17 seater).',
+      'The Jamshedpur to Deoghar cab is one of the most spiritually significant routes from Jamshedpur. Deoghar is home to Baidyanath Dham — a Jyotirlinga temple revered by millions of Shiva devotees across India. The approximately 210–230 km journey via Dhanbad and Giridih takes about 4–5 hours. Devotees visit year-round, with enormous crowds during Shravan month (July–August) and Mahashivratri. Shivansh Tour & Travel is experienced in serving pilgrims on this route — our drivers are respectful and familiar with the temple area, parking zones, and Jasidih Station pickup. Group pilgrims can book our AC Tempo Traveller (12–17 seater).',
     travelTips: [
       'During Shravan month, book at least 7–10 days in advance — extreme demand.',
       'Temple opens for darshan at 4 AM and closes at 11 PM. Inform driver of expected darshan time.',
@@ -530,7 +530,7 @@ export const routes: Route[] = [
     airportRelevance: 'Biju Patnaik International Airport (BBI) pickup available.',
     index: true,
     priority: 0.75,
-    seoTitle: 'Bhubaneswar to Jamshedpur Cab | Airport Pickup | Shivansh Tour & Travels',
+    seoTitle: 'Bhubaneswar to Jamshedpur Cab | Airport Pickup | Shivansh Tour & Travel',
     seoDescription: 'Book cab from Bhubaneswar to Jamshedpur. Sedan ₹6,499. Airport pickup. Call +91 7061767617.',
     primaryKeyword: 'Bhubaneswar to Jamshedpur cab',
   },
@@ -554,7 +554,7 @@ export const routes: Route[] = [
       'Combined Puri–Konark–Bhubaneswar tour is popular',
     ],
     routeDescription:
-      'The Jamshedpur to Puri cab is one of the most spiritually and recreationally significant long-distance journeys from Jamshedpur. Puri — home to Shri Jagannath Temple, one of the four sacred Char Dhams — is approximately 420–450 km from Jamshedpur, a 8–10 hour journey. The route passes through Chaibasa, Rourkela, and Bhubaneswar. Puri is visited for Jagannath darshan, the famous Rath Yatra chariot festival, Puri Beach, and as part of the golden triangle Odisha tour (Puri–Konark–Bhubaneswar). Shivansh Tour & Travels provides AC Sedans, SUVs, and Tempo Travellers for group pilgrimages.',
+      'The Jamshedpur to Puri cab is one of the most spiritually and recreationally significant long-distance journeys from Jamshedpur. Puri — home to Shri Jagannath Temple, one of the four sacred Char Dhams — is approximately 420–450 km from Jamshedpur, a 8–10 hour journey. The route passes through Chaibasa, Rourkela, and Bhubaneswar. Puri is visited for Jagannath darshan, the famous Rath Yatra chariot festival, Puri Beach, and as part of the golden triangle Odisha tour (Puri–Konark–Bhubaneswar). Shivansh Tour & Travel provides AC Sedans, SUVs, and Tempo Travellers for group pilgrimages.',
     travelTips: [
       'Overnight journey is recommended — depart Jamshedpur at 10 PM and arrive Puri by 7–8 AM.',
       'During Rath Yatra (June–July), book 15–30 days in advance. Demand is extraordinary.',
@@ -606,7 +606,7 @@ export const routes: Route[] = [
       'Patna Sahib Gurudwara, Mahatma Gandhi Setu (Ganges bridge)',
     ],
     routeDescription:
-      'Jamshedpur to Patna is a significant intercity route connecting Jharkhand\'s industrial hub to Bihar\'s capital city. At approximately 330–360 km, the journey takes 7–8 hours. Patna is Bihar\'s administrative capital with Jay Prakash Narayan International Airport (PAT), major hospitals, universities, and government offices. The route passes through Dhanbad and continues via Aurangabad or Gaya depending on the selected path. Shivansh Tour & Travels provides reliable cab service on this corridor — ideal for government officials, business travellers, students at Patna University, and families visiting relatives.',
+      'Jamshedpur to Patna is a significant intercity route connecting Jharkhand\'s industrial hub to Bihar\'s capital city. At approximately 330–360 km, the journey takes 7–8 hours. Patna is Bihar\'s administrative capital with Jay Prakash Narayan International Airport (PAT), major hospitals, universities, and government offices. The route passes through Dhanbad and continues via Aurangabad or Gaya depending on the selected path. Shivansh Tour & Travel provides reliable cab service on this corridor — ideal for government officials, business travellers, students at Patna University, and families visiting relatives.',
     travelTips: [
       'Route via Dhanbad–Hazaribagh–Koderma–Gaya–Patna is commonly used.',
       'Allow a full day — 7–8 hours driving plus stops.',
@@ -654,7 +654,7 @@ export const routes: Route[] = [
       'Durgapur Barrage scenic area',
     ],
     routeDescription:
-      'The Jamshedpur to Durgapur cab route connects two major steel and industrial cities across the Jharkhand–West Bengal border. Durgapur is approximately 175–195 km from Jamshedpur, a 3.5–4.5 hour journey via Asansol on NH-19. Durgapur is home to Durgapur Steel Plant (SAIL DSP), National Institute of Technology (NIT Durgapur), and several large industrial companies. This route is popular for SAIL employees, NIT families, and business professionals. Shivansh Tour & Travels provides AC Sedan and SUV service for this inter-state route.',
+      'The Jamshedpur to Durgapur cab route connects two major steel and industrial cities across the Jharkhand–West Bengal border. Durgapur is approximately 175–195 km from Jamshedpur, a 3.5–4.5 hour journey via Asansol on NH-19. Durgapur is home to Durgapur Steel Plant (SAIL DSP), National Institute of Technology (NIT Durgapur), and several large industrial companies. This route is popular for SAIL employees, NIT families, and business professionals. Shivansh Tour & Travel provides AC Sedan and SUV service for this inter-state route.',
     travelTips: [
       'NH-19 via Asansol is the standard route — good road condition.',
       'Durgapur Steel Plant township is spread across multiple sectors — confirm exact sector address.',
@@ -701,7 +701,7 @@ export const routes: Route[] = [
       'Gaya Airport (GAY) for connecting flights',
     ],
     routeDescription:
-      'The Jamshedpur to Gaya cab route serves one of Jharkhand\'s most important pilgrimage corridors. Gaya is a sacred city on the banks of the Falgu River where Hindus perform Pind Daan for ancestors — a ritual believed to grant moksha. Just 12 km from Gaya is Bodh Gaya, where Gautama Buddha attained enlightenment under the Bodhi Tree — now a UNESCO World Heritage Site and the most sacred site in Buddhism. The approximately 280–310 km journey takes 6–7 hours via Dhanbad and Hazaribagh. Shivansh Tour & Travels provides respectful, comfortable service for both Hindu and Buddhist pilgrims.',
+      'The Jamshedpur to Gaya cab route serves one of Jharkhand\'s most important pilgrimage corridors. Gaya is a sacred city on the banks of the Falgu River where Hindus perform Pind Daan for ancestors — a ritual believed to grant moksha. Just 12 km from Gaya is Bodh Gaya, where Gautama Buddha attained enlightenment under the Bodhi Tree — now a UNESCO World Heritage Site and the most sacred site in Buddhism. The approximately 280–310 km journey takes 6–7 hours via Dhanbad and Hazaribagh. Shivansh Tour & Travel provides respectful, comfortable service for both Hindu and Buddhist pilgrims.',
     travelTips: [
       'Bodh Gaya is just 12 km from Gaya — easily combined in the same trip.',
       'Pitrupaksha (Shraddha) period sees maximum demand — book 2–3 weeks in advance.',
@@ -804,7 +804,7 @@ export const routes: Route[] = [
     relatedCityIds: ['jamshedpur', 'rourkela', 'chaibasa'],
     index: true,
     priority: 0.68,
-    seoTitle: 'Jamshedpur to Rourkela Cab | NIT Rourkela Taxi | Shivansh Tour & Travels',
+    seoTitle: 'Jamshedpur to Rourkela Cab | NIT Rourkela Taxi | Shivansh Tour & Travel',
     seoDescription: 'Book cab from Jamshedpur to Rourkela via Chaibasa. NIT Rourkela, SAIL RSP drop. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Rourkela cab',
   },
@@ -841,7 +841,7 @@ export const routes: Route[] = [
     relatedCityIds: ['jamshedpur', 'chaibasa'],
     index: true,
     priority: 0.6,
-    seoTitle: 'Jamshedpur to Chaibasa Taxi | Cab Service | Shivansh Tour & Travels',
+    seoTitle: 'Jamshedpur to Chaibasa Taxi | Cab Service | Shivansh Tour & Travel',
     seoDescription: 'Book cab from Jamshedpur to Chaibasa. Short outstation taxi. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Chaibasa taxi',
   },
@@ -865,7 +865,7 @@ export const routes: Route[] = [
       'Rajrappa Temple — popular pilgrimage site, 30 km from Hazaribagh',
     ],
     routeDescription:
-      'Jamshedpur to Hazaribagh is a popular tourist and weekend getaway route covering approximately 195–215 km. Hazaribagh (meaning "thousand gardens") is a scenic hill town in the Chota Nagpur Plateau region at an altitude of about 615 metres, known for its pleasant climate year-round. The Hazaribagh Wildlife Sanctuary, Hazaribagh Lake, and Rajrappa Temple (30 km away) draw visitors regularly. The route via Bokaro or Ramgarh takes about 4–5 hours. Shivansh Tour & Travels provides comfortable outstation cabs for leisure and business travel on this route.',
+      'Jamshedpur to Hazaribagh is a popular tourist and weekend getaway route covering approximately 195–215 km. Hazaribagh (meaning "thousand gardens") is a scenic hill town in the Chota Nagpur Plateau region at an altitude of about 615 metres, known for its pleasant climate year-round. The Hazaribagh Wildlife Sanctuary, Hazaribagh Lake, and Rajrappa Temple (30 km away) draw visitors regularly. The route via Bokaro or Ramgarh takes about 4–5 hours. Shivansh Tour & Travel provides comfortable outstation cabs for leisure and business travel on this route.',
     travelTips: [
       'Best time to visit: October to March — pleasant cool weather.',
       'Rajrappa Temple is a must-visit — 30 km from Hazaribagh town, on the Damodar River.',
@@ -883,7 +883,7 @@ export const routes: Route[] = [
     relatedCityIds: ['jamshedpur', 'hazaribagh'],
     index: true,
     priority: 0.65,
-    seoTitle: 'Jamshedpur to Hazaribagh Taxi | Outstation Cab | Shivansh Tour & Travels',
+    seoTitle: 'Jamshedpur to Hazaribagh Taxi | Outstation Cab | Shivansh Tour & Travel',
     seoDescription: 'Book cab from Jamshedpur to Hazaribagh. Weekend getaway taxi. One-way & round-trip. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Hazaribagh cab',
   },
@@ -920,7 +920,7 @@ export const routes: Route[] = [
     relatedCityIds: ['jamshedpur', 'ramgarh'],
     index: true,
     priority: 0.55,
-    seoTitle: 'Jamshedpur to Ramgarh Cab | Taxi Service | Shivansh Tour & Travels',
+    seoTitle: 'Jamshedpur to Ramgarh Cab | Taxi Service | Shivansh Tour & Travel',
     seoDescription: 'Book cab from Jamshedpur to Ramgarh. NH-33 route. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Ramgarh taxi',
   },
@@ -965,7 +965,7 @@ export const routes: Route[] = [
     relatedCityIds: ['jamshedpur', 'giridih'],
     index: true,
     priority: 0.62,
-    seoTitle: 'Jamshedpur to Giridih Cab | Parasnath Taxi | Shivansh Tour & Travels',
+    seoTitle: 'Jamshedpur to Giridih Cab | Parasnath Taxi | Shivansh Tour & Travel',
     seoDescription: 'Book cab from Jamshedpur to Giridih. Parasnath Hill Jain pilgrimage taxi. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Giridih cab',
   },
@@ -1098,7 +1098,7 @@ export const routes: Route[] = [
     relatedCityIds: ['jamshedpur', 'purulia'],
     index: true,
     priority: 0.6,
-    seoTitle: 'Jamshedpur to Purulia Cab | Ajodhya Hills Taxi | Shivansh Tour & Travels',
+    seoTitle: 'Jamshedpur to Purulia Cab | Ajodhya Hills Taxi | Shivansh Tour & Travel',
     seoDescription: 'Book cab from Jamshedpur to Purulia. Ajodhya Hills, Chhau dance area taxi. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Purulia cab',
   },
@@ -1122,7 +1122,7 @@ export const routes: Route[] = [
       'Gateway to Durgapur (30 km) and Kolkata (175 km)',
     ],
     routeDescription:
-      'Jamshedpur to Asansol covers approximately 145–165 km, about 3–3.5 hours. Asansol is West Bengal\'s second largest city and a major railway hub on the Howrah–Delhi main line. The city is closely connected to the Bengal coal-steel industrial belt. Shivansh Tour & Travels provides cab service for professionals, students, and families travelling to Asansol for business, railway connections, or en route to Durgapur.',
+      'Jamshedpur to Asansol covers approximately 145–165 km, about 3–3.5 hours. Asansol is West Bengal\'s second largest city and a major railway hub on the Howrah–Delhi main line. The city is closely connected to the Bengal coal-steel industrial belt. Shivansh Tour & Travel provides cab service for professionals, students, and families travelling to Asansol for business, railway connections, or en route to Durgapur.',
     travelTips: ['Asansol Junction is a major railway hub — cab to station is a common booking.'],
     services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
     recommendedVehicles: ['sedan', 'muv'],
@@ -1136,7 +1136,7 @@ export const routes: Route[] = [
     relatedCityIds: ['jamshedpur', 'asansol', 'durgapur'],
     index: true,
     priority: 0.62,
-    seoTitle: 'Jamshedpur to Asansol Cab | West Bengal Taxi | Shivansh Tour & Travels',
+    seoTitle: 'Jamshedpur to Asansol Cab | West Bengal Taxi | Shivansh Tour & Travel',
     seoDescription: 'Book cab from Jamshedpur to Asansol. Station drop, industrial route. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Asansol cab',
   },
@@ -1577,7 +1577,7 @@ export const routes: Route[] = [
     originState: 'west-bengal', destinationState: 'jharkhand',
     approxDistanceKm: 390, approxDurationHours: 8,
     routeHighlights: ['Kolkata Airport (CCU) pickup available', 'Howrah/Sealdah station pickup', 'Ranchi — Jharkhand capital'],
-    routeDescription: 'Kolkata to Ranchi cab — connecting West Bengal\'s metro to Jharkhand\'s capital. Whether flying into Kolkata or arriving at Howrah/Sealdah, Shivansh Tour & Travels provides direct cab service to Ranchi. The 380–400 km journey via Kharagpur and Jamshedpur takes approximately 8 hours.',
+    routeDescription: 'Kolkata to Ranchi cab — connecting West Bengal\'s metro to Jharkhand\'s capital. Whether flying into Kolkata or arriving at Howrah/Sealdah, Shivansh Tour & Travel provides direct cab service to Ranchi. The 380–400 km journey via Kharagpur and Jamshedpur takes approximately 8 hours.',
     travelTips: ['Leave Kolkata before 7 AM to avoid city traffic.', 'Via Jamshedpur route: stop for meal at Jamshedpur (midpoint).'],
     services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi', 'airport-taxi'],
     recommendedVehicles: ['sedan', 'muv', 'suv'],

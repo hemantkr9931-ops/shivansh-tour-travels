@@ -37,11 +37,11 @@ export default function FaqSchema({ faqs }: FaqSchemaProps) {
 export const homepageFaqs: FaqItem[] = [
   {
     question: 'What is the cab fare from Jamshedpur to Ranchi?',
-    answer: 'The cab fare from Jamshedpur to Ranchi starts from Rs 1,599 for a Sedan (Swift Dzire type) for a one-way trip. SUV (Innova) starts from Rs 2,499. Contact Shivansh Tour and Travels at +91 7061767617 for exact fare quote.',
+    answer: 'The cab fare from Jamshedpur to Ranchi starts from Rs 1,599 for a Sedan (Swift Dzire type) for a one-way trip. SUV (Innova) starts from Rs 2,499. Contact Shivansh Tour and Travel at +91 7061767617 for exact fare quote.',
   },
   {
     question: 'Is there a taxi service available from Jamshedpur to Kolkata?',
-    answer: 'Yes, Shivansh Tour and Travels provides outstation cab service from Jamshedpur to Kolkata. The fare starts from Rs 5,499 for a Sedan and Rs 7,499 for an Innova. Travel time is approximately 5 to 6 hours via NH-6.',
+    answer: 'Yes, Shivansh Tour and Travel provides outstation cab service from Jamshedpur to Kolkata. The fare starts from Rs 5,499 for a Sedan and Rs 7,499 for an Innova. Travel time is approximately 5 to 6 hours via NH-6.',
   },
   {
     question: 'What is the fare for Jamshedpur to Bhubaneswar cab?',
@@ -49,15 +49,15 @@ export const homepageFaqs: FaqItem[] = [
   },
   {
     question: 'How to book a cab in Jamshedpur?',
-    answer: 'You can book a cab in Jamshedpur by calling or WhatsApp-messaging Shivansh Tour and Travels at +91 7061767617. We offer 24/7 booking for local taxi, outstation cab, airport transfer, and wedding car hire. No advance payment required for most bookings.',
+    answer: 'You can book a cab in Jamshedpur by calling or WhatsApp-messaging Shivansh Tour and Travel at +91 7061767617. We offer 24/7 booking for local taxi, outstation cab, airport transfer, and wedding car hire. No advance payment required for most bookings.',
   },
   {
-    question: 'Does Shivansh Tour and Travels offer airport transfer from Jamshedpur?',
+    question: 'Does Shivansh Tour and Travel offer airport transfer from Jamshedpur?',
     answer: 'Yes. We provide airport cab service from Jamshedpur to Birsa Munda Airport Ranchi (IXR) approximately 130 km, 2.5 hours. We also cover Kolkata (CCU) and Bhubaneswar (BBI) airports. Book at least 2 hours before departure.',
   },
   {
     question: 'What types of vehicles are available for outstation cab from Jamshedpur?',
-    answer: 'Shivansh Tour and Travels offers Sedan (Swift Dzire), MUV (Ertiga), SUV (Innova Crysta), Premium SUV (Fortuner), and Tempo Traveller (12 to 17 seater) for group travel. All vehicles are AC and well-maintained.',
+    answer: 'Shivansh Tour and Travel offers Sedan (Swift Dzire), MUV (Ertiga), SUV (Innova Crysta), Premium SUV (Fortuner), and Tempo Traveller (12 to 17 seater) for group travel. All vehicles are AC and well-maintained.',
   },
   {
     question: 'Is Tempo Traveller available from Jamshedpur for group tours?',
@@ -65,14 +65,14 @@ export const homepageFaqs: FaqItem[] = [
   },
   {
     question: 'Is there a local taxi service available in Jamshedpur for hourly hire?',
-    answer: 'Yes, Shivansh Tour and Travels provides local taxi hire in Jamshedpur on hourly basis. We serve Bistupur, Sakchi, Kadma, Sonari, Mango, Adityapur, Telco, Golmuri and all Jamshedpur localities. Call +91 7061767617 to book.',
+    answer: 'Yes, Shivansh Tour and Travel provides local taxi hire in Jamshedpur on hourly basis. We serve Bistupur, Sakchi, Kadma, Sonari, Mango, Adityapur, Telco, Golmuri and all Jamshedpur localities. Call +91 7061767617 to book.',
   },
   {
     question: 'Are toll charges included in the cab fare from Jamshedpur?',
     answer: 'No, toll charges are paid separately as per actuals on the route. State permit charges if applicable are also extra. We communicate all charges transparently when sharing your fare estimate. No hidden charges policy.',
   },
   {
-    question: 'Does Shivansh Tour and Travels offer one-way cab from Jamshedpur?',
+    question: 'Does Shivansh Tour and Travel offer one-way cab from Jamshedpur?',
     answer: 'Yes, we offer one-way cab service from Jamshedpur to Ranchi, Kolkata, Dhanbad, Bokaro, Bhubaneswar, Puri, Patna and all major cities in Jharkhand, Bihar, West Bengal, and Odisha. Call +91 7061767617 to book.',
   },
 ];

@@ -12,11 +12,11 @@ export const cities: City[] = [
     isDistrict: true,
     region: 'East Singhbhum',
     description:
-      'Jamshedpur, the Steel City of India, is the primary base of Shivansh Tour & Travels. We offer local, outstation, airport, and corporate cab services across Jamshedpur and all its localities including Bistupur, Sakchi, Mango, Kadma, Sonari, Telco, and Adityapur.',
+      'Jamshedpur, the Steel City of India, is the primary base of Shivansh Tour & Travel. We offer local, outstation, airport, and corporate cab services across Jamshedpur and all its localities including Bistupur, Sakchi, Mango, Kadma, Sonari, Telco, and Adityapur.',
     intro:
-      'Jamshedpur — known as Tata Nagar or the Steel City — is the largest city in Jharkhand and a major industrial hub in eastern India. Located in East Singhbhum district along the Subarnarekha and Kharkai rivers, Jamshedpur is well-connected by road and rail. As the home city of Shivansh Tour & Travels, we have deep local knowledge of all Jamshedpur localities, including Bistupur, Sakchi, Mango, Kadma, Sonari, Telco, Golmuri, Jugsalai, and Adityapur.',
+      'Jamshedpur — known as Tata Nagar or the Steel City — is the largest city in Jharkhand and a major industrial hub in eastern India. Located in East Singhbhum district along the Subarnarekha and Kharkai rivers, Jamshedpur is well-connected by road and rail. As the home city of Shivansh Tour & Travel, we have deep local knowledge of all Jamshedpur localities, including Bistupur, Sakchi, Mango, Kadma, Sonari, Telco, Golmuri, Jugsalai, and Adityapur.',
     seoTitle:
-      'Jamshedpur Taxi Service | Local, Airport & Outstation Cab | Shivansh Tour & Travels',
+      'Jamshedpur Taxi Service | Local, Airport & Outstation Cab | Shivansh Tour & Travel',
     seoDescription:
       'Book reliable cab and taxi service in Jamshedpur for local travel, airport transfers, outstation trips, weddings, and corporate needs. Sedan, SUV, MUV & Tempo Traveller available. Call +91 7061767617.',
     primaryKeyword: 'taxi service in Jamshedpur',
@@ -87,7 +87,7 @@ export const cities: City[] = [
     ],
     faqs: [
       {
-        question: 'Which areas in Jamshedpur does Shivansh Tour & Travels cover?',
+        question: 'Which areas in Jamshedpur does Shivansh Tour & Travel cover?',
         answer:
           'We cover all major areas including Bistupur, Sakchi, Mango, Kadma, Sonari, Telco, Golmuri, Jugsalai, Adityapur, Gamharia, and more. Pickup from Tatanagar Railway Station is also available.',
       },
@@ -125,13 +125,13 @@ export const cities: City[] = [
     isDistrict: true,
     region: 'Capital Region',
     description:
-      'Ranchi is the capital of Jharkhand and a major travel hub. Shivansh Tour & Travels provides cab service from Jamshedpur to Ranchi and taxi service within the Ranchi region, including Birsa Munda Airport transfers.',
+      'Ranchi is the capital of Jharkhand and a major travel hub. Shivansh Tour & Travel provides cab service from Jamshedpur to Ranchi and taxi service within the Ranchi region, including Birsa Munda Airport transfers.',
     intro:
-      'Ranchi, the capital of Jharkhand, sits on the Chota Nagpur Plateau at an elevation that keeps temperatures relatively mild. It is home to Birsa Munda Airport — the state\'s primary airport — and is a key hub for travel across Jharkhand. Shivansh Tour & Travels operates cab service on the busy Jamshedpur–Ranchi corridor and provides Ranchi Airport pickup and drop for travellers connecting to or from Jamshedpur.',
+      'Ranchi, the capital of Jharkhand, sits on the Chota Nagpur Plateau at an elevation that keeps temperatures relatively mild. It is home to Birsa Munda Airport — the state\'s primary airport — and is a key hub for travel across Jharkhand. Shivansh Tour & Travel operates cab service on the busy Jamshedpur–Ranchi corridor and provides Ranchi Airport pickup and drop for travellers connecting to or from Jamshedpur.',
     seoTitle:
-      'Jamshedpur to Ranchi Cab | Ranchi Taxi Service | Shivansh Tour & Travels',
+      'Jamshedpur to Ranchi Cab | Ranchi Taxi Service | Shivansh Tour & Travel',
     seoDescription:
-      'Book Jamshedpur to Ranchi cab service with Shivansh Tour & Travels. One-way and round-trip taxi, Ranchi Airport transfers, and local Ranchi cab. Call +91 7061767617.',
+      'Book Jamshedpur to Ranchi cab service with Shivansh Tour & Travel. One-way and round-trip taxi, Ranchi Airport transfers, and local Ranchi cab. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Ranchi cab',
     secondaryKeywords: [
       'Ranchi taxi service',
@@ -210,13 +210,13 @@ export const cities: City[] = [
     isDistrict: true,
     region: 'Coal Belt',
     description:
-      'Dhanbad, the coal capital of India, is well connected to Jamshedpur. Shivansh Tour & Travels provides reliable taxi and cab service between Jamshedpur and Dhanbad.',
+      'Dhanbad, the coal capital of India, is well connected to Jamshedpur. Shivansh Tour & Travel provides reliable taxi and cab service between Jamshedpur and Dhanbad.',
     intro:
-      'Dhanbad — often called the Coal Capital of India — is a major industrial city in Jharkhand, home to the Indian School of Mines and surrounded by one of India\'s largest coal mining regions. Located approximately 100 km from Jamshedpur, it is a popular destination for business travellers. Shivansh Tour & Travels provides comfortable, reliable cab service on this busy corridor.',
+      'Dhanbad — often called the Coal Capital of India — is a major industrial city in Jharkhand, home to the Indian School of Mines and surrounded by one of India\'s largest coal mining regions. Located approximately 100 km from Jamshedpur, it is a popular destination for business travellers. Shivansh Tour & Travel provides comfortable, reliable cab service on this busy corridor.',
     seoTitle:
-      'Jamshedpur to Dhanbad Taxi | Dhanbad Cab Service | Shivansh Tour & Travels',
+      'Jamshedpur to Dhanbad Taxi | Dhanbad Cab Service | Shivansh Tour & Travel',
     seoDescription:
-      'Book cab from Jamshedpur to Dhanbad with Shivansh Tour & Travels. One-way and round-trip taxi available. Reliable, comfortable, affordable. Call +91 7061767617.',
+      'Book cab from Jamshedpur to Dhanbad with Shivansh Tour & Travel. One-way and round-trip taxi available. Reliable, comfortable, affordable. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Dhanbad taxi',
     secondaryKeywords: [
       'Dhanbad cab service',
@@ -267,9 +267,9 @@ export const cities: City[] = [
     description:
       'Bokaro Steel City is a planned industrial city in Jharkhand. Shivansh provides cab service from Jamshedpur to Bokaro and return.',
     intro:
-      'Bokaro Steel City — a planned industrial township built around the Bokaro Steel Plant — lies approximately 170 km from Jamshedpur. The city is known for its orderly layout, prominent steel industry, and proximity to Dhanbad and Ranchi. Whether you\'re travelling for work or visiting family, Shivansh Tour & Travels provides a comfortable cab journey on this route.',
+      'Bokaro Steel City — a planned industrial township built around the Bokaro Steel Plant — lies approximately 170 km from Jamshedpur. The city is known for its orderly layout, prominent steel industry, and proximity to Dhanbad and Ranchi. Whether you\'re travelling for work or visiting family, Shivansh Tour & Travel provides a comfortable cab journey on this route.',
     seoTitle:
-      'Jamshedpur to Bokaro Cab | Bokaro Taxi Service | Shivansh Tour & Travels',
+      'Jamshedpur to Bokaro Cab | Bokaro Taxi Service | Shivansh Tour & Travel',
     seoDescription:
       'Book a cab from Jamshedpur to Bokaro Steel City with Shivansh. One-way and round-trip taxi available. Comfortable sedans, SUVs, and MUVs. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Bokaro cab',
@@ -306,7 +306,7 @@ export const cities: City[] = [
     description:
       'Deoghar, home to Baidyanath Dham — one of the 12 Jyotirlingas — is a major pilgrimage destination. Shivansh provides pilgrimage cab service from Jamshedpur to Deoghar.',
     intro:
-      'Deoghar is one of the most revered pilgrimage towns in eastern India, home to Baidyanath Dham — one of the 12 Jyotirlingas of Lord Shiva. Every year, millions of devotees visit during the Shravan month and Shivratri. Shivansh Tour & Travels provides respectful, comfortable pilgrimage cab service from Jamshedpur and other cities to Deoghar.',
+      'Deoghar is one of the most revered pilgrimage towns in eastern India, home to Baidyanath Dham — one of the 12 Jyotirlingas of Lord Shiva. Every year, millions of devotees visit during the Shravan month and Shivratri. Shivansh Tour & Travel provides respectful, comfortable pilgrimage cab service from Jamshedpur and other cities to Deoghar.',
     seoTitle:
       'Jamshedpur to Deoghar Cab | Deoghar Taxi | Baidyanath Dham | Shivansh Tour',
     seoDescription:
@@ -358,10 +358,10 @@ export const cities: City[] = [
     description:
       'Hazaribagh is a scenic hill town in Jharkhand, popular for its lake and wildlife sanctuary. Shivansh provides cab service from Jamshedpur to Hazaribagh.',
     intro:
-      'Hazaribagh — meaning "thousand gardens" — is a pleasant hill town in Jharkhand known for its lake, wildlife sanctuary, and relatively cool climate. It is a popular weekend getaway from Jamshedpur and Ranchi. Shivansh Tour & Travels provides comfortable outstation cab service to Hazaribagh.',
+      'Hazaribagh — meaning "thousand gardens" — is a pleasant hill town in Jharkhand known for its lake, wildlife sanctuary, and relatively cool climate. It is a popular weekend getaway from Jamshedpur and Ranchi. Shivansh Tour & Travel provides comfortable outstation cab service to Hazaribagh.',
     seoTitle: 'Jamshedpur to Hazaribagh Taxi | Hazaribagh Cab Service | Shivansh',
     seoDescription:
-      'Book cab from Jamshedpur to Hazaribagh with Shivansh Tour & Travels. Outstation one-way and round-trip taxi. Call +91 7061767617.',
+      'Book cab from Jamshedpur to Hazaribagh with Shivansh Tour & Travel. Outstation one-way and round-trip taxi. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Hazaribagh cab',
     secondaryKeywords: ['Hazaribagh taxi', 'Hazaribagh cab booking'],
     pickupAreas: ['Hazaribagh Town', 'Hazaribagh Lake', 'Barkagaon'],
@@ -395,10 +395,10 @@ export const cities: City[] = [
     description:
       'Chaibasa is the district headquarters of West Singhbhum, close to Jamshedpur. Shivansh provides reliable local and outstation cab service to Chaibasa.',
     intro:
-      'Chaibasa, the administrative headquarters of West Singhbhum district, lies just 60–70 km from Jamshedpur. It is a gateway to the Saranda forest — one of the largest Sal forests in Asia. Shivansh Tour & Travels provides frequent and convenient cab service between Jamshedpur and Chaibasa.',
+      'Chaibasa, the administrative headquarters of West Singhbhum district, lies just 60–70 km from Jamshedpur. It is a gateway to the Saranda forest — one of the largest Sal forests in Asia. Shivansh Tour & Travel provides frequent and convenient cab service between Jamshedpur and Chaibasa.',
     seoTitle: 'Jamshedpur to Chaibasa Taxi | Chaibasa Cab Service | Shivansh',
     seoDescription:
-      'Book reliable cab from Jamshedpur to Chaibasa. Short outstation and local taxi available. Call Shivansh Tour & Travels at +91 7061767617.',
+      'Book reliable cab from Jamshedpur to Chaibasa. Short outstation and local taxi available. Call Shivansh Tour & Travel at +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Chaibasa cab',
     secondaryKeywords: ['Chaibasa taxi', 'West Singhbhum taxi'],
     pickupAreas: ['Chaibasa Town', 'Chaibasa Bus Stand', 'Circuit House Area'],
@@ -429,13 +429,13 @@ export const cities: City[] = [
     state: 'west-bengal',
     stateName: 'West Bengal',
     description:
-      'Kolkata is the nearest major metro city to Jamshedpur. Shivansh Tour & Travels provides outstation cab service from Jamshedpur to Kolkata, including airport transfers to Netaji Subhas Chandra Bose International Airport.',
+      'Kolkata is the nearest major metro city to Jamshedpur. Shivansh Tour & Travel provides outstation cab service from Jamshedpur to Kolkata, including airport transfers to Netaji Subhas Chandra Bose International Airport.',
     intro:
-      'Kolkata — the cultural capital of India — is approximately 260–280 km from Jamshedpur, making it one of the most popular outstation routes. Travellers frequently book cabs from Jamshedpur to Kolkata for airport connections, medical trips, business visits, and family travel. Shivansh Tour & Travels provides comfortable and reliable cab service on this route, passing through Kharagpur.',
+      'Kolkata — the cultural capital of India — is approximately 260–280 km from Jamshedpur, making it one of the most popular outstation routes. Travellers frequently book cabs from Jamshedpur to Kolkata for airport connections, medical trips, business visits, and family travel. Shivansh Tour & Travel provides comfortable and reliable cab service on this route, passing through Kharagpur.',
     seoTitle:
-      'Jamshedpur to Kolkata Cab | Kolkata Airport Transfer | Shivansh Tour & Travels',
+      'Jamshedpur to Kolkata Cab | Kolkata Airport Transfer | Shivansh Tour & Travel',
     seoDescription:
-      'Book cab from Jamshedpur to Kolkata with Shivansh Tour & Travels. One-way and round-trip taxi, Kolkata airport transfer available. Call +91 7061767617.',
+      'Book cab from Jamshedpur to Kolkata with Shivansh Tour & Travel. One-way and round-trip taxi, Kolkata airport transfer available. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Kolkata cab',
     secondaryKeywords: [
       'Jamshedpur to Kolkata taxi',
@@ -495,8 +495,8 @@ export const cities: City[] = [
     description:
       'Kharagpur is a major railway junction and IIT town in West Bengal, lying on the Jamshedpur–Kolkata route. Shivansh provides cab service from Jamshedpur to Kharagpur.',
     intro:
-      'Kharagpur is best known as the home of IIT Kharagpur and its historic railway junction. Located approximately 175–190 km from Jamshedpur, it is a natural stopover on the Jamshedpur–Kolkata route. Shivansh Tour & Travels serves travellers heading to Kharagpur for academic, business, or transit purposes.',
-    seoTitle: 'Jamshedpur to Kharagpur Taxi | Kharagpur Cab | Shivansh Tour & Travels',
+      'Kharagpur is best known as the home of IIT Kharagpur and its historic railway junction. Located approximately 175–190 km from Jamshedpur, it is a natural stopover on the Jamshedpur–Kolkata route. Shivansh Tour & Travel serves travellers heading to Kharagpur for academic, business, or transit purposes.',
+    seoTitle: 'Jamshedpur to Kharagpur Taxi | Kharagpur Cab | Shivansh Tour & Travel',
     seoDescription:
       'Book cab from Jamshedpur to Kharagpur. Reliable outstation taxi, one-way and round-trip. Call Shivansh at +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Kharagpur cab',
@@ -529,10 +529,10 @@ export const cities: City[] = [
     description:
       'Purulia is a border district of West Bengal adjacent to Jharkhand, with strong connectivity to Jamshedpur. Shivansh provides cab service from Jamshedpur to Purulia.',
     intro:
-      'Purulia, a district of West Bengal bordering Jharkhand, shares cultural and geographical proximity with Jamshedpur. Known for its unique Chhau dance, Ajodhya Hills, and forested landscape, Purulia attracts both business and leisure travellers. Shivansh Tour & Travels provides reliable cab service between Jamshedpur and Purulia.',
+      'Purulia, a district of West Bengal bordering Jharkhand, shares cultural and geographical proximity with Jamshedpur. Known for its unique Chhau dance, Ajodhya Hills, and forested landscape, Purulia attracts both business and leisure travellers. Shivansh Tour & Travel provides reliable cab service between Jamshedpur and Purulia.',
     seoTitle: 'Jamshedpur to Purulia Taxi | Purulia Cab Service | Shivansh Tour',
     seoDescription:
-      'Book cab from Jamshedpur to Purulia with Shivansh Tour & Travels. Outstation one-way and round-trip taxi. Call +91 7061767617.',
+      'Book cab from Jamshedpur to Purulia with Shivansh Tour & Travel. Outstation one-way and round-trip taxi. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Purulia cab',
     secondaryKeywords: ['Purulia taxi', 'Purulia cab service'],
     pickupAreas: ['Purulia Town', 'Purulia Railway Station', 'Raghunathpur', 'Balarampur'],
@@ -564,9 +564,9 @@ export const cities: City[] = [
     description:
       'Bhubaneswar, the capital of Odisha, is a major travel destination from Jamshedpur. Shivansh provides outstation cab service from Jamshedpur to Bhubaneswar.',
     intro:
-      'Bhubaneswar — the "Temple City of India" and capital of Odisha — is a popular destination from Jamshedpur for pilgrimage, tourism, and official travel. Home to Biju Patnaik International Airport and hundreds of ancient temples, Bhubaneswar is approximately 350–380 km from Jamshedpur. Shivansh Tour & Travels provides comfortable outstation cab service on this route.',
+      'Bhubaneswar — the "Temple City of India" and capital of Odisha — is a popular destination from Jamshedpur for pilgrimage, tourism, and official travel. Home to Biju Patnaik International Airport and hundreds of ancient temples, Bhubaneswar is approximately 350–380 km from Jamshedpur. Shivansh Tour & Travel provides comfortable outstation cab service on this route.',
     seoTitle:
-      'Jamshedpur to Bhubaneswar Cab | Bhubaneswar Taxi | Shivansh Tour & Travels',
+      'Jamshedpur to Bhubaneswar Cab | Bhubaneswar Taxi | Shivansh Tour & Travel',
     seoDescription:
       'Book cab from Jamshedpur to Bhubaneswar with Shivansh. Outstation one-way and round-trip taxi available. Comfortable sedan, SUV, MUV. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Bhubaneswar taxi',
@@ -621,9 +621,9 @@ export const cities: City[] = [
     description:
       'Puri, home to the Jagannath Temple and famous beaches, is a top pilgrimage and tourism destination from Jamshedpur. Shivansh provides cab service to Puri.',
     intro:
-      'Puri — one of the four sacred dhams in Hinduism — is home to the world-famous Jagannath Temple and beautiful golden beaches. It is a top pilgrimage destination from Jamshedpur, especially during Rath Yatra. Shivansh Tour & Travels provides outstation cab service from Jamshedpur to Puri for religious visits, beach holidays, and family trips.',
+      'Puri — one of the four sacred dhams in Hinduism — is home to the world-famous Jagannath Temple and beautiful golden beaches. It is a top pilgrimage destination from Jamshedpur, especially during Rath Yatra. Shivansh Tour & Travel provides outstation cab service from Jamshedpur to Puri for religious visits, beach holidays, and family trips.',
     seoTitle:
-      'Jamshedpur to Puri Cab | Puri Taxi | Jagannath Dham Tour | Shivansh Tour & Travels',
+      'Jamshedpur to Puri Cab | Puri Taxi | Jagannath Dham Tour | Shivansh Tour & Travel',
     seoDescription:
       'Book cab from Jamshedpur to Puri for Jagannath Dham pilgrimage or beach holiday. Outstation taxi, one-way and round-trip. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Puri taxi',
@@ -670,8 +670,8 @@ export const cities: City[] = [
     description:
       'Rourkela, the Steel City of Odisha, is accessible from Jamshedpur via Chaibasa. Shivansh provides cab service from Jamshedpur to Rourkela.',
     intro:
-      'Rourkela is Odisha\'s third-largest city and an important industrial and educational centre, known for the Rourkela Steel Plant and the National Institute of Technology (NIT Rourkela). Located approximately 180–200 km from Jamshedpur, it is a convenient outstation destination for business and family visits. Shivansh Tour & Travels provides reliable cab service on this route.',
-    seoTitle: 'Jamshedpur to Rourkela Cab | Rourkela Taxi | Shivansh Tour & Travels',
+      'Rourkela is Odisha\'s third-largest city and an important industrial and educational centre, known for the Rourkela Steel Plant and the National Institute of Technology (NIT Rourkela). Located approximately 180–200 km from Jamshedpur, it is a convenient outstation destination for business and family visits. Shivansh Tour & Travel provides reliable cab service on this route.',
+    seoTitle: 'Jamshedpur to Rourkela Cab | Rourkela Taxi | Shivansh Tour & Travel',
     seoDescription:
       'Book cab from Jamshedpur to Rourkela, Odisha. Outstation one-way and round-trip taxi. Comfortable and reliable. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Rourkela cab',
@@ -712,11 +712,11 @@ export const cities: City[] = [
     description:
       'Patna, the capital of Bihar, is a major travel destination from Jamshedpur. Shivansh provides outstation cab service from Jamshedpur to Patna.',
     intro:
-      'Patna, one of the oldest cities in the world and the capital of Bihar, is a significant travel destination for business, pilgrimage, and family visits. Located approximately 330–360 km from Jamshedpur, Patna is served by the Jay Prakash Narayan International Airport. Shivansh Tour & Travels provides reliable long-distance cab service on this important corridor.',
+      'Patna, one of the oldest cities in the world and the capital of Bihar, is a significant travel destination for business, pilgrimage, and family visits. Located approximately 330–360 km from Jamshedpur, Patna is served by the Jay Prakash Narayan International Airport. Shivansh Tour & Travel provides reliable long-distance cab service on this important corridor.',
     seoTitle:
-      'Jamshedpur to Patna Cab | Patna Taxi | Outstation Taxi | Shivansh Tour & Travels',
+      'Jamshedpur to Patna Cab | Patna Taxi | Outstation Taxi | Shivansh Tour & Travel',
     seoDescription:
-      'Book cab from Jamshedpur to Patna with Shivansh Tour & Travels. Long-distance outstation taxi, one-way and round-trip. Call +91 7061767617.',
+      'Book cab from Jamshedpur to Patna with Shivansh Tour & Travel. Long-distance outstation taxi, one-way and round-trip. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Patna cab',
     secondaryKeywords: ['Patna taxi service', 'Patna cab booking', 'Jamshedpur Patna taxi'],
     pickupAreas: ['Patna Junction', 'Patna Airport', 'Gandhi Maidan', 'Boring Road', 'Kankarbagh'],
@@ -740,7 +740,7 @@ export const cities: City[] = [
       {
         question: 'Is there a cab service from Jamshedpur to Patna?',
         answer:
-          'Yes. Shivansh Tour & Travels provides outstation cab service from Jamshedpur to Patna. Both one-way and round-trip options are available.',
+          'Yes. Shivansh Tour & Travel provides outstation cab service from Jamshedpur to Patna. Both one-way and round-trip options are available.',
       },
     ],
     mapQuery: 'Patna,+Bihar,+India',
@@ -756,9 +756,9 @@ export const cities: City[] = [
     description:
       'Gaya and Bodh Gaya are major pilgrimage destinations in Bihar. Shivansh provides cab service from Jamshedpur to Gaya for Hindu and Buddhist pilgrims.',
     intro:
-      'Gaya is a sacred city in Bihar known for the Vishnupad Temple and the Pind Daan rituals performed here. Just 12 km away lies Bodh Gaya — the birthplace of Buddhism and a UNESCO World Heritage Site. Together, they attract millions of Hindu and Buddhist pilgrims. Shivansh Tour & Travels provides respectful and comfortable pilgrimage cab service from Jamshedpur to Gaya and Bodh Gaya.',
+      'Gaya is a sacred city in Bihar known for the Vishnupad Temple and the Pind Daan rituals performed here. Just 12 km away lies Bodh Gaya — the birthplace of Buddhism and a UNESCO World Heritage Site. Together, they attract millions of Hindu and Buddhist pilgrims. Shivansh Tour & Travel provides respectful and comfortable pilgrimage cab service from Jamshedpur to Gaya and Bodh Gaya.',
     seoTitle:
-      'Jamshedpur to Gaya Taxi | Bodh Gaya Cab | Pilgrimage Tour | Shivansh Tour & Travels',
+      'Jamshedpur to Gaya Taxi | Bodh Gaya Cab | Pilgrimage Tour | Shivansh Tour & Travel',
     seoDescription:
       'Book cab from Jamshedpur to Gaya and Bodh Gaya for pilgrimage. Outstation one-way and round-trip taxi. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Gaya cab',
@@ -807,8 +807,8 @@ export const cities: City[] = [
     isDistrict: false,
     region: 'Latehar',
     description: 'Netarhat is Jharkhand\'s most beautiful hill station at 3,622 ft, known as the Queen of Chotanagpur for its stunning sunrise, sunset, and forest scenery.',
-    intro: 'Netarhat — the "Queen of Chotanagpur" — is Jharkhand\'s premier hill station, located at an altitude of approximately 3,622 feet in Latehar district. Shivansh Tour & Travels offers cab and SUV service from Jamshedpur to Netarhat for weekend getaways, nature lovers, and photography enthusiasts. The hill station is famous for its breathtaking sunrise from Magnolia Point, the twin Ghagri Falls (Upper and Lower), lush sal and pine forests, and the prestigious Netarhat Residential School (NRS). The cool climate (15–25°C) makes it a favourite escape year-round.',
-    seoTitle: 'Cab from Jamshedpur to Netarhat | Hill Station Taxi | Shivansh Tour & Travels',
+    intro: 'Netarhat — the "Queen of Chotanagpur" — is Jharkhand\'s premier hill station, located at an altitude of approximately 3,622 feet in Latehar district. Shivansh Tour & Travel offers cab and SUV service from Jamshedpur to Netarhat for weekend getaways, nature lovers, and photography enthusiasts. The hill station is famous for its breathtaking sunrise from Magnolia Point, the twin Ghagri Falls (Upper and Lower), lush sal and pine forests, and the prestigious Netarhat Residential School (NRS). The cool climate (15–25°C) makes it a favourite escape year-round.',
+    seoTitle: 'Cab from Jamshedpur to Netarhat | Hill Station Taxi | Shivansh Tour & Travel',
     seoDescription: 'Book cab from Jamshedpur to Netarhat hill station. Sunrise point, Ghagri Falls taxi. SUV recommended. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Netarhat cab',
     secondaryKeywords: ['Netarhat taxi from Jamshedpur', 'Netarhat cab booking', 'Queen of Chotanagpur taxi'],
@@ -840,7 +840,7 @@ export const cities: City[] = [
     isDistrict: false,
     region: 'Ranchi',
     description: 'Hundru Falls is one of the highest waterfalls in Jharkhand at 98 metres, formed by the Subarnarekha River, located 45 km from Ranchi and 160 km from Jamshedpur.',
-    intro: 'Hundru Falls is one of Jharkhand\'s most spectacular natural attractions — the Subarnarekha River plunges 98 metres down a rocky gorge, creating a powerful and scenic waterfall. Located approximately 45 km from Ranchi and 160 km from Jamshedpur, Hundru is a popular day-trip destination, especially during and after monsoon season (July–October) when the water flow is at its peak. Shivansh Tour & Travels provides comfortable cab service for nature trips to Hundru Falls from Jamshedpur.',
+    intro: 'Hundru Falls is one of Jharkhand\'s most spectacular natural attractions — the Subarnarekha River plunges 98 metres down a rocky gorge, creating a powerful and scenic waterfall. Located approximately 45 km from Ranchi and 160 km from Jamshedpur, Hundru is a popular day-trip destination, especially during and after monsoon season (July–October) when the water flow is at its peak. Shivansh Tour & Travel provides comfortable cab service for nature trips to Hundru Falls from Jamshedpur.',
     seoTitle: 'Cab from Jamshedpur to Hundru Falls | Waterfall Trip Taxi | Shivansh',
     seoDescription: 'Book cab from Jamshedpur to Hundru Falls. Jharkhand waterfall trip taxi. Best in monsoon. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Hundru Falls cab',
@@ -899,7 +899,7 @@ export const cities: City[] = [
     isDistrict: true,
     region: 'Northern Jharkhand',
     description: 'Giridih is a Jharkhand district known for Parasnath Hill (Shikharji) — the holiest Jain pilgrimage site and the highest peak in Jharkhand at 1,365 metres.',
-    intro: 'Giridih is a district in northern Jharkhand, approximately 190–210 km from Jamshedpur via Dhanbad. The district is globally famous among the Jain community as the location of Parasnath Hill (Shikharji) — the highest mountain in Jharkhand (1,365 metres) and the most sacred pilgrimage site in Jainism. The hill has 20 Jain tonks (temples) reached by a 9 km trek. Usri Falls, a scenic cascade in a forested gorge, is another attraction. Shivansh Tour & Travels provides cab and Tempo Traveller for Jain pilgrimages and leisure visits.',
+    intro: 'Giridih is a district in northern Jharkhand, approximately 190–210 km from Jamshedpur via Dhanbad. The district is globally famous among the Jain community as the location of Parasnath Hill (Shikharji) — the highest mountain in Jharkhand (1,365 metres) and the most sacred pilgrimage site in Jainism. The hill has 20 Jain tonks (temples) reached by a 9 km trek. Usri Falls, a scenic cascade in a forested gorge, is another attraction. Shivansh Tour & Travel provides cab and Tempo Traveller for Jain pilgrimages and leisure visits.',
     seoTitle: 'Cab from Jamshedpur to Giridih | Parasnath Shikharji Taxi | Shivansh',
     seoDescription: 'Book cab from Jamshedpur to Giridih. Parasnath Hill Jain pilgrimage, Usri Falls taxi. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Giridih cab',
@@ -958,8 +958,8 @@ export const cities: City[] = [
     isDistrict: false,
     region: 'Paschim Bardhaman',
     description: 'Asansol is West Bengal\'s second largest city and a major railway junction on the Howrah–Delhi main line, closely connected to the Bengal coal-steel industrial belt.',
-    intro: 'Asansol is West Bengal\'s second largest city by population and one of the most important railway junctions on the Howrah–Delhi main line. Located approximately 155 km from Jamshedpur in Paschim Bardhaman district, Asansol is at the heart of the Bengal coal-steel industrial corridor. It is closely connected to Durgapur (30 km) and Kolkata (175 km). Shivansh Tour & Travels provides cab service to Asansol for professionals, students, and families travelling between Jamshedpur and West Bengal.',
-    seoTitle: 'Cab from Jamshedpur to Asansol | West Bengal Taxi | Shivansh Tour & Travels',
+    intro: 'Asansol is West Bengal\'s second largest city by population and one of the most important railway junctions on the Howrah–Delhi main line. Located approximately 155 km from Jamshedpur in Paschim Bardhaman district, Asansol is at the heart of the Bengal coal-steel industrial corridor. It is closely connected to Durgapur (30 km) and Kolkata (175 km). Shivansh Tour & Travel provides cab service to Asansol for professionals, students, and families travelling between Jamshedpur and West Bengal.',
+    seoTitle: 'Cab from Jamshedpur to Asansol | West Bengal Taxi | Shivansh Tour & Travel',
     seoDescription: 'Book cab from Jamshedpur to Asansol. Station drop, industrial route. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Asansol cab',
     secondaryKeywords: ['Asansol taxi from Jamshedpur', 'Jamshedpur Asansol cab', 'Asansol taxi booking'],
@@ -986,7 +986,7 @@ export const cities: City[] = [
     isDistrict: false,
     region: 'Paschim Bardhaman',
     description: 'Durgapur is West Bengal\'s planned industrial city, home to SAIL\'s Durgapur Steel Plant (DSP), NIT Durgapur, and major industrial companies.',
-    intro: 'Durgapur is a planned industrial city in West Bengal\'s Paschim Bardhaman district, approximately 185 km from Jamshedpur via Asansol on NH-19. The city is built around Durgapur Steel Plant (SAIL DSP) and is also home to NIT Durgapur (one of India\'s premier engineering colleges), Ordnance Factory Muradnagar, and several large industrial companies. SAIL employees, NIT students and their families, and business professionals frequently travel between Jamshedpur and Durgapur. Shivansh Tour & Travels provides comfortable AC Sedan and SUV service for this route.',
+    intro: 'Durgapur is a planned industrial city in West Bengal\'s Paschim Bardhaman district, approximately 185 km from Jamshedpur via Asansol on NH-19. The city is built around Durgapur Steel Plant (SAIL DSP) and is also home to NIT Durgapur (one of India\'s premier engineering colleges), Ordnance Factory Muradnagar, and several large industrial companies. SAIL employees, NIT students and their families, and business professionals frequently travel between Jamshedpur and Durgapur. Shivansh Tour & Travel provides comfortable AC Sedan and SUV service for this route.',
     seoTitle: 'Cab from Jamshedpur to Durgapur | SAIL DSP, NIT Taxi | Shivansh',
     seoDescription: 'Book cab from Jamshedpur to Durgapur — Sedan ₹3,999, SUV ₹4,599. SAIL DSP, NIT Durgapur drop. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Durgapur cab',
@@ -1073,7 +1073,7 @@ export const cities: City[] = [
     isDistrict: false,
     region: 'Tirhut Division, Bihar',
     description: 'Muzaffarpur is Bihar\'s second largest city, famous as the Litchi Capital of India for the world-renowned Shahi Litchi. Vaishali Buddhist heritage site is 40 km away.',
-    intro: 'Muzaffarpur is the second largest city in Bihar and a major commercial and educational hub in the Tirhut division, approximately 450 km from Jamshedpur. The city is internationally famous as the "Litchi Capital of India" — producing the prized Shahi Litchi (GI tagged). Just 40 km from Muzaffarpur is the ancient city of Vaishali — one of the world\'s first republics and a key Buddhist pilgrimage site where Lord Buddha delivered his last sermon. Shivansh Tour & Travels provides long-distance cab service to Muzaffarpur.',
+    intro: 'Muzaffarpur is the second largest city in Bihar and a major commercial and educational hub in the Tirhut division, approximately 450 km from Jamshedpur. The city is internationally famous as the "Litchi Capital of India" — producing the prized Shahi Litchi (GI tagged). Just 40 km from Muzaffarpur is the ancient city of Vaishali — one of the world\'s first republics and a key Buddhist pilgrimage site where Lord Buddha delivered his last sermon. Shivansh Tour & Travel provides long-distance cab service to Muzaffarpur.',
     seoTitle: 'Cab from Jamshedpur to Muzaffarpur | Bihar Outstation Taxi | Shivansh',
     seoDescription: 'Book cab from Jamshedpur to Muzaffarpur, Bihar. Litchi Capital taxi, Vaishali nearby. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Muzaffarpur cab',

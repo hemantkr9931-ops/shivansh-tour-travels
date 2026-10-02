@@ -8,7 +8,7 @@ export default function OrganizationSchema() {
     '@type': 'Organization',
     '@id': `${SITE_CONFIG.url}/#organization`,
     name: SITE_CONFIG.name,
-    legalName: 'Shivansh Tour & Travels',
+    legalName: 'Shivansh Tour & Travel',
     url: SITE_CONFIG.url,
     logo: {
       '@type': 'ImageObject',
@@ -55,8 +55,8 @@ export default function OrganizationSchema() {
     sameAs: [
       `https://wa.me/91${SITE_CONFIG.phone.replace(/[^0-9]/g, '').slice(-10)}`,
       // Add your actual social URLs below when you create them:
-      // 'https://www.facebook.com/shivanshtourandtravels',
-      // 'https://www.instagram.com/shivanshtourandtravels',
+      // 'https://www.facebook.com/shivanshtourandtravel',
+      // 'https://www.instagram.com/shivanshtourandtravel',
     ].filter(Boolean),
   };
 

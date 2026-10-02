@@ -55,7 +55,7 @@ export async function generateMetadata({
     return { title: 'Not Found', robots: { index: false, follow: false } };
   }
 
-  const title = `${service.name} in ${city.name} | ${city.stateName} | Shivansh Tour & Travels`;
+  const title = `${service.name} in ${city.name} | ${city.stateName} | Shivansh Tour & Travel`;
   const description = `Book reliable ${service.name.toLowerCase()} in ${city.name}, ${city.stateName}. AC vehicles, experienced drivers, transparent fares. Call +91 7061767617.`;
 
   return {
@@ -93,7 +93,7 @@ export default async function CityServicePage({
     .filter((s) => city.services.includes(s.id) && s.id !== service.id)
     .slice(0, 5);
 
-  const bookingMsg = `Hello Shivansh Tour & Travels! 🙏\n\nI need *${service.name}* in/from *${city.name}*.\n\nCould you please share vehicle options and fare? Thank you!`;
+  const bookingMsg = `Hello Shivansh Tour & Travel! 🙏\n\nI need *${service.name}* in/from *${city.name}*.\n\nCould you please share vehicle options and fare? Thank you!`;
 
   const breadcrumbItems = [
     { label: 'Cities', href: '/cities' },
@@ -106,7 +106,7 @@ export default async function CityServicePage({
   const cityServiceFaqs = [
     {
       question: `Is ${service.name} available in ${city.name}?`,
-      answer: `Yes, Shivansh Tour & Travels provides ${service.name.toLowerCase()} in ${city.name} and surrounding areas. We operate 24/7 with AC Sedans, SUVs, and Tempo Travellers. Call +91 7061767617 to book.`,
+      answer: `Yes, Shivansh Tour & Travel provides ${service.name.toLowerCase()} in ${city.name} and surrounding areas. We operate 24/7 with AC Sedans, SUVs, and Tempo Travellers. Call +91 7061767617 to book.`,
     },
     {
       question: `How do I book a ${service.name.toLowerCase()} in ${city.name}?`,

@@ -74,7 +74,7 @@ export default async function ServicePage({
     .filter((r) => r.services.includes(service.id) && r.index)
     .slice(0, 6);
 
-  const bookingMsg = `Hello Shivansh Tour & Travels,\n\nI want to book: ${service.name}\n\nCould you please share available vehicles and fare? Thank you!`;
+  const bookingMsg = `Hello Shivansh Tour & Travel,\n\nI want to book: ${service.name}\n\nCould you please share available vehicles and fare? Thank you!`;
 
   return (
     <>

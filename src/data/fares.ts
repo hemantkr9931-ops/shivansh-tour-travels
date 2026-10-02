@@ -1,7 +1,7 @@
 // src/data/fares.ts
 // Approximate fare configuration — edit base rates here to update all fare calculations.
 // These are estimates only. Final fare depends on route, date, vehicle availability,
-// tolls, driver allowance, and confirmation by Shivansh Tour & Travels.
+// tolls, driver allowance, and confirmation by Shivansh Tour & Travel.
 
 import type { FareConfig } from './types';
 

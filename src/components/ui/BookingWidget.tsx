@@ -47,7 +47,7 @@ export default function BookingWidget({
       suv: 'SUV (Innova)', 'premium-suv': 'Innova Crysta',
       'tempo-traveller': 'Tempo Traveller',
     };
-    const msg = `Hello Shivansh Tour & Travels! 🙏\n\n📋 *Booking Request*\n📍 Pickup: ${form.pickup || '-'}\n🏁 Drop: ${form.drop || '-'}\n📅 Date: ${form.date || '-'}  ⏰ Time: ${form.time || '-'}\n🔄 Trip: ${tripLabels[form.tripType] || form.tripType}\n🚗 Vehicle: ${vehicleLabels[form.vehicle] || form.vehicle}\n👤 Name: ${form.name || '-'}\n📞 Phone: ${form.phone || '-'}\n\nPlease confirm fare & availability. Thank you!`;
+    const msg = `Hello Shivansh Tour & Travel! 🙏\n\n📋 *Booking Request*\n📍 Pickup: ${form.pickup || '-'}\n🏁 Drop: ${form.drop || '-'}\n📅 Date: ${form.date || '-'}  ⏰ Time: ${form.time || '-'}\n🔄 Trip: ${tripLabels[form.tripType] || form.tripType}\n🚗 Vehicle: ${vehicleLabels[form.vehicle] || form.vehicle}\n👤 Name: ${form.name || '-'}\n📞 Phone: ${form.phone || '-'}\n\nPlease confirm fare & availability. Thank you!`;
     window.open(getWhatsAppLink(msg), '_blank', 'noopener,noreferrer');
   };
 

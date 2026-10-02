@@ -4,8 +4,8 @@ import { SITE_CONFIG, getCallLink, getWhatsAppLink } from '@/lib/config';
 import Breadcrumbs from '@/components/ui/Breadcrumbs';
 
 export const metadata: Metadata = {
-  title: 'Cancellation & Refund Policy | Shivansh Tour & Travels',
-  description: 'Cancellation and refund policy for cab bookings with Shivansh Tour & Travels, Jamshedpur.',
+  title: 'Cancellation & Refund Policy | Shivansh Tour & Travel',
+  description: 'Cancellation and refund policy for cab bookings with Shivansh Tour & Travel, Jamshedpur.',
   alternates: { canonical: `${SITE_CONFIG.url}/refund-cancellation-policy` },
   robots: { index: true, follow: false },
 };
@@ -50,7 +50,7 @@ export default function CancellationPolicyPage() {
                 ],
               },
               {
-                title: 'Cancellation by Shivansh Tour & Travels',
+                title: 'Cancellation by Shivansh Tour & Travel',
                 content: [
                   'If we are unable to fulfil a confirmed booking due to operational issues, we will notify you at the earliest possible time.',
                   'Any advance payment collected will be refunded in full in such cases.',
@@ -96,7 +96,7 @@ export default function CancellationPolicyPage() {
 
             <div style={{ marginTop: '24px', display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
               <a
-                href={getWhatsAppLink('Hello Shivansh Tour & Travels, I need to cancel my booking. Booking details: ')}
+                href={getWhatsAppLink('Hello Shivansh Tour & Travel, I need to cancel my booking. Booking details: ')}
                 className="btn btn-whatsapp btn-sm"
                 target="_blank"
                 rel="noopener noreferrer"

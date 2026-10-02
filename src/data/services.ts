@@ -19,7 +19,7 @@ export const services: Service[] = [
     ],
     seoTitle: 'Local Taxi Service in Jamshedpur | Hourly Cab Rental | Shivansh Tour',
     seoDescription:
-      'Book local taxi service in Jamshedpur with Shivansh Tour & Travels. Hourly cab packages for city travel — Bistupur, Sakchi, Mango, Kadma, Sonari and all areas. Call +91 7061767617.',
+      'Book local taxi service in Jamshedpur with Shivansh Tour & Travel. Hourly cab packages for city travel — Bistupur, Sakchi, Mango, Kadma, Sonari and all areas. Call +91 7061767617.',
     primaryKeyword: 'local taxi service Jamshedpur',
     faqs: [
       {
@@ -41,7 +41,7 @@ export const services: Service[] = [
     slug: 'outstation-taxi',
     shortDescription: 'Outstation cab service from Jamshedpur to cities across Jharkhand, West Bengal, Odisha, and Bihar.',
     description:
-      'Our outstation taxi service connects Jamshedpur to major cities and destinations across Jharkhand, West Bengal, Odisha, and Bihar. Whether you need a one-way cab or a round-trip booking, Shivansh Tour & Travels provides comfortable, reliable vehicles with experienced drivers for all outstation routes.',
+      'Our outstation taxi service connects Jamshedpur to major cities and destinations across Jharkhand, West Bengal, Odisha, and Bihar. Whether you need a one-way cab or a round-trip booking, Shivansh Tour & Travel provides comfortable, reliable vehicles with experienced drivers for all outstation routes.',
     icon: '🛣️',
     features: [
       'One-way and round-trip options',
@@ -52,7 +52,7 @@ export const services: Service[] = [
     ],
     seoTitle: 'Outstation Taxi from Jamshedpur | One Way & Round Trip Cab | Shivansh',
     seoDescription:
-      'Book outstation taxi from Jamshedpur with Shivansh Tour & Travels. Reliable one-way and round-trip cab to Ranchi, Kolkata, Bhubaneswar, Patna, Puri & more. Call +91 7061767617.',
+      'Book outstation taxi from Jamshedpur with Shivansh Tour & Travel. Reliable one-way and round-trip cab to Ranchi, Kolkata, Bhubaneswar, Patna, Puri & more. Call +91 7061767617.',
     primaryKeyword: 'outstation taxi from Jamshedpur',
     faqs: [
       {
@@ -90,7 +90,7 @@ export const services: Service[] = [
     ],
     seoTitle: 'One Way Taxi from Jamshedpur | Outstation One Way Cab | Shivansh',
     seoDescription:
-      'Book one-way taxi from Jamshedpur to any destination. Pay only for the distance you travel. All vehicle types. Call Shivansh Tour & Travels: +91 7061767617.',
+      'Book one-way taxi from Jamshedpur to any destination. Pay only for the distance you travel. All vehicle types. Call Shivansh Tour & Travel: +91 7061767617.',
     primaryKeyword: 'one way taxi Jamshedpur',
     faqs: [
       {
@@ -145,7 +145,7 @@ export const services: Service[] = [
     slug: 'airport-taxi',
     shortDescription: 'Reliable airport pickup and drop from Jamshedpur to Ranchi, Kolkata, and other airports.',
     description:
-      'Shivansh Tour & Travels provides reliable airport transfer service for travellers connecting to and from major airports from Jamshedpur. The nearest airports are Birsa Munda Airport (Ranchi, ~135 km) and Netaji Subhas Chandra Bose International Airport (Kolkata, ~270 km). We provide punctual pickup and drop to ensure you reach your flight on time.',
+      'Shivansh Tour & Travel provides reliable airport transfer service for travellers connecting to and from major airports from Jamshedpur. The nearest airports are Birsa Munda Airport (Ranchi, ~135 km) and Netaji Subhas Chandra Bose International Airport (Kolkata, ~270 km). We provide punctual pickup and drop to ensure you reach your flight on time.',
     icon: '✈️',
     features: [
       'Ranchi Airport (IXR) transfers — most popular from Jamshedpur',
@@ -157,7 +157,7 @@ export const services: Service[] = [
     ],
     seoTitle: 'Jamshedpur Airport Taxi | Ranchi & Kolkata Airport Transfer | Shivansh',
     seoDescription:
-      'Book airport taxi from Jamshedpur to Ranchi Airport or Kolkata Airport with Shivansh Tour & Travels. Reliable, punctual airport transfer. Call +91 7061767617.',
+      'Book airport taxi from Jamshedpur to Ranchi Airport or Kolkata Airport with Shivansh Tour & Travel. Reliable, punctual airport transfer. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur airport taxi',
     faqs: [
       {
@@ -184,7 +184,7 @@ export const services: Service[] = [
     slug: 'corporate-travel',
     shortDescription: 'Professional corporate cab service for business travel from Jamshedpur.',
     description:
-      'Shivansh Tour & Travels provides corporate cab service for professionals and businesses in Jamshedpur and the region. Whether you need airport transfers for executives, inter-city corporate travel, or reliable daily transportation for business guests — we offer clean, well-maintained vehicles with professional drivers experienced in corporate protocol.',
+      'Shivansh Tour & Travel provides corporate cab service for professionals and businesses in Jamshedpur and the region. Whether you need airport transfers for executives, inter-city corporate travel, or reliable daily transportation for business guests — we offer clean, well-maintained vehicles with professional drivers experienced in corporate protocol.',
     icon: '👔',
     features: [
       'Sedan, Premium SUV, and SUV options for corporate clients',
@@ -218,7 +218,7 @@ export const services: Service[] = [
     slug: 'wedding-car-rental',
     shortDescription: 'Wedding transportation service in Jamshedpur — bridal cars, guest convoys, and family travel.',
     description:
-      'Planning a wedding? Shivansh Tour & Travels provides reliable wedding transportation services in Jamshedpur and surrounding areas. From the wedding day baraat to guest transportation and family travel between venues, we can arrange clean, well-maintained vehicles appropriate for your special occasion.',
+      'Planning a wedding? Shivansh Tour & Travel provides reliable wedding transportation services in Jamshedpur and surrounding areas. From the wedding day baraat to guest transportation and family travel between venues, we can arrange clean, well-maintained vehicles appropriate for your special occasion.',
     icon: '💒',
     features: [
       'Sedan, MUV, SUV, and Premium SUV for weddings',
@@ -230,7 +230,7 @@ export const services: Service[] = [
     ],
     seoTitle: 'Wedding Car Rental Jamshedpur | Wedding Cab Service | Shivansh Tour',
     seoDescription:
-      'Book wedding transportation in Jamshedpur with Shivansh Tour & Travels. Bridal cars, guest convoys, SUVs and sedans for weddings. Call +91 7061767617.',
+      'Book wedding transportation in Jamshedpur with Shivansh Tour & Travel. Bridal cars, guest convoys, SUVs and sedans for weddings. Call +91 7061767617.',
     primaryKeyword: 'wedding car rental Jamshedpur',
     faqs: [
       {
@@ -262,7 +262,7 @@ export const services: Service[] = [
       'Ample luggage space',
       'Experienced group-travel drivers',
     ],
-    seoTitle: 'Tempo Traveller Rental Jamshedpur | Group Cab | Shivansh Tour & Travels',
+    seoTitle: 'Tempo Traveller Rental Jamshedpur | Group Cab | Shivansh Tour & Travel',
     seoDescription:
       'Book Tempo Traveller from Jamshedpur for group travel, pilgrimage tours, outings. 12–17 seater AC vehicle. Call Shivansh: +91 7061767617.',
     primaryKeyword: 'tempo traveller Jamshedpur',

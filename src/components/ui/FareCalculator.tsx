@@ -34,7 +34,7 @@ export default function FareCalculator({
   };
 
   const whatsappMsg = result
-    ? `Hello Shivansh Tour & Travels,\n\nI used the fare calculator and got an estimate:\n- Vehicle: ${result.vehicleName}\n- Distance: ~${result.distanceKm} km\n- Trip type: ${isRoundTrip ? 'Round Trip' : 'One Way'}\n- Estimated fare: ₹${result.estimatedFare.toLocaleString('en-IN')}\n\nCould you please confirm the actual fare and availability?`
+    ? `Hello Shivansh Tour & Travel,\n\nI used the fare calculator and got an estimate:\n- Vehicle: ${result.vehicleName}\n- Distance: ~${result.distanceKm} km\n- Trip type: ${isRoundTrip ? 'Round Trip' : 'One Way'}\n- Estimated fare: ₹${result.estimatedFare.toLocaleString('en-IN')}\n\nCould you please confirm the actual fare and availability?`
     : '';
 
   return (

@@ -2,11 +2,11 @@
 // Central business configuration — edit this file to update all site-wide info
 
 export const SITE_CONFIG = {
-  name: 'Shivansh Tour & Travels',
+  name: 'Shivansh Tour & Travel',
   tagline: 'Reliable Cab & Taxi Service in Jamshedpur',
   shortName: 'Shivansh',
   description:
-    'Shivansh Tour & Travels offers reliable local, outstation, airport, corporate, wedding, and tourist cab services from Jamshedpur, Jharkhand. Serving Jharkhand, West Bengal, Odisha, and Bihar.',
+    'Shivansh Tour & Travel offers reliable local, outstation, airport, corporate, wedding, and tourist cab services from Jamshedpur, Jharkhand. Serving Jharkhand, West Bengal, Odisha, and Bihar.',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://shivanshtourandtravel.com',
   phone: '+91 7061767617',
   phoneRaw: '+917061767617',
@@ -48,7 +48,7 @@ export const SITE_CONFIG = {
 } as const;
 
 export function getWhatsAppLink(message: string = '') {
-  const encodedMessage = encodeURIComponent(message || `Hello Shivansh Tour & Travels,\nI would like to enquire about cab booking services.\nPlease share available options and fare details.`);
+  const encodedMessage = encodeURIComponent(message || `Hello Shivansh Tour & Travel,\nI would like to enquire about cab booking services.\nPlease share available options and fare details.`);
   return `https://wa.me/${SITE_CONFIG.whatsappNumber}?text=${encodedMessage}`;
 }
 
@@ -69,7 +69,7 @@ export function getBookingWhatsAppMessage(params: {
   tripType?: string;
   vehicle?: string;
 }): string {
-  return `Hello Shivansh Tour & Travels,
+  return `Hello Shivansh Tour & Travel,
 
 I want to book a cab.
 

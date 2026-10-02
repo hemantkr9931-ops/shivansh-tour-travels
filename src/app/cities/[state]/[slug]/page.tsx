@@ -62,7 +62,7 @@ export default async function CityPage({
     { label: city.name },
   ];
 
-  const bookingMsg = `Hello Shivansh Tour & Travels,\n\nI need a taxi service in/for ${city.name}.\n\nCould you please share available options and fare? Thank you!`;
+  const bookingMsg = `Hello Shivansh Tour & Travel,\n\nI need a taxi service in/for ${city.name}.\n\nCould you please share available options and fare? Thank you!`;
 
   return (
     <>
@@ -375,7 +375,7 @@ export default async function CityPage({
               </h2>
               <MapEmbed
                 query={city.mapQuery}
-                label={`${city.name}, ${city.stateName} — Taxi service by Shivansh Tour & Travels`}
+                label={`${city.name}, ${city.stateName} — Taxi service by Shivansh Tour & Travel`}
                 height={380}
                 zoom={11}
               />

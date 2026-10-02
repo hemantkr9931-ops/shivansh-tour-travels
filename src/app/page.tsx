@@ -13,7 +13,7 @@ import { services } from '@/data/services';
 import { routes } from '@/data/routes';
 
 export const metadata: Metadata = {
-  title: 'Jamshedpur Taxi & Cab Service | Fare from Rs 999 | Shivansh Tour & Travels',
+  title: 'Jamshedpur Taxi & Cab Service | Fare from Rs 999 | Shivansh Tour & Travel',
   description:
     'Best taxi & cab service in Jamshedpur. Jamshedpur to Ranchi cab from Rs 1,599 | Kolkata taxi from Rs 5,499 | Airport transfer, outstation, local hire & wedding cars. AC vehicles. Call +91 7061767617 — 24x7.',
   keywords: [
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     'tempo traveller Jamshedpur',
     'wedding car Jamshedpur',
     'corporate cab Jamshedpur',
-    'Shivansh Tour Travels',
+    'Shivansh Tour Travel',
     'Bistupur taxi',
     'Sakchi cab service',
     'Sonari taxi',
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     canonical: SITE_CONFIG.url,
   },
   openGraph: {
-    title: 'Jamshedpur Taxi & Cab Service | Shivansh Tour & Travels',
+    title: 'Jamshedpur Taxi & Cab Service | Shivansh Tour & Travel',
     description:
       'Book taxi in Jamshedpur — local, airport, outstation & wedding cabs. Ranchi cab from Rs 1,599. Call +91 7061767617.',
     url: SITE_CONFIG.url,
@@ -73,7 +73,7 @@ const popularRoutes = routes.filter((r) =>
 
 const homepageFaqs = [
   {
-    question: 'Which areas in Jamshedpur does Shivansh Tour & Travels cover for local taxi?',
+    question: 'Which areas in Jamshedpur does Shivansh Tour & Travel cover for local taxi?',
     answer:
       'We cover all major Jamshedpur areas including Bistupur, Sakchi, Mango, Kadma, Sonari, Telco, Golmuri, Jugsalai, Adityapur, Gamharia, and more. Pickup from Tatanagar Railway Station is also available.',
   },
@@ -93,7 +93,7 @@ const homepageFaqs = [
       'We offer Sedan (Swift Dzire type), MUV (Ertiga type), SUV (Toyota Innova type), Premium SUV (Innova Crysta type), and Tempo Traveller (12–17 seater) for group travel.',
   },
   {
-    question: 'How do I book a cab with Shivansh Tour & Travels?',
+    question: 'How do I book a cab with Shivansh Tour & Travel?',
     answer:
       'You can call us at +91 7061767617, send a WhatsApp message, or fill our online booking enquiry form. We will confirm your booking and share fare details promptly.',
   },
@@ -177,11 +177,11 @@ export default function HomePage() {
                 {' '}Service in Jamshedpur
               </h1>
               <p className="hero-subtitle">
-                Local taxi, airport transfers to Ranchi & Kolkata, outstation cab to Bhubaneswar, Puri, Patna, Deoghar — Shivansh Tour & Travels serves Jharkhand, West Bengal, Odisha & Bihar.
+                Local taxi, airport transfers to Ranchi & Kolkata, outstation cab to Bhubaneswar, Puri, Patna, Deoghar — Shivansh Tour & Travel serves Jharkhand, West Bengal, Odisha & Bihar.
               </p>
               <div className="hero-cta">
                 <a
-                  href={getWhatsAppLink('Hello Shivansh Tour & Travels, I want to book a cab from Jamshedpur. Please share available options and fare.')}
+                  href={getWhatsAppLink('Hello Shivansh Tour & Travel, I want to book a cab from Jamshedpur. Please share available options and fare.')}
                   className="btn btn-primary btn-lg"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -348,7 +348,7 @@ export default function HomePage() {
             * Tolls, state permits &amp; parking extra. Prices may vary by vehicle availability. Call for exact fare.
           </p>
           <div style={{ display: 'flex', justifyContent: 'center', gap: '12px', marginTop: '24px', flexWrap: 'wrap' }}>
-            <a href={`https://wa.me/917061767617?text=Hello%20Shivansh%20Tour%20%26%20Travels%2C%20please%20share%20cab%20fare%20for%20my%20trip.`} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
+            <a href={`https://wa.me/917061767617?text=Hello%20Shivansh%20Tour%20%26%20Travel%2C%20please%20share%20cab%20fare%20for%20my%20trip.`} target="_blank" rel="noopener noreferrer" className="btn btn-primary">
               💬 Get Exact Fare on WhatsApp
             </a>
             <a href="tel:+917061767617" className="btn btn-navy">
@@ -607,7 +607,7 @@ export default function HomePage() {
                 Local Cab Service Across Jamshedpur
               </h2>
               <p style={{ fontSize: '16px', color: 'var(--color-gray-700)', lineHeight: 1.7, marginBottom: '20px' }}>
-                Shivansh Tour & Travels is based in Sonari, Jamshedpur — giving us strong knowledge of all local routes, traffic patterns, and pickup areas. Whether you need a cab from Tatanagar Railway Station, a local trip within Bistupur, or a transfer across Jamshedpur to Adityapur — we cover it all.
+                Shivansh Tour & Travel is based in Sonari, Jamshedpur — giving us strong knowledge of all local routes, traffic patterns, and pickup areas. Whether you need a cab from Tatanagar Railway Station, a local trip within Bistupur, or a transfer across Jamshedpur to Adityapur — we cover it all.
               </p>
               <p style={{ fontSize: '15px', color: 'var(--color-gray-700)', lineHeight: 1.7, marginBottom: '24px' }}>
                 Our local taxi packages include 4-hour and 8-hour options with defined distance limits. Additional distance and time is charged at a per-km / per-hour rate. We serve Bistupur, Sakchi, Mango, Kadma, Sonari, Telco, Golmuri, Jugsalai, Adityapur, and surrounding areas.
@@ -662,7 +662,7 @@ export default function HomePage() {
                 Jamshedpur to Ranchi Airport Cab
               </h2>
               <p style={{ color: 'rgba(255,255,255,0.75)', lineHeight: 1.7, marginBottom: '16px' }}>
-                The nearest airport to Jamshedpur is Birsa Munda Airport (IXR) in Ranchi — approximately 130–140 km away. Shivansh Tour & Travels provides reliable, pre-booked airport transfer service so you never miss a flight.
+                The nearest airport to Jamshedpur is Birsa Munda Airport (IXR) in Ranchi — approximately 130–140 km away. Shivansh Tour & Travel provides reliable, pre-booked airport transfer service so you never miss a flight.
               </p>
               <ul style={{ color: 'rgba(255,255,255,0.7)', fontSize: '14px', display: 'flex', flexDirection: 'column', gap: '8px', marginBottom: '28px', paddingLeft: '4px' }}>
                 {[
@@ -805,7 +805,7 @@ export default function HomePage() {
               We Cover <span className="accent">4 States</span> — 50+ Cities &amp; Towns
             </h2>
             <p className="section-subtitle">
-              From Jamshedpur&apos;s every locality to major cities across Jharkhand, West Bengal, Odisha &amp; Bihar — Shivansh Tour &amp; Travels is your trusted cab partner.
+              From Jamshedpur&apos;s every locality to major cities across Jharkhand, West Bengal, Odisha &amp; Bihar — Shivansh Tour &amp; Travel is your trusted cab partner.
             </p>
           </div>
 
@@ -927,7 +927,7 @@ export default function HomePage() {
           <div style={{ maxWidth: '800px', margin: '0 auto' }}>
             <MapEmbed
               query={SITE_CONFIG.mapQuery}
-              label="Shivansh Tour & Travels — Sonari, Jamshedpur"
+              label="Shivansh Tour & Travel — Sonari, Jamshedpur"
               height={420}
               zoom={14}
             />
@@ -1018,7 +1018,7 @@ export default function HomePage() {
                 rating: 5,
                 date: '3 weeks ago',
                 route: 'Wedding Car — Mango',
-                text: 'Hired cab for my brother\'s wedding in Mango. The car was nicely decorated, driver was well-dressed and professional. All guests were picked up on time. Friends and family were very impressed. Thank you Shivansh Tour & Travels!',
+                text: 'Hired cab for my brother\'s wedding in Mango. The car was nicely decorated, driver was well-dressed and professional. All guests were picked up on time. Friends and family were very impressed. Thank you Shivansh Tour & Travel!',
                 verified: true,
               },
               {
@@ -1109,7 +1109,7 @@ export default function HomePage() {
               Travelled with us? Share your experience and help others make the right choice.
             </p>
             <a
-              href={getWhatsAppLink('Hello Shivansh Tour & Travels, I recently travelled with you and would like to share my feedback.')}
+              href={getWhatsAppLink('Hello Shivansh Tour & Travel, I recently travelled with you and would like to share my feedback.')}
               className="btn btn-whatsapp"
               style={{ display: 'inline-flex' }}
               target="_blank"
@@ -1127,7 +1127,7 @@ export default function HomePage() {
       <FAQSection
         faqs={homepageFaqs}
         title="Frequently Asked Questions"
-        subtitle="Everything you need to know about booking a cab with Shivansh Tour & Travels in Jamshedpur."
+        subtitle="Everything you need to know about booking a cab with Shivansh Tour & Travel in Jamshedpur."
       />
 
       {/* ===================== FINAL CTA ===================== */}
@@ -1149,7 +1149,7 @@ export default function HomePage() {
           </p>
           <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', gap: '12px' }}>
             <a
-              href={getWhatsAppLink('Hello Shivansh Tour & Travels, I want to book a cab. Please confirm availability and fare.')}
+              href={getWhatsAppLink('Hello Shivansh Tour & Travel, I want to book a cab. Please confirm availability and fare.')}
               className="btn btn-primary btn-lg"
               target="_blank"
               rel="noopener noreferrer"
