@@ -7,6 +7,7 @@ import FareCalculator from '@/components/ui/FareCalculator';
 import FAQSection from '@/components/ui/FAQSection';
 import HeroSlider from '@/components/ui/HeroSlider';
 import MapEmbed from '@/components/ui/MapEmbed';
+import GMBReviewWidget from '@/components/ui/GMBReviewWidget';
 import FaqSchema, { homepageFaqs as seoFaqs } from '@/components/schema/FAQSchema';
 import { vehicles } from '@/data/vehicles';
 import { services } from '@/data/services';
@@ -980,7 +981,7 @@ export default function HomePage() {
               Verified feedback from our passengers across Jamshedpur, Ranchi, Kolkata &amp; beyond.
             </p>
             {/* Overall rating bar */}
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '12px', marginTop: '12px' }}>
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '12px', marginTop: '12px', flexWrap: 'wrap' }}>
               <span style={{ fontSize: '42px', fontWeight: 900, color: 'var(--color-navy)', lineHeight: 1 }}>4.8</span>
               <div>
                 <div style={{ display: 'flex', gap: '3px', fontSize: '22px', color: '#f59e0b' }} aria-label="4.8 out of 5 stars">
@@ -988,6 +989,27 @@ export default function HomePage() {
                 </div>
                 <p style={{ fontSize: '12px', color: 'var(--color-gray-500)', marginTop: '2px' }}>Based on 127+ passenger reviews</p>
               </div>
+              {/* Google badge */}
+              <a
+                href={SITE_CONFIG.gmb.shareLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: 'inline-flex', alignItems: 'center', gap: '8px',
+                  background: 'white', borderRadius: '10px', padding: '8px 14px',
+                  border: '1px solid #e2e6ee', boxShadow: '0 2px 8px rgba(0,0,0,0.07)',
+                  textDecoration: 'none', marginLeft: '8px',
+                }}
+                aria-label="View our Google reviews"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+                  <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                  <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                  <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+                  <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+                </svg>
+                <span style={{ fontSize: '12px', fontWeight: 600, color: '#1a1a1a' }}>Google Reviews</span>
+              </a>
             </div>
           </div>
 
@@ -1136,21 +1158,17 @@ export default function HomePage() {
             ))}
           </div>
 
-          {/* CTA below reviews */}
-          <div style={{ textAlign: 'center', marginTop: '36px' }}>
-            <p style={{ fontSize: '14px', color: 'var(--color-gray-500)', marginBottom: '16px' }}>
-              Travelled with us? Share your experience and help others make the right choice.
+          {/* GMB Review Banner */}
+          <div style={{ marginTop: '36px' }}>
+            <GMBReviewWidget variant="banner" />
+          </div>
+
+          {/* Full GMB Write Review Widget */}
+          <div style={{ marginTop: '32px' }}>
+            <p style={{ textAlign: 'center', fontSize: '14px', color: 'var(--color-gray-500)', marginBottom: '20px' }}>
+              Travelled with us? A Google review takes 1 minute and helps us grow 🙏
             </p>
-            <a
-              href={getWhatsAppLink('Hello Shivansh Tour & Travel, I recently travelled with you and would like to share my feedback.')}
-              className="btn btn-whatsapp"
-              style={{ display: 'inline-flex' }}
-              target="_blank"
-              rel="noopener noreferrer"
-              id="share-feedback-btn"
-            >
-              💬 Share Your Experience
-            </a>
+            <GMBReviewWidget variant="full" />
           </div>
         </div>
       </section>

@@ -32,6 +32,16 @@ export const SITE_CONFIG = {
   primaryCity: 'Jamshedpur',
   primaryState: 'Jharkhand',
 
+  // Google My Business
+  gmb: {
+    // Short share link (provided by business owner)
+    shareLink: 'https://share.google/6ev5H7L3uoibaTWwo',
+    // Direct Google Maps review link — opens review popup
+    reviewLink: 'https://search.google.com/local/writereview?placeid=ChIJAAAAAAAAAATRKvvHn3M2lbA',
+    // GMB profile link
+    mapsLink: 'https://maps.app.goo.gl/6ev5H7L3uoibaTWwo',
+  },
+
   // Social — add when available
   social: {
     facebook: '',

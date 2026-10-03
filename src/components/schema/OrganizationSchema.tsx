@@ -54,6 +54,7 @@ export default function OrganizationSchema() {
     ],
     sameAs: [
       `https://wa.me/91${SITE_CONFIG.phone.replace(/[^0-9]/g, '').slice(-10)}`,
+      SITE_CONFIG.gmb.shareLink,
       // Add your actual social URLs below when you create them:
       // 'https://www.facebook.com/shivanshtourandtravel',
       // 'https://www.instagram.com/shivanshtourandtravel',

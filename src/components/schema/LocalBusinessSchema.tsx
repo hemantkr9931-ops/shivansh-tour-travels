@@ -33,7 +33,7 @@ export default function LocalBusinessSchema() {
       latitude: '22.7948',
       longitude: '86.1897',
     },
-    hasMap: `https://www.google.com/maps/search/Shivansh+Tour+Travel+Sonari+Jamshedpur`,
+    hasMap: SITE_CONFIG.gmb.shareLink,
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
@@ -123,6 +123,7 @@ export default function LocalBusinessSchema() {
     },
     sameAs: [
       'https://wa.me/917061767617',
+      SITE_CONFIG.gmb.shareLink,
     ],
   };
 
