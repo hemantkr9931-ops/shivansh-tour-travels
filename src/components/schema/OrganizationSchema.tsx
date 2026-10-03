@@ -12,11 +12,11 @@ export default function OrganizationSchema() {
     url: SITE_CONFIG.url,
     logo: {
       '@type': 'ImageObject',
-      url: `${SITE_CONFIG.url}/shivansh tour & travel logo.jpeg`,
+      url: `${SITE_CONFIG.url}/logo.jpeg`,
       width: 512,
       height: 512,
     },
-    image: `${SITE_CONFIG.url}/shivansh tour & travel logo.jpeg`,
+    image: `${SITE_CONFIG.url}/logo.jpeg`,
     description: 'Jamshedpur-based taxi and cab service covering Jharkhand, West Bengal, Odisha and Bihar. Outstation cabs, airport transfers, wedding cars and corporate travel.',
     telephone: SITE_CONFIG.phone,
     email: SITE_CONFIG.email,

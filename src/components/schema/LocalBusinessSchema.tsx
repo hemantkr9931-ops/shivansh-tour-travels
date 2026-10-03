@@ -13,10 +13,10 @@ export default function LocalBusinessSchema() {
     url: SITE_CONFIG.url,
     telephone: SITE_CONFIG.phone,
     email: SITE_CONFIG.email,
-    image: `${SITE_CONFIG.url}/shivansh tour & travel logo.jpeg`,
+    image: `${SITE_CONFIG.url}/logo.jpeg`,
     logo: {
       '@type': 'ImageObject',
-      url: `${SITE_CONFIG.url}/shivansh tour & travel logo.jpeg`,
+      url: `${SITE_CONFIG.url}/logo.jpeg`,
       width: 512,
       height: 512,
     },

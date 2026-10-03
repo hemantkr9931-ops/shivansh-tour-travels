@@ -3,9 +3,9 @@ import { useState, useEffect, useRef } from 'react';
 import Image from 'next/image';
 
 const SLIDES = [
-  { src: '/shivansh hero bg1.png', alt: 'Shivansh Tour & Travel — Jamshedpur cab service' },
-  { src: '/shivansh hero bg2.png', alt: 'Outstation taxi from Jamshedpur to Ranchi' },
-  { src: '/shivansh hero bg3.png', alt: 'Innova & Ertiga cab for outstation trips' },
+  { src: '/shivansh hero bg1.webp', alt: 'Shivansh Tour & Travel — Jamshedpur cab service' },
+  { src: '/shivansh hero bg2.webp', alt: 'Outstation taxi from Jamshedpur to Ranchi' },
+  { src: '/shivansh hero bg3.webp', alt: 'Innova & Ertiga cab for outstation trips' },
 ];
 
 const INTERVAL_MS = 5000;
@@ -58,9 +58,11 @@ export default function HeroSlider() {
               fill
               sizes="100vw"
               style={{ objectFit: 'cover', objectPosition: 'center' }}
-              // First image gets priority preload — key LCP fix
+              // First image: priority preload + high fetchPriority for LCP
               priority={idx === 0}
-              quality={75}
+              fetchPriority={idx === 0 ? 'high' : 'auto'}
+              loading={idx === 0 ? 'eager' : 'lazy'}
+              quality={80}
             />
           </div>
         );

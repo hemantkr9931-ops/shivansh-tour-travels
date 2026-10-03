@@ -133,12 +133,13 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        {/* Preload first hero image for LCP — tells browser to fetch before render */}
+        {/* Preload first hero image (WebP) for LCP — tells browser to fetch before render */}
         <link
           rel="preload"
           as="image"
-          href="/shivansh hero bg1.png"
+          href="/shivansh hero bg1.webp"
           fetchPriority="high"
+          type="image/webp"
         />
         {/* Brand favicon — all sizes for all browsers & devices */}
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
