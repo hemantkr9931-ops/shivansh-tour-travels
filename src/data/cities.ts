@@ -16,17 +16,31 @@ export const cities: City[] = [
     intro:
       'Jamshedpur — known as Tata Nagar or the Steel City — is the largest city in Jharkhand and a major industrial hub in eastern India. Located in East Singhbhum district along the Subarnarekha and Kharkai rivers, Jamshedpur is well-connected by road and rail. As the home city of Shivansh Tour & Travel, we have deep local knowledge of all Jamshedpur localities, including Bistupur, Sakchi, Mango, Kadma, Sonari, Telco, Golmuri, Jugsalai, and Adityapur.',
     seoTitle:
-      'Jamshedpur Taxi Service | Local, Airport & Outstation Cab | Shivansh Tour & Travel',
+      'Jamshedpur Taxi Service | Cab in Tata Nagar | Innova Crysta | Tata to Ranchi, Kolkata | Shivansh',
     seoDescription:
-      'Book reliable cab and taxi service in Jamshedpur for local travel, airport transfers, outstation trips, weddings, and corporate needs. Sedan, SUV, MUV & Tempo Traveller available. Call +91 7061767617.',
+      'Best taxi service in Jamshedpur (Tata Nagar). Book cab from Jamshedpur to Ranchi, Kolkata, Durgapur, Deoghar. Local & outstation taxi. Innova Crysta, Ertiga. Call +91 7061767617.',
     primaryKeyword: 'taxi service in Jamshedpur',
     secondaryKeywords: [
       'cab service in Jamshedpur',
+      'taxi service in Jamshedpur',
       'Jamshedpur taxi booking',
       'Jamshedpur cab booking',
-      'local taxi Jamshedpur',
-      'outstation cab Jamshedpur',
+      'Tata Nagar taxi service',
+      'Tata to Ranchi cab',
+      'Tata to Kolkata cab',
+      'cab from Jamshedpur to Ranchi',
+      'cab from Jamshedpur to Kolkata',
+      'Jamshedpur outstation cab',
       'Jamshedpur airport taxi',
+      'Innova cab Jamshedpur',
+      'Innova Crysta Jamshedpur',
+      'taxi in Tata Nagar',
+      'cab booking Jamshedpur',
+      'car rental Jamshedpur',
+      'local taxi Jamshedpur',
+      'Bistupur taxi service',
+      'Sakchi cab service',
+      'Sonari taxi Jamshedpur',
     ],
     pickupAreas: [
       'Bistupur',
@@ -130,9 +144,9 @@ export const cities: City[] = [
     intro:
       "Ranchi, the capital of Jharkhand, sits on the Chota Nagpur Plateau at an elevation that keeps temperatures relatively mild. It is home to Birsa Munda Airport — the state\'s primary airport — and is a key hub for travel across Jharkhand. Shivansh Tour & Travel operates cab service on the busy Jamshedpur–Ranchi corridor and provides Ranchi Airport pickup and drop for travellers connecting to or from Jamshedpur.",
     seoTitle:
-      'Jamshedpur to Ranchi Cab | Ranchi Taxi Service | Shivansh Tour & Travel',
+      'Ranchi Taxi Service | Cab in Ranchi | Ranchi to Jamshedpur, Kolkata, Deoghar | Shivansh',
     seoDescription:
-      'Book Jamshedpur to Ranchi cab service with Shivansh Tour & Travel. One-way and round-trip taxi, Ranchi Airport transfers, and local Ranchi cab. Call +91 7061767617.',
+      'Best taxi service in Ranchi. Book cab from Ranchi to Jamshedpur (Tata), Kolkata, Durgapur, Deoghar. Airport cab (IXR). Innova Crysta, Ertiga, Sedan. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Ranchi cab',
     secondaryKeywords: [
       'Ranchi taxi service',
@@ -309,9 +323,9 @@ export const cities: City[] = [
     intro:
       'Deoghar is one of the most revered pilgrimage towns in eastern India, home to Baidyanath Dham — one of the 12 Jyotirlingas of Lord Shiva. Every year, millions of devotees visit during the Shravan month and Shivratri. Shivansh Tour & Travel provides respectful, comfortable pilgrimage cab service from Jamshedpur and other cities to Deoghar.',
     seoTitle:
-      'Jamshedpur to Deoghar Cab | Deoghar Taxi | Baidyanath Dham | Shivansh Tour',
+      'Deoghar Taxi | Baidyanath Dham Cab | Jamshedpur to Deoghar | Shivansh',
     seoDescription:
-      'Book cab from Jamshedpur to Deoghar for Baidyanath Dham pilgrimage. One-way and round-trip taxi available. Comfortable and reliable service. Call +91 7061767617.',
+      'Book cab to Deoghar (Baidyanath Dham) from Jamshedpur, Ranchi, Kolkata. Pilgrimage taxi. Innova Crysta, Ertiga, Sedan. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Deoghar taxi',
     secondaryKeywords: ['Deoghar cab service', 'Deoghar pilgrimage taxi', 'Baidyanath Dham taxi'],
     pickupAreas: ['Deoghar Town', 'Baidyanath Dham Temple', 'Deoghar Bus Stand', 'Jasidih Junction'],
@@ -434,9 +448,9 @@ export const cities: City[] = [
     intro:
       'Kolkata — the cultural capital of India — is approximately 260–280 km from Jamshedpur, making it one of the most popular outstation routes. Travellers frequently book cabs from Jamshedpur to Kolkata for airport connections, medical trips, business visits, and family travel. Shivansh Tour & Travel provides comfortable and reliable cab service on this route, passing through Kharagpur.',
     seoTitle:
-      'Jamshedpur to Kolkata Cab | Kolkata Airport Transfer | Shivansh Tour & Travel',
+      'Kolkata Taxi to Jamshedpur, Ranchi | Outstation Cab from Kolkata | Shivansh',
     seoDescription:
-      'Book cab from Jamshedpur to Kolkata with Shivansh Tour & Travel. One-way and round-trip taxi, Kolkata airport transfer available. Call +91 7061767617.',
+      'Book outstation cab from Kolkata to Jamshedpur (Tata Nagar), Ranchi, Durgapur. One-way & round-trip taxi. Innova Crysta, Sedan. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Kolkata cab',
     secondaryKeywords: [
       'Jamshedpur to Kolkata taxi',
@@ -988,8 +1002,10 @@ export const cities: City[] = [
     region: 'Paschim Bardhaman',
     description: 'Durgapur is West Bengal\'s planned industrial city, home to SAIL\'s Durgapur Steel Plant (DSP), NIT Durgapur, and major industrial companies.',
     intro: 'Durgapur is a planned industrial city in West Bengal\'s Paschim Bardhaman district, approximately 185 km from Jamshedpur via Asansol on NH-19. The city is built around Durgapur Steel Plant (SAIL DSP) and is also home to NIT Durgapur (one of India\'s premier engineering colleges), Ordnance Factory Muradnagar, and several large industrial companies. SAIL employees, NIT students and their families, and business professionals frequently travel between Jamshedpur and Durgapur. Shivansh Tour & Travel provides comfortable AC Sedan and SUV service for this route.',
-    seoTitle: 'Cab from Jamshedpur to Durgapur | SAIL DSP, NIT Taxi | Shivansh',
-    seoDescription: 'Book cab from Jamshedpur to Durgapur — Sedan ₹3,999, SUV ₹4,599. SAIL DSP, NIT Durgapur drop. Call +91 7061767617.',
+    seoTitle:
+      'Durgapur Taxi | Cab from Durgapur to Jamshedpur, Ranchi, Kolkata | Shivansh',
+    seoDescription:
+      'Book cab from Durgapur to Jamshedpur (Tata Nagar), Ranchi, Kolkata. Outstation taxi. Innova Crysta, Ertiga, Sedan. Call +91 7061767617.',
     primaryKeyword: 'Jamshedpur to Durgapur cab',
     secondaryKeywords: ['Durgapur taxi from Jamshedpur', 'NIT Durgapur cab', 'SAIL Durgapur taxi', 'Jamshedpur Durgapur taxi'],
     pickupAreas: ['Durgapur city centre', 'NIT Durgapur campus', 'SAIL DSP township sectors', 'Durgapur Station Road'],

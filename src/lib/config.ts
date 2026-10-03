@@ -3,10 +3,10 @@
 
 export const SITE_CONFIG = {
   name: 'Shivansh Tour & Travel',
-  tagline: 'Reliable Cab & Taxi Service in Jamshedpur',
+  tagline: 'Best Cab & Taxi Service in Jamshedpur | Tata to Ranchi, Kolkata',
   shortName: 'Shivansh',
   description:
-    'Shivansh Tour & Travel offers reliable local, outstation, airport, corporate, wedding, and tourist cab services from Jamshedpur, Jharkhand. Serving Jharkhand, West Bengal, Odisha, and Bihar.',
+    'Shivansh Tour & Travel — best taxi service in Jamshedpur (Tata Nagar). Book cab from Jamshedpur to Ranchi, Kolkata, Durgapur, Deoghar. Ranchi to Jamshedpur, Kolkata cab. Innova Crysta, Ertiga, Sedan. Call +91 7061767617.',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://shivanshtourandtravel.com',
   phone: '+91 7061767617',
   phoneRaw: '+917061767617',
