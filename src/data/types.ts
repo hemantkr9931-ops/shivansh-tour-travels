@@ -1,7 +1,7 @@
 // src/data/types.ts
 // Strongly typed interfaces for all data entities
 
-export type StateSlug = 'jharkhand' | 'west-bengal' | 'odisha' | 'bihar';
+export type StateSlug = 'jharkhand' | 'west-bengal' | 'odisha' | 'bihar' | 'chhattisgarh' | 'uttar-pradesh';
 
 export interface City {
   id: string;

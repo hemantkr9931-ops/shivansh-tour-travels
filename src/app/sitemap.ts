@@ -23,6 +23,8 @@ const HIGH_PRIORITY_CITY_IDS = new Set([
   'jamshedpur', 'ranchi', 'kolkata', 'dhanbad', 'bokaro', 'deoghar',
   'bhubaneswar', 'puri', 'patna', 'howrah', 'bodh-gaya', 'rajgir', 'nalanda',
   'sonari', 'bistupur', 'adityapur', 'mango',
+  'digha', 'mandarmani', 'raipur', 'raigarh',
+  'varanasi', 'prayagraj', 'ayodhya', 'vindhyachal', 'lucknow',
 ]);
 
 // High-priority routes (most-searched corridors)
@@ -42,6 +44,27 @@ const HIGH_PRIORITY_ROUTE_SLUGS = new Set([
   'ranchi-to-bodh-gaya', 'bodh-gaya-to-ranchi',
   'jamshedpur-to-keonjhar', 'jamshedpur-to-baripada',
   'jamshedpur-to-rajgir', 'jamshedpur-to-nalanda',
+  // Beach destinations
+  'jamshedpur-to-digha', 'digha-to-jamshedpur',
+  'ranchi-to-digha', 'digha-to-ranchi',
+  'jamshedpur-to-mandarmani', 'mandarmani-to-jamshedpur',
+  'ranchi-to-mandarmani', 'mandarmani-to-ranchi',
+  // Chhattisgarh destinations
+  'jamshedpur-to-raipur', 'raipur-to-jamshedpur',
+  'ranchi-to-raipur', 'raipur-to-ranchi',
+  'jamshedpur-to-raigarh', 'raigarh-to-jamshedpur',
+  'ranchi-to-raigarh', 'raigarh-to-ranchi',
+  // Uttar Pradesh — pilgrimage destinations
+  'jamshedpur-to-varanasi', 'varanasi-to-jamshedpur',
+  'ranchi-to-varanasi', 'varanasi-to-ranchi',
+  'jamshedpur-to-prayagraj', 'prayagraj-to-jamshedpur',
+  'ranchi-to-prayagraj', 'prayagraj-to-ranchi',
+  'jamshedpur-to-vindhyachal', 'vindhyachal-to-jamshedpur',
+  'ranchi-to-vindhyachal', 'vindhyachal-to-ranchi',
+  'jamshedpur-to-ayodhya', 'ayodhya-to-jamshedpur',
+  'ranchi-to-ayodhya', 'ayodhya-to-ranchi',
+  'jamshedpur-to-lucknow', 'lucknow-to-jamshedpur',
+  'ranchi-to-lucknow', 'lucknow-to-ranchi',
 ]);
 
 export default function sitemap(): MetadataRoute.Sitemap {

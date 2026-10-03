@@ -8,7 +8,7 @@ import type { City } from '@/data/types';
 export const metadata: Metadata = {
   title: 'Cities We Serve | Taxi & Cab Service | Shivansh Tour & Travel',
   description:
-    'Shivansh Tour & Travel provides cab and taxi service across Jharkhand, West Bengal, Odisha, and Bihar. Browse all covered cities and book your cab today.',
+    'Shivansh Tour & Travel provides cab and taxi service across Jharkhand, West Bengal, Odisha, Bihar, and Chhattisgarh. Browse all covered cities and book your cab today.',
   alternates: { canonical: `${SITE_CONFIG.url}/cities` },
 };
 
@@ -17,6 +17,8 @@ const STATE_META: Record<string, { label: string; flag: string; color: string; b
   'west-bengal': { label: 'West Bengal', flag: '🌸', color: '#831843', bg: '#fdf2f8' },
   odisha: { label: 'Odisha', flag: '🛕', color: '#7c2d12', bg: '#fff7ed' },
   bihar: { label: 'Bihar', flag: '🏛️', color: '#1e3a5f', bg: '#f0f4ff' },
+  chhattisgarh: { label: 'Chhattisgarh', flag: '🌾', color: '#713f12', bg: '#fefce8' },
+  'uttar-pradesh': { label: 'Uttar Pradesh', flag: '🛕', color: '#7e1a1a', bg: '#fff1f1' },
 };
 
 export default function CitiesPage() {
@@ -29,7 +31,7 @@ export default function CitiesPage() {
     byState[c.state].push(c);
   });
 
-  const stateOrder = ['jharkhand', 'west-bengal', 'odisha', 'bihar'];
+  const stateOrder = ['jharkhand', 'west-bengal', 'odisha', 'bihar', 'chhattisgarh', 'uttar-pradesh'];
 
   return (
     <main style={{ minHeight: '70vh' }}>
@@ -47,7 +49,7 @@ export default function CitiesPage() {
             Cities We Serve
           </h1>
           <p style={{ color: 'rgba(255,255,255,0.7)', fontSize: '17px', maxWidth: '620px', margin: '0 auto', lineHeight: 1.7 }}>
-            Shivansh Tour &amp; Travel operates across Jharkhand, West Bengal, Odisha &amp; Bihar.
+            Shivansh Tour &amp; Travel operates across Jharkhand, West Bengal, Odisha, Bihar, Chhattisgarh &amp; Uttar Pradesh.
             Click any city to see cab fares, routes, and local information.
           </p>
         </div>
