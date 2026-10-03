@@ -112,6 +112,7 @@ export const cities: City[] = [
           'You can call us at +91 7061767617, send a WhatsApp message, or fill the booking enquiry form on our website. We will confirm your booking and share fare details promptly.',
       },
     ],
+    aliases: ['Tata', 'Tata Nagar', 'Tatanagar', 'Steel City', 'TATA'],
     mapQuery: 'Jamshedpur,+Jharkhand,+India',
     index: true,
     priority: 0.9,
@@ -127,7 +128,7 @@ export const cities: City[] = [
     description:
       'Ranchi is the capital of Jharkhand and a major travel hub. Shivansh Tour & Travel provides cab service from Jamshedpur to Ranchi and taxi service within the Ranchi region, including Birsa Munda Airport transfers.',
     intro:
-      'Ranchi, the capital of Jharkhand, sits on the Chota Nagpur Plateau at an elevation that keeps temperatures relatively mild. It is home to Birsa Munda Airport — the state\'s primary airport — and is a key hub for travel across Jharkhand. Shivansh Tour & Travel operates cab service on the busy Jamshedpur–Ranchi corridor and provides Ranchi Airport pickup and drop for travellers connecting to or from Jamshedpur.',
+      "Ranchi, the capital of Jharkhand, sits on the Chota Nagpur Plateau at an elevation that keeps temperatures relatively mild. It is home to Birsa Munda Airport — the state\'s primary airport — and is a key hub for travel across Jharkhand. Shivansh Tour & Travel operates cab service on the busy Jamshedpur–Ranchi corridor and provides Ranchi Airport pickup and drop for travellers connecting to or from Jamshedpur.",
     seoTitle:
       'Jamshedpur to Ranchi Cab | Ranchi Taxi Service | Shivansh Tour & Travel',
     seoDescription:
@@ -212,7 +213,7 @@ export const cities: City[] = [
     description:
       'Dhanbad, the coal capital of India, is well connected to Jamshedpur. Shivansh Tour & Travel provides reliable taxi and cab service between Jamshedpur and Dhanbad.',
     intro:
-      'Dhanbad — often called the Coal Capital of India — is a major industrial city in Jharkhand, home to the Indian School of Mines and surrounded by one of India\'s largest coal mining regions. Located approximately 100 km from Jamshedpur, it is a popular destination for business travellers. Shivansh Tour & Travel provides comfortable, reliable cab service on this busy corridor.',
+      "Dhanbad — often called the Coal Capital of India — is a major industrial city in Jharkhand, home to the Indian School of Mines and surrounded by one of India\'s largest coal mining regions. Located approximately 100 km from Jamshedpur, it is a popular destination for business travellers. Shivansh Tour & Travel provides comfortable, reliable cab service on this busy corridor.",
     seoTitle:
       'Jamshedpur to Dhanbad Taxi | Dhanbad Cab Service | Shivansh Tour & Travel',
     seoDescription:
@@ -267,7 +268,7 @@ export const cities: City[] = [
     description:
       'Bokaro Steel City is a planned industrial city in Jharkhand. Shivansh provides cab service from Jamshedpur to Bokaro and return.',
     intro:
-      'Bokaro Steel City — a planned industrial township built around the Bokaro Steel Plant — lies approximately 170 km from Jamshedpur. The city is known for its orderly layout, prominent steel industry, and proximity to Dhanbad and Ranchi. Whether you\'re travelling for work or visiting family, Shivansh Tour & Travel provides a comfortable cab journey on this route.',
+      "Bokaro Steel City — a planned industrial township built around the Bokaro Steel Plant — lies approximately 170 km from Jamshedpur. The city is known for its orderly layout, prominent steel industry, and proximity to Dhanbad and Ranchi. Whether you\'re travelling for work or visiting family, Shivansh Tour & Travel provides a comfortable cab journey on this route.",
     seoTitle:
       'Jamshedpur to Bokaro Cab | Bokaro Taxi Service | Shivansh Tour & Travel',
     seoDescription:
@@ -670,7 +671,7 @@ export const cities: City[] = [
     description:
       'Rourkela, the Steel City of Odisha, is accessible from Jamshedpur via Chaibasa. Shivansh provides cab service from Jamshedpur to Rourkela.',
     intro:
-      'Rourkela is Odisha\'s third-largest city and an important industrial and educational centre, known for the Rourkela Steel Plant and the National Institute of Technology (NIT Rourkela). Located approximately 180–200 km from Jamshedpur, it is a convenient outstation destination for business and family visits. Shivansh Tour & Travel provides reliable cab service on this route.',
+      "Rourkela is Odisha\'s third-largest city and an important industrial and educational centre, known for the Rourkela Steel Plant and the National Institute of Technology (NIT Rourkela). Located approximately 180–200 km from Jamshedpur, it is a convenient outstation destination for business and family visits. Shivansh Tour & Travel provides reliable cab service on this route.",
     seoTitle: 'Jamshedpur to Rourkela Cab | Rourkela Taxi | Shivansh Tour & Travel',
     seoDescription:
       'Book cab from Jamshedpur to Rourkela, Odisha. Outstation one-way and round-trip taxi. Comfortable and reliable. Call +91 7061767617.',
@@ -1105,7 +1106,7 @@ export const cities: City[] = [
     description:
       'Bistupur is the commercial heart of Jamshedpur — a bustling locality home to major banks, retail outlets, restaurants, and the iconic Rustamji Market. Shivansh Tour & Travel provides local taxi, cab pickup, and drop service from Bistupur to all Jamshedpur areas and outstation destinations.',
     intro:
-      'Bistupur is Jamshedpur\'s main commercial hub and one of the most vibrant localities in the city. Lined with shops, showrooms, restaurants, and financial institutions, Bistupur is a primary pick-up and drop point for both local and outstation travellers. Whether you need a cab to Tatanagar Railway Station, a local transfer within Jamshedpur, or an outstation ride to Ranchi or Kolkata — Shivansh Tour & Travel ensures reliable, punctual service from Bistupur.',
+      "Bistupur is Jamshedpur\'s main commercial hub and one of the most vibrant localities in the city. Lined with shops, showrooms, restaurants, and financial institutions, Bistupur is a primary pick-up and drop point for both local and outstation travellers. Whether you need a cab to Tatanagar Railway Station, a local transfer within Jamshedpur, or an outstation ride to Ranchi or Kolkata — Shivansh Tour & Travel ensures reliable, punctual service from Bistupur.",
     seoTitle: 'Cab Service in Bistupur Jamshedpur | Local & Outstation Taxi | Shivansh',
     seoDescription:
       'Book taxi in Bistupur, Jamshedpur with Shivansh Tour & Travel. Local cab, airport transfer, and outstation taxi from Bistupur. Call +91 7061767617.',
@@ -1138,9 +1139,9 @@ export const cities: City[] = [
     isDistrict: false,
     region: 'Jamshedpur (East Singhbhum)',
     description:
-      'Sakchi is Jamshedpur\'s original township and administrative centre, home to the district court, government offices, and the famous Sakchi Market. Shivansh Tour & Travel provides local and outstation cab service from Sakchi.',
+      "Sakchi is Jamshedpur\'s original township and administrative centre, home to the district court, government offices, and the famous Sakchi Market. Shivansh Tour & Travel provides local and outstation cab service from Sakchi.",
     intro:
-      'Sakchi is the oldest planned township in Jamshedpur, designed by Julian Kennedy for the workers of Tata Steel in the early 20th century. It serves as the administrative nerve centre of East Singhbhum, housing the District Collector\'s office, courts, hospitals, and major government buildings. Sakchi Market is one of the most affordable shopping zones in Jamshedpur. Shivansh Tour & Travel provides reliable cab service from Sakchi to all parts of Jamshedpur and beyond.',
+      "Sakchi is the oldest planned township in Jamshedpur, designed by Julian Kennedy for the workers of Tata Steel in the early 20th century. It serves as the administrative nerve centre of East Singhbhum, housing the District Collector\'s office, courts, hospitals, and major government buildings. Sakchi Market is one of the most affordable shopping zones in Jamshedpur. Shivansh Tour & Travel provides reliable cab service from Sakchi to all parts of Jamshedpur and beyond.",
     seoTitle: 'Cab Service in Sakchi Jamshedpur | Local & Outstation Taxi | Shivansh',
     seoDescription:
       'Book taxi from Sakchi, Jamshedpur with Shivansh Tour & Travel. Local cab, outstation taxi, and airport drop from Sakchi. Call +91 7061767617.',
@@ -1173,7 +1174,7 @@ export const cities: City[] = [
     description:
       'Kadma is a rapidly growing residential and commercial locality in Jamshedpur, known for its market, schools, and proximity to Mango and Parsudih. Shivansh provides cab service from Kadma.',
     intro:
-      'Kadma is a thriving residential locality on the eastern fringe of Jamshedpur, known for its bustling market, reputed schools, and growing commercial activity. Well-connected to Mango, Parsudih, and Adityapur, Kadma has become a preferred residential zone for Jamshedpur\'s working population. Shivansh Tour & Travel provides dependable local cab and outstation taxi service from Kadma to all destinations.',
+      "Kadma is a thriving residential locality on the eastern fringe of Jamshedpur, known for its bustling market, reputed schools, and growing commercial activity. Well-connected to Mango, Parsudih, and Adityapur, Kadma has become a preferred residential zone for Jamshedpur\'s working population. Shivansh Tour & Travel provides dependable local cab and outstation taxi service from Kadma to all destinations.",
     seoTitle: 'Cab Service in Kadma Jamshedpur | Taxi Booking | Shivansh Tour & Travel',
     seoDescription:
       'Book taxi from Kadma, Jamshedpur with Shivansh Tour & Travel. Local cab and outstation taxi available. Call +91 7061767617.',
@@ -1203,7 +1204,7 @@ export const cities: City[] = [
     description:
       'Sonari is a key residential locality in Jamshedpur and the home base of Shivansh Tour & Travel. We provide local cab, outstation taxi, and airport transfer services directly from Sonari.',
     intro:
-      'Sonari is one of Jamshedpur\'s largest and most established residential localities, situated close to the Subarnarekha River and home to a large working-class community. Sonari is also the home base of Shivansh Tour & Travel — our team is rooted in this locality and has unmatched local knowledge. Whether you\'re heading to Tatanagar Station, booking an outstation cab to Ranchi, or need an airport transfer — we offer the fastest response times from Sonari.',
+      "Sonari is one of Jamshedpur\'s largest and most established residential localities, situated close to the Subarnarekha River and home to a large working-class community. Sonari is also the home base of Shivansh Tour & Travel — our team is rooted in this locality and has unmatched local knowledge. Whether you\'re heading to Tatanagar Station, booking an outstation cab to Ranchi, or need an airport transfer — we offer the fastest response times from Sonari.",
     seoTitle: 'Cab Service in Sonari Jamshedpur | Local & Airport Taxi | Shivansh',
     seoDescription:
       'Book taxi from Sonari, Jamshedpur with Shivansh Tour & Travel. Instant local cab, outstation taxi, and airport transfer from Sonari. Call +91 7061767617.',
@@ -1235,7 +1236,7 @@ export const cities: City[] = [
     isDistrict: false,
     region: 'Jamshedpur (East Singhbhum)',
     description:
-      'Mango is one of Jamshedpur\'s largest and most densely populated localities, with a thriving market and strong connectivity to Kadma, Parsudih, and Adityapur. Shivansh provides cab service from Mango.',
+      "Mango is one of Jamshedpur\'s largest and most densely populated localities, with a thriving market and strong connectivity to Kadma, Parsudih, and Adityapur. Shivansh provides cab service from Mango.",
     intro:
       'Mango is one of the most populous residential and commercial localities in Jamshedpur, located on the banks of the Subarnarekha River. With its own sprawling market, schools, hospitals, and excellent road connectivity, Mango is a major cab pickup and drop zone. Shivansh Tour & Travel ensures punctual taxi service from Mango to Tatanagar Station, Ranchi, Kolkata, and other destinations.',
     seoTitle: 'Cab Service in Mango Jamshedpur | Outstation & Local Taxi | Shivansh',
@@ -1305,7 +1306,7 @@ export const cities: City[] = [
     description:
       'Telco (Tata Motors area) is a densely populated industrial locality in Jamshedpur, home to thousands of Tata Motors employees and their families. Shivansh provides local and outstation cab from Telco.',
     intro:
-      'Telco, officially known as Burmamines, is the locality centred around the Tata Motors (formerly TELCO) plant in Jamshedpur — one of India\'s most iconic automobile manufacturing facilities. Tens of thousands of workers and executives live in or around the Telco township. Shivansh Tour & Travel is a trusted cab provider for Telco residents, offering local taxi, outstation bookings, and corporate travel to Tata Motors facilities.',
+      "Telco, officially known as Burmamines, is the locality centred around the Tata Motors (formerly TELCO) plant in Jamshedpur — one of India\'s most iconic automobile manufacturing facilities. Tens of thousands of workers and executives live in or around the Telco township. Shivansh Tour & Travel is a trusted cab provider for Telco residents, offering local taxi, outstation bookings, and corporate travel to Tata Motors facilities.",
     seoTitle: 'Cab Service in Telco Jamshedpur | Local & Outstation Taxi | Shivansh',
     seoDescription:
       'Book taxi from Telco (Burmamines), Jamshedpur with Shivansh Tour & Travel. Local and outstation cab available. Call +91 7061767617.',
@@ -1335,7 +1336,7 @@ export const cities: City[] = [
     description:
       'Golmuri is a historic Jamshedpur locality associated with the Tata Wire Division and tinplate industry. Shivansh provides cab service from Golmuri to all Jamshedpur areas and outstation destinations.',
     intro:
-      'Golmuri is one of Jamshedpur\'s oldest industrial localities, home to the Tata Tinplate factory and the Wire Division plant. The area has a close-knit worker community and is well-connected to Bistupur, Sakchi, and Telco. Shivansh Tour & Travel provides reliable taxi service from Golmuri for local travel, station transfers, and outstation journeys.',
+      "Golmuri is one of Jamshedpur\'s oldest industrial localities, home to the Tata Tinplate factory and the Wire Division plant. The area has a close-knit worker community and is well-connected to Bistupur, Sakchi, and Telco. Shivansh Tour & Travel provides reliable taxi service from Golmuri for local travel, station transfers, and outstation journeys.",
     seoTitle: 'Cab Service in Golmuri Jamshedpur | Taxi Booking | Shivansh Tour & Travel',
     seoDescription:
       'Book taxi from Golmuri, Jamshedpur with Shivansh Tour & Travel. Local and outstation cab. Call +91 7061767617.',
@@ -1489,7 +1490,7 @@ export const cities: City[] = [
     description:
       'Seraikela is the district headquarters of Seraikela-Kharsawan district in Jharkhand, famous for the classical Seraikela Chhau dance — a UNESCO-recognised art form. Shivansh Tour & Travel provides cab service from Jamshedpur to Seraikela.',
     intro:
-      'Seraikela, the administrative headquarters of Seraikela-Kharsawan district, lies approximately 35–40 km from Jamshedpur. The town is celebrated worldwide for the Seraikela Chhau dance — a unique form of semi-classical Indian dance originating from the royal family of Seraikela, now recognised by UNESCO as part of India\'s intangible cultural heritage. The annual Chhau festival (during Chaitra Parva) draws dancers and visitors from across India. Shivansh Tour & Travel provides comfortable cab service from Jamshedpur and Ranchi to Seraikela.',
+      "Seraikela, the administrative headquarters of Seraikela-Kharsawan district, lies approximately 35–40 km from Jamshedpur. The town is celebrated worldwide for the Seraikela Chhau dance — a unique form of semi-classical Indian dance originating from the royal family of Seraikela, now recognised by UNESCO as part of India\'s intangible cultural heritage. The annual Chhau festival (during Chaitra Parva) draws dancers and visitors from across India. Shivansh Tour & Travel provides comfortable cab service from Jamshedpur and Ranchi to Seraikela.",
     seoTitle: 'Jamshedpur to Seraikela Taxi | Chhau Dance Town | Shivansh Tour & Travel',
     seoDescription:
       'Book cab from Jamshedpur to Seraikela, famous for the Seraikela Chhau dance. One-way and round-trip taxi. Call +91 7061767617.',
@@ -1522,7 +1523,7 @@ export const cities: City[] = [
     isDistrict: false,
     region: 'Seraikela-Kharsawan',
     description:
-      'Kharsawan is a historic sub-divisional town in Jharkhand, remembered for the 1948 Kharsawan massacre — a pivotal event in Jharkhand\'s history. It lies on the road from Jamshedpur toward Ranchi via Chandil.',
+      "Kharsawan is a historic sub-divisional town in Jharkhand, remembered for the 1948 Kharsawan massacre — a pivotal event in Jharkhand\'s history. It lies on the road from Jamshedpur toward Ranchi via Chandil.",
     intro:
       'Kharsawan is a historically significant town in the Seraikela-Kharsawan district of Jharkhand, lying approximately 55 km from Jamshedpur on the NH-33 route toward Chandil and Ranchi. The town is remembered for the tragic Kharsawan Firing of 1948 — an important chapter in the movement for a separate Jharkhand state. Kharsawan also lies close to Chandil Dam, one of the scenic reservoirs on the Subarnarekha River. Shivansh Tour & Travel provides cab service from Jamshedpur and Ranchi to Kharsawan.',
     seoTitle: 'Jamshedpur to Kharsawan Taxi | Cab Service | Shivansh Tour & Travel',
@@ -1554,7 +1555,7 @@ export const cities: City[] = [
     description:
       'Sonari Airport (IXW) in Jamshedpur is a non-scheduled civilian airport used by small aircraft and private charters. For commercial flights, the nearest airport is Birsa Munda Airport, Ranchi (~130 km). Shivansh provides Ranchi Airport transfer from Jamshedpur.',
     intro:
-      'Jamshedpur\'s Sonari Airport (IATA: IXW) is a non-scheduled civil enclave airport situated in the Sonari locality, managed by the Airports Authority of India. While Sonari Airport has historically served the Tata Group with private and charter flights, it does not handle regular commercial passenger operations. For commercial flight connections, Jamshedpur residents use Birsa Munda Airport in Ranchi (approximately 130 km, ~3 hours by road) or Kolkata\'s Netaji Subhas Chandra Bose Airport (~270 km, ~5.5 hours). Shivansh Tour & Travel specialises in Jamshedpur to Ranchi Airport (IXR) transfer and Jamshedpur to Kolkata Airport (CCU) transfer.',
+      "Jamshedpur\'s Sonari Airport (IATA: IXW) is a non-scheduled civil enclave airport situated in the Sonari locality, managed by the Airports Authority of India. While Sonari Airport has historically served the Tata Group with private and charter flights, it does not handle regular commercial passenger operations. For commercial flight connections, Jamshedpur residents use Birsa Munda Airport in Ranchi (approximately 130 km, ~3 hours by road) or Kolkata\'s Netaji Subhas Chandra Bose Airport (~270 km, ~5.5 hours). Shivansh Tour & Travel specialises in Jamshedpur to Ranchi Airport (IXR) transfer and Jamshedpur to Kolkata Airport (CCU) transfer.",
     seoTitle: 'Jamshedpur Airport Taxi | Ranchi Airport Transfer from Jamshedpur | Shivansh',
     seoDescription:
       'Book airport taxi from Jamshedpur to Ranchi Airport (IXR) or Kolkata Airport (CCU) with Shivansh Tour & Travel. On-time airport cab. Call +91 7061767617.',
@@ -1590,9 +1591,9 @@ export const cities: City[] = [
     isDistrict: false,
     region: 'Greater Kolkata',
     description:
-      'Howrah is the twin city of Kolkata across the Hooghly River, home to Howrah Junction — one of India\'s busiest and most iconic railway stations. Shivansh Tour & Travel provides cab service from Jamshedpur to Howrah.',
+      "Howrah is the twin city of Kolkata across the Hooghly River, home to Howrah Junction — one of India\'s busiest and most iconic railway stations. Shivansh Tour & Travel provides cab service from Jamshedpur to Howrah.",
     intro:
-      'Howrah is the twin city of Kolkata, located on the western bank of the Hooghly River and connected by the iconic Howrah Bridge (Rabindra Setu). Howrah Junction is India\'s busiest railway station by trains and one of the oldest in the country. Many travellers from Jamshedpur prefer direct cab service to Howrah for their train connections. The Jamshedpur–Howrah distance is approximately 265–280 km via NH-16 through Kharagpur. Shivansh Tour & Travel provides reliable cab service to Howrah Junction.',
+      "Howrah is the twin city of Kolkata, located on the western bank of the Hooghly River and connected by the iconic Howrah Bridge (Rabindra Setu). Howrah Junction is India\'s busiest railway station by trains and one of the oldest in the country. Many travellers from Jamshedpur prefer direct cab service to Howrah for their train connections. The Jamshedpur–Howrah distance is approximately 265–280 km via NH-16 through Kharagpur. Shivansh Tour & Travel provides reliable cab service to Howrah Junction.",
     seoTitle: 'Jamshedpur to Howrah Cab | Howrah Junction Taxi | Shivansh Tour & Travel',
     seoDescription:
       'Book cab from Jamshedpur to Howrah with Shivansh Tour & Travel. Howrah Junction station drop. One-way and round-trip taxi. Call +91 7061767617.',
@@ -1659,9 +1660,9 @@ export const cities: City[] = [
     isDistrict: false,
     region: 'Purba Medinipur, West Bengal',
     description:
-      'Haldia is West Bengal\'s major port city and industrial township, home to Haldia Dock Complex, Haldia Petrochemicals, and several large refineries and chemical plants. Shivansh provides cab service from Jamshedpur to Haldia.',
+      "Haldia is West Bengal\'s major port city and industrial township, home to Haldia Dock Complex, Haldia Petrochemicals, and several large refineries and chemical plants. Shivansh provides cab service from Jamshedpur to Haldia.",
     intro:
-      'Haldia is a major port city and industrial township in Purba Medinipur district, West Bengal, located at the confluence of the Haldi and Hooghly rivers. It houses the Haldia Dock Complex (a major container and cargo port under the Kolkata Port Trust), Haldia Petrochemicals Limited, Indian Oil Refinery, and numerous chemical and fertiliser plants. Many corporate professionals travel between Jamshedpur\'s Tata Group facilities and Haldia\'s port and industrial facilities. Shivansh Tour & Travel provides comfortable outstation cab service for this industrial corridor.',
+      "Haldia is a major port city and industrial township in Purba Medinipur district, West Bengal, located at the confluence of the Haldi and Hooghly rivers. It houses the Haldia Dock Complex (a major container and cargo port under the Kolkata Port Trust), Haldia Petrochemicals Limited, Indian Oil Refinery, and numerous chemical and fertiliser plants. Many corporate professionals travel between Jamshedpur\'s Tata Group facilities and Haldia\'s port and industrial facilities. Shivansh Tour & Travel provides comfortable outstation cab service for this industrial corridor.",
     seoTitle: 'Jamshedpur to Haldia Cab | Port City Taxi | Shivansh Tour & Travel',
     seoDescription:
       'Book cab from Jamshedpur to Haldia port city with Shivansh Tour & Travel. Industrial and outstation taxi. Call +91 7061767617.',
@@ -1724,9 +1725,9 @@ export const cities: City[] = [
     isDistrict: true,
     region: 'Purba Bardhaman, West Bengal',
     description:
-      'Bardhaman (Burdwan) is a historic city in West Bengal, known for the Curzon Gate, Nawab\'s Palace, and the famous Bardhaman Mihidana and Sitabhog sweets. Shivansh provides cab service from Jamshedpur to Bardhaman.',
+      "Bardhaman (Burdwan) is a historic city in West Bengal, known for the Curzon Gate, Nawab\'s Palace, and the famous Bardhaman Mihidana and Sitabhog sweets. Shivansh provides cab service from Jamshedpur to Bardhaman.",
     intro:
-      'Bardhaman, officially known as Barddhaman or Burdwan, is a historic city in Purba Bardhaman district of West Bengal. The city gained prominence as the seat of the Maharajas of Bardhaman (the Burdwan Raj) and features landmarks like the Curzon Gate, Nawab\'s Palace, and the iconic Golap Bag. Bardhaman is also famous throughout Bengal for its distinctive sweets — Mihidana (tiny saffron-coloured fried sweet globules) and Sitabhog — both GI-tagged products. Located approximately 250 km from Jamshedpur via Asansol, Bardhaman is a feasible outstation destination.',
+      "Bardhaman, officially known as Barddhaman or Burdwan, is a historic city in Purba Bardhaman district of West Bengal. The city gained prominence as the seat of the Maharajas of Bardhaman (the Burdwan Raj) and features landmarks like the Curzon Gate, Nawab\'s Palace, and the iconic Golap Bag. Bardhaman is also famous throughout Bengal for its distinctive sweets — Mihidana (tiny saffron-coloured fried sweet globules) and Sitabhog — both GI-tagged products. Located approximately 250 km from Jamshedpur via Asansol, Bardhaman is a feasible outstation destination.",
     seoTitle: 'Jamshedpur to Bardhaman Cab | Burdwan Taxi | Shivansh Tour & Travel',
     seoDescription:
       'Book cab from Jamshedpur to Bardhaman (Burdwan) with Shivansh Tour & Travel. Outstation taxi. Call +91 7061767617.',
@@ -1755,7 +1756,7 @@ export const cities: City[] = [
     isDistrict: true,
     region: 'Paschim Medinipur, West Bengal',
     description:
-      'Midnapore (Medinipur) is a historic city in West Bengal, known as the "Land of Freedom Fighters" for its pivotal role in India\'s independence movement. Shivansh provides cab service from Jamshedpur to Midnapore.',
+      "Midnapore (Medinipur) is a historic city in West Bengal, known as the \"Land of Freedom Fighters\" for its pivotal role in India\'s independence movement. Shivansh provides cab service from Jamshedpur to Midnapore.",
     intro:
       'Midnapore, or Medinipur, is the administrative headquarters of Paschim Medinipur district and one of the most historically significant cities in West Bengal. Often called the "Land of Freedom Fighters," Midnapore produced legendary revolutionaries including Kshudiram Bose and Birsa Munda. The city is home to Midnapore Collegiate School (founded 1853), a major government medical college, and an important junction on the Howrah–Kharagpur railway line. Approximately 235 km from Jamshedpur via Kharagpur, Midnapore is a practical outstation destination.',
     seoTitle: 'Jamshedpur to Midnapore Cab | Medinipur Taxi | Shivansh Tour & Travel',
@@ -1788,9 +1789,9 @@ export const cities: City[] = [
     isDistrict: false,
     region: 'South Odisha (Ganjam)',
     description:
-      'Berhampur (Brahmapur) is South Odisha\'s commercial capital and the largest city in Ganjam district, famous for silk sarees (Patta silk) and proximity to Chilika Lake and Gopalpur beach. Shivansh provides cab service from Jamshedpur to Berhampur.',
+      "Berhampur (Brahmapur) is South Odisha\'s commercial capital and the largest city in Ganjam district, famous for silk sarees (Patta silk) and proximity to Chilika Lake and Gopalpur beach. Shivansh provides cab service from Jamshedpur to Berhampur.",
     intro:
-      'Berhampur, also known as Brahmapur, is the commercial capital of South Odisha and the most populous city in Ganjam district. The city is celebrated for its Patta silk industry — producing the famous Berhampur Patta sarees with intricate ikat designs. Gopalpur-on-Sea, one of Odisha\'s most historic beach resorts, is just 15 km away. Chilika Lake — Asia\'s largest coastal lagoon and a UNESCO Ramsar site — is approximately 60 km north of Berhampur. The Jamshedpur to Berhampur distance is approximately 470–500 km via Bhubaneswar.',
+      "Berhampur, also known as Brahmapur, is the commercial capital of South Odisha and the most populous city in Ganjam district. The city is celebrated for its Patta silk industry — producing the famous Berhampur Patta sarees with intricate ikat designs. Gopalpur-on-Sea, one of Odisha\'s most historic beach resorts, is just 15 km away. Chilika Lake — Asia\'s largest coastal lagoon and a UNESCO Ramsar site — is approximately 60 km north of Berhampur. The Jamshedpur to Berhampur distance is approximately 470–500 km via Bhubaneswar.",
     seoTitle: 'Jamshedpur to Berhampur Cab | South Odisha Taxi | Shivansh Tour & Travel',
     seoDescription:
       'Book cab from Jamshedpur to Berhampur, Ganjam, Odisha with Shivansh Tour & Travel. Outstation taxi, Gopalpur beach. Call +91 7061767617.',
@@ -1822,9 +1823,9 @@ export const cities: City[] = [
     isDistrict: true,
     region: 'North Odisha (Balasore)',
     description:
-      'Balasore is a coastal district in North Odisha, home to DRDO\'s Integrated Test Range (ITR) missile testing facility and the famous Chandipur beach — where the ocean recedes 5 km at low tide. Shivansh provides cab from Jamshedpur to Balasore.',
+      "Balasore is a coastal district in North Odisha, home to DRDO\'s Integrated Test Range (ITR) missile testing facility and the famous Chandipur beach — where the ocean recedes 5 km at low tide. Shivansh provides cab from Jamshedpur to Balasore.",
     intro:
-      'Balasore (Baleshwar) is a coastal district in northern Odisha, historically significant as an early European trading post and today known for the DRDO\'s Integrated Test Range (ITR) at Chandipur — India\'s primary missile testing facility. The Chandipur beach is uniquely famous for a rare natural phenomenon where the sea recedes up to 5 km at low tide. Remuna, 15 km from Balasore town, is home to the revered Ksheera Chora Gopinath Temple. Balasore is approximately 300 km from Jamshedpur — a manageable outstation journey.',
+      "Balasore (Baleshwar) is a coastal district in northern Odisha, historically significant as an early European trading post and today known for the DRDO\'s Integrated Test Range (ITR) at Chandipur — India\'s primary missile testing facility. The Chandipur beach is uniquely famous for a rare natural phenomenon where the sea recedes up to 5 km at low tide. Remuna, 15 km from Balasore town, is home to the revered Ksheera Chora Gopinath Temple. Balasore is approximately 300 km from Jamshedpur — a manageable outstation journey.",
     seoTitle: 'Jamshedpur to Balasore Cab | North Odisha Taxi | Shivansh Tour & Travel',
     seoDescription:
       'Book cab from Jamshedpur to Balasore, Odisha with Shivansh Tour & Travel. Chandipur beach, outstation taxi. Call +91 7061767617.',
@@ -1855,7 +1856,7 @@ export const cities: City[] = [
     description:
       'Keonjhar (Kendujhar) is a mineral-rich district of North Odisha, famous for its iron ore mines, Sanaghagara and Barehipani waterfalls — the highest in Odisha — and tribal cultural heritage. Shivansh provides cab from Jamshedpur to Keonjhar.',
     intro:
-      'Keonjhar, officially Kendujhar, is one of India\'s most mineral-rich districts, with vast iron ore and manganese reserves that supply major steel plants across the country. The district is home to Barehipani Falls (399 metres — one of the highest waterfalls in India) and Sanaghagara Falls, both located within the Simlipal Biosphere Reserve corridor. Gonasika, the sacred origin of the Brahmani River, is also located here. Approximately 175–190 km from Jamshedpur, Keonjhar is an important neighbouring district and a natural tourism destination.',
+      "Keonjhar, officially Kendujhar, is one of India\'s most mineral-rich districts, with vast iron ore and manganese reserves that supply major steel plants across the country. The district is home to Barehipani Falls (399 metres — one of the highest waterfalls in India) and Sanaghagara Falls, both located within the Simlipal Biosphere Reserve corridor. Gonasika, the sacred origin of the Brahmani River, is also located here. Approximately 175–190 km from Jamshedpur, Keonjhar is an important neighbouring district and a natural tourism destination.",
     seoTitle: 'Jamshedpur to Keonjhar Cab | Barehipani Falls Taxi | Shivansh Tour & Travel',
     seoDescription:
       'Book cab from Jamshedpur to Keonjhar (Kendujhar) with Shivansh Tour & Travel. Barehipani Falls taxi, North Odisha outstation. Call +91 7061767617.',
@@ -1918,9 +1919,9 @@ export const cities: City[] = [
     isDistrict: false,
     region: 'North Odisha (Mayurbhanj)',
     description:
-      'Baripada is the headquarters of Mayurbhanj district in North Odisha, known as the gateway to Simlipal National Park — one of India\'s premier wildlife sanctuaries and a UNESCO Biosphere Reserve. Shivansh provides cab from Jamshedpur to Baripada.',
+      "Baripada is the headquarters of Mayurbhanj district in North Odisha, known as the gateway to Simlipal National Park — one of India\'s premier wildlife sanctuaries and a UNESCO Biosphere Reserve. Shivansh provides cab from Jamshedpur to Baripada.",
     intro:
-      'Baripada is the administrative headquarters of Mayurbhanj — the largest district in Odisha by area — and the primary gateway to Simlipal National Park, a UNESCO Biosphere Reserve and one of India\'s most biodiverse national parks (home to tigers, elephants, crocodiles, and Barehipani Falls). The famous Baripada Rath Yatra — said to precede Puri\'s Rath Yatra — is a major annual festival. Baripada is approximately 220 km from Jamshedpur, making it an important tourism and transit destination.',
+      "Baripada is the administrative headquarters of Mayurbhanj — the largest district in Odisha by area — and the primary gateway to Simlipal National Park, a UNESCO Biosphere Reserve and one of India\'s most biodiverse national parks (home to tigers, elephants, crocodiles, and Barehipani Falls). The famous Baripada Rath Yatra — said to precede Puri\'s Rath Yatra — is a major annual festival. Baripada is approximately 220 km from Jamshedpur, making it an important tourism and transit destination.",
     seoTitle: 'Jamshedpur to Baripada Cab | Simlipal National Park Taxi | Shivansh',
     seoDescription:
       'Book cab from Jamshedpur to Baripada (Mayurbhanj) with Shivansh Tour & Travel. Simlipal National Park gateway taxi. Call +91 7061767617.',
@@ -1991,9 +1992,9 @@ export const cities: City[] = [
     isDistrict: true,
     region: 'Anga Region, Bihar',
     description:
-      'Bhagalpur is Bihar\'s third largest city and the Silk City of India, famous for Tussar silk (Bhagalpur silk or Katia silk). The historic town of Vikramshila University ruins and Gangetic river dolphins make it a unique destination. Shivansh provides cab from Jamshedpur to Bhagalpur.',
+      "Bhagalpur is Bihar\'s third largest city and the Silk City of India, famous for Tussar silk (Bhagalpur silk or Katia silk). The historic town of Vikramshila University ruins and Gangetic river dolphins make it a unique destination. Shivansh provides cab from Jamshedpur to Bhagalpur.",
     intro:
-      'Bhagalpur, the Silk City of India, is Bihar\'s third largest city and a significant cultural and economic hub in the Anga region. The city is globally renowned for Tussar silk weaving — the handloom Bhagalpur silk (Katia silk) fabric is exported worldwide. The ruins of Vikramshila University — one of medieval India\'s greatest Buddhist centres of learning — lie 50 km from Bhagalpur. The Vikramshila Gangetic Dolphin Sanctuary along the Ganga makes Bhagalpur a unique eco-tourism destination as the Gangetic dolphin (India\'s national aquatic animal) can be spotted here. Approximately 270–290 km from Jamshedpur.',
+      "Bhagalpur, the Silk City of India, is Bihar\'s third largest city and a significant cultural and economic hub in the Anga region. The city is globally renowned for Tussar silk weaving — the handloom Bhagalpur silk (Katia silk) fabric is exported worldwide. The ruins of Vikramshila University — one of medieval India\'s greatest Buddhist centres of learning — lie 50 km from Bhagalpur. The Vikramshila Gangetic Dolphin Sanctuary along the Ganga makes Bhagalpur a unique eco-tourism destination as the Gangetic dolphin (India\'s national aquatic animal) can be spotted here. Approximately 270–290 km from Jamshedpur.",
     seoTitle: 'Jamshedpur to Bhagalpur Cab | Bihar Silk City Taxi | Shivansh Tour & Travel',
     seoDescription:
       'Book cab from Jamshedpur to Bhagalpur, Bihar with Shivansh Tour & Travel. Silk City outstation taxi. Call +91 7061767617.',
@@ -2085,9 +2086,9 @@ export const cities: City[] = [
     isDistrict: true,
     region: 'Magadh, Bihar',
     description:
-      'Nawada is a district in the Magadh region of Bihar, known for proximity to Rajgir and Nalanda, and home to the Kakolat waterfall — one of Bihar\'s most popular natural waterfalls. Shivansh provides cab from Jamshedpur to Nawada.',
+      "Nawada is a district in the Magadh region of Bihar, known for proximity to Rajgir and Nalanda, and home to the Kakolat waterfall — one of Bihar\'s most popular natural waterfalls. Shivansh provides cab from Jamshedpur to Nawada.",
     intro:
-      'Nawada is a district in the historic Magadh region of Bihar, centrally located among the Buddhist heritage triangle of Rajgir, Nalanda, and Bodh Gaya. The district\'s most notable natural attraction is Kakolat Falls — a multi-tiered waterfall in a gorge surrounded by dense forest, considered a highly auspicious bathing site by local Hindus (especially during Makar Sankranti). Nawada also lies on the route to Rajgir\'s famous hot springs and Pawapuri — the Jain pilgrimage site. Approximately 315–335 km from Jamshedpur.',
+      "Nawada is a district in the historic Magadh region of Bihar, centrally located among the Buddhist heritage triangle of Rajgir, Nalanda, and Bodh Gaya. The district\'s most notable natural attraction is Kakolat Falls — a multi-tiered waterfall in a gorge surrounded by dense forest, considered a highly auspicious bathing site by local Hindus (especially during Makar Sankranti). Nawada also lies on the route to Rajgir\'s famous hot springs and Pawapuri — the Jain pilgrimage site. Approximately 315–335 km from Jamshedpur.",
     seoTitle: 'Jamshedpur to Nawada Cab | Kakolat Falls Taxi Bihar | Shivansh Tour & Travel',
     seoDescription:
       'Book cab from Jamshedpur to Nawada, Bihar with Shivansh Tour & Travel. Kakolat Falls, Rajgir nearby. Outstation taxi. Call +91 7061767617.',
@@ -2118,7 +2119,7 @@ export const cities: City[] = [
     description:
       'Rajgir is an ancient town in Bihar — the first capital of the Magadha Empire — with hot springs, Gridhakuta Hill, Vishwa Shanti Stupa, Nalanda ruins nearby, and deep significance for Buddhism, Hinduism, and Jainism. Shivansh provides pilgrimage cab from Jamshedpur to Rajgir.',
     intro:
-      'Rajgir is one of India\'s most historically and spiritually layered towns — the first capital of the ancient Magadha Empire and a site of immense importance to Buddhism, Jainism, and Hinduism. The Buddha spent several rainy seasons here and delivered important discourses on Gridhakuta Hill (Vulture Peak). Mahavira, the 24th Jain Tirthankara, spent 14 years in Rajgir. The town\'s natural hot springs (at Brahma Kund and adjacent kunds) are considered sacred by Hindus and draw thousands of pilgrims. Vishwa Shanti Stupa (Japanese-built peace pagoda) atop Ratnagiri Hill, Ajatsatru Fort ruins, the Japanese Ropeway, and Nalanda ruins (12 km away) make Rajgir a rich heritage tourism destination. Approximately 310–335 km from Jamshedpur.',
+      "Rajgir is one of India\'s most historically and spiritually layered towns — the first capital of the ancient Magadha Empire and a site of immense importance to Buddhism, Jainism, and Hinduism. The Buddha spent several rainy seasons here and delivered important discourses on Gridhakuta Hill (Vulture Peak). Mahavira, the 24th Jain Tirthankara, spent 14 years in Rajgir. The town\'s natural hot springs (at Brahma Kund and adjacent kunds) are considered sacred by Hindus and draw thousands of pilgrims. Vishwa Shanti Stupa (Japanese-built peace pagoda) atop Ratnagiri Hill, Ajatsatru Fort ruins, the Japanese Ropeway, and Nalanda ruins (12 km away) make Rajgir a rich heritage tourism destination. Approximately 310–335 km from Jamshedpur.",
     seoTitle: 'Jamshedpur to Rajgir Cab | Hot Springs & Buddhist Heritage Taxi | Shivansh',
     seoDescription:
       'Book cab from Jamshedpur to Rajgir, Bihar — hot springs, Vishwa Shanti Stupa, Buddhist and Jain heritage. Pilgrimage taxi. Call +91 7061767617.',
@@ -2152,9 +2153,9 @@ export const cities: City[] = [
     isDistrict: true,
     region: 'Magadh, Bihar',
     description:
-      'Nalanda is the site of the ancient Nalanda Mahavihara — the world\'s first residential university, established in the 5th century CE — a UNESCO World Heritage Site. Shivansh provides pilgrimage and heritage tourism cab from Jamshedpur to Nalanda.',
+      "Nalanda is the site of the ancient Nalanda Mahavihara — the world\'s first residential university, established in the 5th century CE — a UNESCO World Heritage Site. Shivansh provides pilgrimage and heritage tourism cab from Jamshedpur to Nalanda.",
     intro:
-      'Nalanda is home to one of humanity\'s most extraordinary intellectual achievements — the Nalanda Mahavihara, the world\'s first great residential university, established circa 5th century CE. For over 700 years, Nalanda attracted scholars from China, Korea, Japan, Tibet, Mongolia, Turkey, Sri Lanka, and South-East Asia to study philosophy, mathematics, astronomy, medicine, and theology. At its peak, it had 10,000 students and 2,000 teachers. The ruins of this great university — vast monasteries (viharas), temples, lecture halls, and a renowned library (Dharmaganja) — are a UNESCO World Heritage Site since 2016. Xuanzang (Hiuen Tsang), the famous Chinese Buddhist monk who documented his travels in India (7th century CE), studied and taught here. Approximately 310–330 km from Jamshedpur.',
+      "Nalanda is home to one of humanity\'s most extraordinary intellectual achievements — the Nalanda Mahavihara, the world\'s first great residential university, established circa 5th century CE. For over 700 years, Nalanda attracted scholars from China, Korea, Japan, Tibet, Mongolia, Turkey, Sri Lanka, and South-East Asia to study philosophy, mathematics, astronomy, medicine, and theology. At its peak, it had 10,000 students and 2,000 teachers. The ruins of this great university — vast monasteries (viharas), temples, lecture halls, and a renowned library (Dharmaganja) — are a UNESCO World Heritage Site since 2016. Xuanzang (Hiuen Tsang), the famous Chinese Buddhist monk who documented his travels in India (7th century CE), studied and taught here. Approximately 310–330 km from Jamshedpur.",
     seoTitle: 'Jamshedpur to Nalanda Cab | Ancient University Heritage Taxi | Shivansh',
     seoDescription:
       'Book cab from Jamshedpur to Nalanda, Bihar — UNESCO World Heritage Site. Heritage tourism taxi, pilgrimage cab. Call +91 7061767617.',
@@ -2178,6 +2179,462 @@ export const cities: City[] = [
     mapQuery: 'Nalanda,+Bihar,+India',
     index: true,
     priority: 0.68,
+  },
+
+  // ==================== JAMSHEDPUR LOCALITIES & NEARBY TOWNS ====================
+  {
+    id: 'ghatshila',
+    name: 'Ghatshila',
+    slug: 'ghatshila',
+    state: 'jharkhand',
+    stateName: 'Jharkhand',
+    isDistrict: false,
+    region: 'East Singhbhum',
+    description:
+      'Ghatshila is a scenic riverside town on the Subarnarekha River, 40 km from Jamshedpur. Famous for Rankini Temple, Dharagiri Falls, and Bengali literary heritage. Shivansh Tour & Travel provides cab from Jamshedpur to Ghatshila for day trips.',
+    intro:
+      'Ghatshila (also spelled Ghatsila) is a picturesque hill-and-river town located approximately 40 km east of Jamshedpur on the Subarnarekha River in East Singhbhum district. Immortalised in Bengali literature by the novelist Bibhutibhushan Bandyopadhyay — who lived here and wrote here — Ghatshila has long been a retreat for artists, writers, and nature lovers. The town sits amidst rocky hillocks, tropical forests, and the crystal-clear Subarnarekha, making it one of the most beautiful spots in Jharkhand. Key attractions include the scenic Ghatshila Ghat, the Maa Rankini Devi Temple on a rocky hillock, the seasonal Dharagiri Falls (7 km), Fuladoba Hills, and the cottage where Bibhutibhushan lived. The Subarnarekha river beach at Dhalbhum is a favourite picnic spot for Jamshedpur residents. Shivansh Tour & Travel provides reliable cab for Jamshedpur-to-Ghatshila day trips, weekend getaways, and return transfers.',
+    seoTitle: 'Jamshedpur to Ghatshila Cab | Subarnarekha Riverside Taxi | Shivansh Tour & Travel',
+    seoDescription: 'Book cab from Jamshedpur (Tata) to Ghatshila (40 km). Rankini Temple, Dharagiri Falls, Subarnarekha river. Day trip taxi. Call +91 7061767617.',
+    primaryKeyword: 'Jamshedpur to Ghatshila cab',
+    secondaryKeywords: [
+      'Ghatshila taxi from Jamshedpur',
+      'Ghatshila day trip cab',
+      'Tata to Ghatshila taxi',
+      'Ghatshila Subarnarekha trip',
+      'Ghatsila cab from Jamshedpur',
+    ],
+    pickupAreas: ['Bistupur', 'Sakchi', 'Mango', 'Kadma', 'Sonari', 'Tatanagar Station'],
+    nearbyAttractions: [
+      'Ghatshila Ghat (Subarnarekha riverbank)',
+      'Maa Rankini Devi Temple (hilltop)',
+      'Dharagiri Falls (7 km)',
+      'Fuladoba Hills',
+      "Bibhutibhushan Cottage (writer's home)",
+      'Subarnarekha river beach',
+    ],
+    relatedCityIds: ['jamshedpur', 'jadugoda'],
+    popularRouteIds: ['jamshedpur-to-ghatshila', 'ghatshila-to-jamshedpur'],
+    services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
+    travelTips: [
+      'Ghatshila is 40 km from Jamshedpur via NH-16 — approximately 1 hour.',
+      'Half-day trip: Ghatshila Ghat + Rankini Temple. Full-day: add Dharagiri Falls (7 km).',
+      'Best season: October–March. Monsoon (July–September): Dharagiri Falls is spectacular.',
+      'Jadugoda (uranium mines town) is 15 km before Ghatshila — can be a stop.',
+    ],
+    faqs: [
+      {
+        question: 'How far is Ghatshila from Jamshedpur?',
+        answer: 'Ghatshila is approximately 40 km east of Jamshedpur via NH-16. The cab ride takes about 50–60 minutes.',
+      },
+      {
+        question: 'What is Ghatshila famous for?',
+        answer: 'Ghatshila is famous for the Subarnarekha River, Rankini Devi Temple, Dharagiri Falls, and its connection to the Bengali novelist Bibhutibhushan Bandyopadhyay who immortalised the town in his writings.',
+      },
+      {
+        question: 'Can I visit Dharagiri Falls on a Ghatshila day trip from Jamshedpur?',
+        answer: 'Yes. Dharagiri Falls is 7 km from Ghatshila town. Book a full-day round-trip cab from Jamshedpur to cover both. Call +91 7061767617.',
+      },
+    ],
+    mapQuery: 'Ghatshila,+Jharkhand,+India',
+    index: true,
+    priority: 0.72,
+  },
+  {
+    id: 'jadugoda',
+    name: 'Jadugoda',
+    slug: 'jadugoda',
+    state: 'jharkhand',
+    stateName: 'Jharkhand',
+    isDistrict: false,
+    region: 'East Singhbhum',
+    description:
+      "Jadugoda is a UCIL township in East Singhbhum, 25 km from Jamshedpur, home to India's first uranium mines. Shivansh Tour & Travel provides cab from Jamshedpur to Jadugoda.",
+    intro:
+      "Jadugoda, located approximately 25 km east of Jamshedpur on NH-16, is a significant industrial township in East Singhbhum district, Jharkhand. The town is home to India's first and most strategically important uranium mines, operated by the Uranium Corporation of India Limited (UCIL) — a Government of India enterprise under the Department of Atomic Energy. Jadugoda is a company township with schools, hospitals, and residential quarters maintained by UCIL. The town lies on the route to Ghatshila (15 km further east) and serves as a transit point for East Singhbhum tribal areas. Shivansh Tour & Travel provides cab from Jamshedpur to Jadugoda for official visits, UCIL employee travel, and transit journeys toward Ghatshila.",
+    seoTitle: 'Jamshedpur to Jadugoda Cab | Uranium Mine Township Taxi | Shivansh Tour & Travel',
+    seoDescription: 'Book cab from Jamshedpur to Jadugoda (25 km) — UCIL uranium mines township. One-way and return cab. Call +91 7061767617.',
+    primaryKeyword: 'Jamshedpur to Jadugoda cab',
+    secondaryKeywords: [
+      'Jadugoda taxi from Jamshedpur',
+      'UCIL Jadugoda cab',
+      'Tata to Jadugoda taxi',
+      'Jadugoda Jharkhand cab',
+    ],
+    pickupAreas: ['Bistupur', 'Sakchi', 'Sonari', 'Kadma', 'Tatanagar Station'],
+    nearbyAttractions: [
+      'UCIL Uranium Mines Township',
+      'Ghatshila (15 km further east)',
+      'Subarnarekha River (5 km)',
+    ],
+    relatedCityIds: ['jamshedpur', 'ghatshila'],
+    popularRouteIds: ['jamshedpur-to-jadugoda', 'jadugoda-to-jamshedpur'],
+    services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
+    travelTips: [
+      'Jadugoda is 25 km from Jamshedpur — approximately 40–45 minutes by cab.',
+      'UCIL township entry requires prior visitor clearance for certain areas.',
+      'Combine with Ghatshila (15 km further east) for a complete day trip.',
+    ],
+    faqs: [
+      {
+        question: 'How far is Jadugoda from Jamshedpur?',
+        answer: 'Jadugoda is approximately 25 km from Jamshedpur via NH-16. The cab ride takes about 40–45 minutes.',
+      },
+      {
+        question: 'What is Jadugoda famous for?',
+        answer: 'Jadugoda is famous for India\'s first uranium mines, operated by UCIL (Uranium Corporation of India Limited) under the Department of Atomic Energy, Government of India.',
+      },
+    ],
+    mapQuery: 'Jadugoda,+East+Singhbhum,+Jharkhand,+India',
+    index: true,
+    priority: 0.65,
+  },
+  {
+    id: 'haldipokar',
+    name: 'Haldipokar',
+    slug: 'haldipokar',
+    state: 'jharkhand',
+    stateName: 'Jharkhand',
+    isDistrict: false,
+    region: 'East Singhbhum (Jamshedpur)',
+    aliases: ['Haldiapokhar'],
+    description:
+      'Haldipokar (Haldiapokhar) is a residential locality in the Mango zone of Jamshedpur. Shivansh Tour & Travel provides local cab service from Haldipokar for station drops and outstation travel.',
+    intro:
+      "Haldipokar (also known as Haldiapokhar) is a residential locality within Jamshedpur city limits, situated in the Mango–Bhuiyandih zone of East Singhbhum district. The area is a mix of established residential colonies and small commercial establishments forming part of greater Jamshedpur's growing western fringe. Residents of Haldipokar frequently travel to Bistupur and Sakchi for commercial needs and Tatanagar Junction for intercity rail connections. Shivansh Tour & Travel covers Haldipokar for local taxi, outstation pickup, station/airport drops with prompt door-to-door service from the Sonari depot.",
+    seoTitle: 'Haldipokar Cab Service | Jamshedpur Local Taxi | Shivansh Tour & Travel',
+    seoDescription: 'Book cab from Haldipokar (Haldiapokhar), Jamshedpur with Shivansh Tour & Travel. Local taxi, station drop. Call +91 7061767617.',
+    primaryKeyword: 'cab service in Haldipokar Jamshedpur',
+    secondaryKeywords: [
+      'Haldipokar taxi Jamshedpur',
+      'Haldiapokhar cab service',
+      'local taxi Haldipokar Mango',
+    ],
+    pickupAreas: ['Haldipokar', 'Mango', 'Bhuiyandih', 'Tatanagar Station'],
+    nearbyAttractions: ['Hudco Lake', 'Jubilee Park (8 km)', 'Dimna Lake (12 km)'],
+    relatedCityIds: ['jamshedpur', 'mango', 'bistupur', 'sakchi'],
+    popularRouteIds: ['jamshedpur-to-ranchi', 'jamshedpur-to-kolkata'],
+    services: ['local-taxi', 'outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
+    travelTips: [
+      'Haldipokar is within Jamshedpur city — Tatanagar Station is approximately 7–9 km.',
+    ],
+    faqs: [
+      {
+        question: 'Does Shivansh Tour & Travel serve Haldipokar?',
+        answer: 'Yes. We provide local and outstation cab pickup from Haldipokar (Haldiapokhar), Jamshedpur. Call +91 7061767617.',
+      },
+    ],
+    mapQuery: 'Haldipokar,+Mango,+Jamshedpur,+Jharkhand,+India',
+    index: true,
+    priority: 0.60,
+  },
+  {
+    id: 'dimna',
+    name: 'Sundar Nagar Dimna',
+    slug: 'dimna',
+    state: 'jharkhand',
+    stateName: 'Jharkhand',
+    isDistrict: false,
+    region: 'East Singhbhum (Jamshedpur)',
+    aliases: ['Dimna', 'Dimna Lake', 'Sundar Nagar'],
+    description:
+      'Sundar Nagar Dimna is a scenic locality near Dimna Lake reservoir in Jamshedpur, a favourite picnic and nature spot. Shivansh Tour & Travel provides cab for Dimna Lake day trips.',
+    intro:
+      "Sundar Nagar Dimna is a residential and leisure locality on the eastern outskirts of Jamshedpur, centred around the stunning Dimna Lake — an artificial reservoir built in 1944 by Tata Iron and Steel Company on the Kharkai River tributary. The lake and surrounding forests form one of Jamshedpur's most beloved green retreats, sitting at a higher elevation with cooler temperatures and panoramic views of the Dalma Wildlife Sanctuary hills. The Tata Steel Adventure Foundation (TSAF) operates boating, nature trails, and adventure activities around Dimna Lake. The area is popular for morning walks, cycling, birdwatching, and family picnics. Shivansh Tour & Travel provides half-day and full-day cab packages for Dimna Lake trips from any Jamshedpur locality.",
+    seoTitle: 'Dimna Lake Cab | Sundar Nagar Dimna Taxi Jamshedpur | Shivansh Tour & Travel',
+    seoDescription: 'Book cab to Dimna Lake (Sundar Nagar Dimna), Jamshedpur. Boating, Dalma hills, nature trail. Call +91 7061767617.',
+    primaryKeyword: 'cab to Dimna Lake Jamshedpur',
+    secondaryKeywords: [
+      'Dimna Lake taxi Jamshedpur',
+      'Sundar Nagar Dimna cab',
+      'Jamshedpur Dimna picnic cab',
+      'Dimna Lake trip from Tata',
+    ],
+    pickupAreas: ['Bistupur', 'Sakchi', 'Mango', 'Kadma', 'Sonari', 'Telco', 'Tatanagar Station'],
+    nearbyAttractions: [
+      'Dimna Lake (Tata Steel reservoir)',
+      'Dalma Wildlife Sanctuary (adjacent)',
+      'TSAF Boating & Adventure',
+      'Dimna Nature Trail',
+    ],
+    relatedCityIds: ['jamshedpur', 'mango', 'adityapur'],
+    popularRouteIds: ['jamshedpur-to-ranchi'],
+    services: ['local-taxi', 'outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
+    travelTips: [
+      'Dimna Lake is approximately 13 km from Bistupur — about 25–30 minutes.',
+      'TSAF boating: 9 AM–5 PM, closed Mondays.',
+      'Morning visits (6–8 AM) offer misty lake views at their best.',
+    ],
+    faqs: [
+      {
+        question: 'How far is Dimna Lake from Jamshedpur city centre?',
+        answer: 'Dimna Lake is approximately 13 km from Bistupur. The cab takes about 25–30 minutes.',
+      },
+      {
+        question: 'Can I book a half-day cab to Dimna Lake?',
+        answer: 'Yes. Shivansh Tour & Travel offers half-day local cab packages for Dimna Lake. Call +91 7061767617.',
+      },
+    ],
+    mapQuery: 'Dimna+Lake,+Jamshedpur,+Jharkhand,+India',
+    index: true,
+    priority: 0.68,
+  },
+  {
+    id: 'pardih',
+    name: 'Pardih',
+    slug: 'pardih',
+    state: 'jharkhand',
+    stateName: 'Jharkhand',
+    isDistrict: false,
+    region: 'East Singhbhum (Jamshedpur)',
+    description:
+      'Pardih is a locality in eastern Jamshedpur near Boram and Mango. Shivansh Tour & Travel provides local cab service from Pardih.',
+    intro:
+      'Pardih is a semi-urban residential locality in the eastern part of Jamshedpur city, East Singhbhum district, situated near the Boram and Mango zones. Pardih has growing residential colonies and small commercial activity. It is well-connected to Tatanagar Railway Station, Bistupur, and Sakchi. Residents rely on cab service for daily commuting, station drops, and outstation journeys. Shivansh Tour & Travel covers all Pardih localities for local and outstation travel with prompt, affordable service.',
+    seoTitle: 'Pardih Cab Service | Jamshedpur Local Taxi | Shivansh Tour & Travel',
+    seoDescription: 'Book local cab from Pardih, Jamshedpur with Shivansh Tour & Travel. Station drop, outstation taxi. Call +91 7061767617.',
+    primaryKeyword: 'cab service in Pardih Jamshedpur',
+    secondaryKeywords: ['Pardih taxi Jamshedpur', 'Pardih cab booking'],
+    pickupAreas: ['Pardih', 'Boram', 'Mango', 'Tatanagar Station'],
+    nearbyAttractions: ['Jubilee Park (10 km)', 'Dimna Lake (15 km)'],
+    relatedCityIds: ['jamshedpur', 'boram', 'mango', 'bagbera'],
+    popularRouteIds: ['jamshedpur-to-ranchi', 'jamshedpur-to-kolkata'],
+    services: ['local-taxi', 'outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
+    travelTips: ['Pardih to Tatanagar Station is approximately 8–10 km.'],
+    faqs: [
+      {
+        question: 'Does Shivansh cover Pardih for cab service?',
+        answer: 'Yes. We provide local and outstation cab from Pardih, Jamshedpur. Call +91 7061767617.',
+      },
+    ],
+    mapQuery: 'Pardih,+Jamshedpur,+Jharkhand,+India',
+    index: true,
+    priority: 0.58,
+  },
+  {
+    id: 'sitaramdera',
+    name: 'Sitaramdera',
+    slug: 'sitaramdera',
+    state: 'jharkhand',
+    stateName: 'Jharkhand',
+    isDistrict: false,
+    region: 'East Singhbhum (Jamshedpur)',
+    description:
+      'Sitaramdera is a densely populated commercial locality near Sakchi and Jugsalai in Jamshedpur. Shivansh Tour & Travel provides cab service from Sitaramdera.',
+    intro:
+      "Sitaramdera is one of the densely populated localities of Jamshedpur, situated near Sakchi and Jugsalai in East Singhbhum district. The area is a hub of commercial activity with markets, schools, and residential colonies. Its proximity to Jugsalai — one of Jamshedpur's major commercial centres — makes it a high-traffic zone. Residents frequently travel to Tatanagar Railway Station (4–5 km), Bistupur, and Sakchi. Shivansh Tour & Travel provides fast, reliable cab service from Sitaramdera for local commutes, outstation journeys, and station drops.",
+    seoTitle: 'Sitaramdera Cab Service | Jamshedpur Taxi | Shivansh Tour & Travel',
+    seoDescription: 'Book cab in Sitaramdera, Jamshedpur with Shivansh Tour & Travel. Local taxi, station drop. Call +91 7061767617.',
+    primaryKeyword: 'cab service in Sitaramdera Jamshedpur',
+    secondaryKeywords: ['Sitaramdera taxi', 'Sitaramdera cab Jamshedpur'],
+    pickupAreas: ['Sitaramdera', 'Jugsalai', 'Sakchi', 'Tatanagar Station'],
+    nearbyAttractions: ['Jubilee Park (3 km)', 'XLRI Jamshedpur (2 km)'],
+    relatedCityIds: ['jamshedpur', 'jugsalai', 'sakchi', 'golmuri'],
+    popularRouteIds: ['jamshedpur-to-ranchi', 'jamshedpur-to-kolkata'],
+    services: ['local-taxi', 'outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
+    travelTips: ['Tatanagar Station is 4–5 km from Sitaramdera — allow 15–20 minutes.'],
+    faqs: [
+      {
+        question: 'Does Shivansh provide cab service from Sitaramdera?',
+        answer: 'Yes. We cover Sitaramdera, Jamshedpur for local and outstation taxi. Call +91 7061767617.',
+      },
+    ],
+    mapQuery: 'Sitaramdera,+Jamshedpur,+Jharkhand,+India',
+    index: true,
+    priority: 0.58,
+  },
+  {
+    id: 'nildih',
+    name: 'Nildih',
+    slug: 'nildih',
+    state: 'jharkhand',
+    stateName: 'Jharkhand',
+    isDistrict: false,
+    region: 'East Singhbhum (Jamshedpur)',
+    description:
+      'Nildih is a locality in the Golmuri–Jugsalai zone of Jamshedpur. Shivansh Tour & Travel provides cab service from Nildih for local and outstation travel.',
+    intro:
+      'Nildih is a residential locality in Jamshedpur situated in the Golmuri and Jugsalai zone of East Singhbhum. The area hosts working-class and middle-class communities connected to the Golmuri industrial belt. Residents of Nildih frequently travel to Tatanagar Junction, Sakchi market, and the Golmuri–Jugsalai commercial corridor. Shivansh Tour & Travel provides reliable cab service from Nildih for local trips, station drops, and outstation journeys across Jharkhand, West Bengal, Odisha, and Bihar.',
+    seoTitle: 'Nildih Cab Service | Jamshedpur Local Taxi | Shivansh Tour & Travel',
+    seoDescription: 'Book local cab from Nildih, Jamshedpur with Shivansh Tour & Travel. Station drop, outstation taxi. Call +91 7061767617.',
+    primaryKeyword: 'cab service Nildih Jamshedpur',
+    secondaryKeywords: ['Nildih taxi Jamshedpur', 'Golmuri Nildih taxi'],
+    pickupAreas: ['Nildih', 'Golmuri', 'Jugsalai', 'Tatanagar Station'],
+    nearbyAttractions: ['Jubilee Park (4 km)', 'Golmuri Industrial Area'],
+    relatedCityIds: ['jamshedpur', 'golmuri', 'jugsalai'],
+    popularRouteIds: ['jamshedpur-to-ranchi', 'jamshedpur-to-kolkata'],
+    services: ['local-taxi', 'outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
+    travelTips: ['Nildih is in the Golmuri zone — Tatanagar Station is approximately 5–6 km.'],
+    faqs: [
+      {
+        question: 'Does Shivansh provide cab service from Nildih?',
+        answer: 'Yes. We cover Nildih, Jamshedpur. Call +91 7061767617.',
+      },
+    ],
+    mapQuery: 'Nildih,+Jamshedpur,+Jharkhand,+India',
+    index: true,
+    priority: 0.58,
+  },
+  {
+    id: 'birsanagar',
+    name: 'Birsanagar',
+    slug: 'birsanagar',
+    state: 'jharkhand',
+    stateName: 'Jharkhand',
+    isDistrict: false,
+    region: 'East Singhbhum (Jamshedpur)',
+    description:
+      'Birsanagar is a prominent commercial and residential locality near Kadma in Jamshedpur, named after tribal hero Birsa Munda. Shivansh Tour & Travel provides cab from Birsanagar.',
+    intro:
+      "Birsanagar is one of Jamshedpur's important commercial and residential localities, named after Bhagwan Birsa Munda — the legendary Jharkhand freedom fighter who led the Ulgulan movement against British colonial rule. Located near Kadma and the Adityapur border, Birsanagar has a vibrant market, schools, hospitals, and residential colonies. The locality is an important node between Jamshedpur's urban core and the Adityapur industrial area. Shivansh Tour & Travel provides cab service from Birsanagar for local trips, outstation journeys, Tatanagar station drop, and Ranchi airport transfer.",
+    seoTitle: 'Birsanagar Cab Service | Jamshedpur Taxi | Shivansh Tour & Travel',
+    seoDescription: 'Book cab from Birsanagar, Jamshedpur with Shivansh Tour & Travel. Local taxi, station drop, outstation. Call +91 7061767617.',
+    primaryKeyword: 'cab service in Birsanagar Jamshedpur',
+    secondaryKeywords: ['Birsanagar taxi Jamshedpur', 'Kadma Birsanagar cab'],
+    pickupAreas: ['Birsanagar', 'Kadma', 'Adityapur', 'Tatanagar Station'],
+    nearbyAttractions: ['Adityapur Industrial Area (3 km)', 'Jubilee Park (6 km)', 'Dimna Lake (10 km)'],
+    relatedCityIds: ['jamshedpur', 'kadma', 'adityapur', 'sonari'],
+    popularRouteIds: ['jamshedpur-to-ranchi', 'jamshedpur-to-dhanbad'],
+    services: ['local-taxi', 'outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
+    travelTips: [
+      'Birsanagar is adjacent to Kadma — Tatanagar Station is approximately 6–8 km.',
+    ],
+    faqs: [
+      {
+        question: 'Is Birsanagar covered by Shivansh Tour & Travel?',
+        answer: 'Yes. We provide local and outstation cab from Birsanagar, Jamshedpur. Call +91 7061767617.',
+      },
+    ],
+    mapQuery: 'Birsanagar,+Jamshedpur,+Jharkhand,+India',
+    index: true,
+    priority: 0.62,
+  },
+  {
+    id: 'marine-drive',
+    name: 'Marine Drive Jamshedpur',
+    slug: 'marine-drive',
+    state: 'jharkhand',
+    stateName: 'Jharkhand',
+    isDistrict: false,
+    region: 'East Singhbhum (Jamshedpur)',
+    aliases: ['Marine Drive', 'Kharkai Marine Drive', 'Jamshedpur Marine Drive'],
+    description:
+      'Marine Drive Jamshedpur is the scenic Kharkai riverside promenade — the "Marine Drive of Jharkhand". Shivansh Tour & Travel provides local cab for evening trips to Marine Drive.',
+    intro:
+      "Marine Drive in Jamshedpur is the scenic riverside promenade developed along the banks of the Kharkai River — popularly nicknamed the \"Marine Drive of Jharkhand\" in reference to Mumbai's iconic seafront. The riverfront stretch, developed and maintained by Tata Steel and civic authorities, is a favourite evening destination for Jamshedpur residents and visitors. The promenade offers river views, street food, and a peaceful ambiance at sunset when the Kharkai reflects golden light. Marine Drive Jamshedpur has become an Instagram-popular destination and a social gathering point. The promenade is adjacent to Jubilee Park and the Sakchi area, making it easily accessible from all parts of Jamshedpur. Shivansh Tour & Travel provides local cab for evening drives to Marine Drive from any Jamshedpur locality.",
+    seoTitle: 'Marine Drive Jamshedpur Cab | Kharkai Riverfront Taxi | Shivansh Tour & Travel',
+    seoDescription: 'Book cab to Marine Drive, Jamshedpur (Kharkai riverfront). Evening trip, sunset river drive. Call +91 7061767617.',
+    primaryKeyword: 'cab to Marine Drive Jamshedpur',
+    secondaryKeywords: [
+      'Marine Drive Jamshedpur taxi',
+      'Kharkai river promenade cab',
+      'Jamshedpur Marine Drive evening trip',
+    ],
+    pickupAreas: ['Bistupur', 'Sakchi', 'Mango', 'Kadma', 'Sonari', 'Tatanagar Station'],
+    nearbyAttractions: [
+      'Kharkai River Promenade (Marine Drive)',
+      'Jubilee Park (adjacent)',
+      'Sakchi Market (1 km)',
+    ],
+    relatedCityIds: ['jamshedpur', 'bistupur', 'sakchi'],
+    popularRouteIds: ['jamshedpur-to-ranchi'],
+    services: ['local-taxi', 'one-way-taxi'],
+    travelTips: [
+      'Marine Drive is best visited at sunset (5–7 PM).',
+      'The promenade is adjacent to Jubilee Park — combine both in one evening visit.',
+    ],
+    faqs: [
+      {
+        question: 'Where is Marine Drive in Jamshedpur?',
+        answer: 'Marine Drive Jamshedpur is the scenic promenade along the Kharkai River near Sakchi and Jubilee Park — called the "Marine Drive of Jharkhand" for its river views.',
+      },
+      {
+        question: 'Can I book a cab to Marine Drive Jamshedpur?',
+        answer: 'Yes. Shivansh Tour & Travel provides local cab to Marine Drive from any Jamshedpur locality. Call +91 7061767617.',
+      },
+    ],
+    mapQuery: 'Marine+Drive+Jamshedpur,+Kharkai+River,+Jharkhand,+India',
+    index: true,
+    priority: 0.65,
+  },
+  {
+    id: 'govindpur',
+    name: 'Govindpur',
+    slug: 'govindpur',
+    state: 'jharkhand',
+    stateName: 'Jharkhand',
+    isDistrict: false,
+    region: 'Dhanbad',
+    description:
+      'Govindpur is a coal-belt town in Dhanbad district, Jharkhand, on the Dhanbad–Giridih route. Shivansh Tour & Travel provides outstation cab from Jamshedpur to Govindpur.',
+    intro:
+      'Govindpur is a town and sub-division in Dhanbad district, Jharkhand, located approximately 40 km from Dhanbad city on the road toward Giridih. The town is part of the coal-rich Damodar Valley region and is connected to the Eastern Railway network via Govindpur Road station on the Dhanbad–Giridih branch line. Govindpur hosts a significant population of mining and railway workers and serves as a transit point for travellers heading toward Giridih from Dhanbad. From Jamshedpur, Govindpur is approximately 140 km via Dhanbad. Shivansh Tour & Travel provides outstation cab from Jamshedpur and Ranchi to Govindpur for official and personal travel.',
+    seoTitle: 'Jamshedpur to Govindpur Cab | Dhanbad Taxi | Shivansh Tour & Travel',
+    seoDescription: 'Book cab from Jamshedpur to Govindpur, Dhanbad district with Shivansh Tour & Travel. Outstation taxi. Call +91 7061767617.',
+    primaryKeyword: 'Jamshedpur to Govindpur cab',
+    secondaryKeywords: ['Govindpur taxi from Jamshedpur', 'Tata to Govindpur taxi', 'Dhanbad Govindpur cab'],
+    pickupAreas: ['Bistupur', 'Sakchi', 'Tatanagar Station'],
+    nearbyAttractions: ['Damodar River', 'Giridih (40 km from Govindpur)'],
+    relatedCityIds: ['jamshedpur', 'dhanbad', 'giridih'],
+    popularRouteIds: ['jamshedpur-to-dhanbad', 'jamshedpur-to-giridih'],
+    services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
+    travelTips: [
+      'Govindpur is approximately 140 km from Jamshedpur via Dhanbad — about 3–3.5 hours.',
+    ],
+    faqs: [
+      {
+        question: 'How far is Govindpur from Jamshedpur?',
+        answer: 'Govindpur (Dhanbad) is approximately 140 km from Jamshedpur via Dhanbad. About 3–3.5 hours by cab.',
+      },
+    ],
+    mapQuery: 'Govindpur,+Dhanbad,+Jharkhand,+India',
+    index: true,
+    priority: 0.58,
+  },
+  {
+    id: 'chakradharpur',
+    name: 'Chakradharpur',
+    slug: 'chakradharpur',
+    state: 'jharkhand',
+    stateName: 'Jharkhand',
+    isDistrict: false,
+    region: 'West Singhbhum',
+    description:
+      'Chakradharpur is a major railway junction (CKP) and divisional HQ of South Eastern Railway, 60 km from Jamshedpur. Shivansh Tour & Travel provides cab from Jamshedpur to Chakradharpur.',
+    intro:
+      "Chakradharpur is an important town and railway junction in West Singhbhum district, Jharkhand, located approximately 60 km southwest of Jamshedpur. Chakradharpur Junction (CKP) is a major node on the South Eastern Railway's Howrah–Mumbai main line — one of the busiest rail corridors in India — and serves as the divisional headquarters of the Chakradharpur Division, SER. The town serves as a gateway to Chaibasa (the West Singhbhum district headquarters, 35 km further south) and to the tribal heartlands of western Jharkhand. Chakradharpur lies on the route toward Rourkela and Odisha, making it an important transit point. Shivansh Tour & Travel provides cab from Jamshedpur to Chakradharpur for official visits, railway station drops, and transit to Chaibasa and Rourkela.",
+    seoTitle: 'Jamshedpur to Chakradharpur Cab | SER Junction Taxi | Shivansh Tour & Travel',
+    seoDescription: 'Book cab from Jamshedpur to Chakradharpur (CKP Junction, 60 km) with Shivansh Tour & Travel. Railway station drop, outstation. Call +91 7061767617.',
+    primaryKeyword: 'Jamshedpur to Chakradharpur cab',
+    secondaryKeywords: [
+      'Chakradharpur taxi from Jamshedpur',
+      'Chakradharpur CKP railway cab',
+      'Tata to Chakradharpur taxi',
+    ],
+    pickupAreas: ['Bistupur', 'Sakchi', 'Mango', 'Kadma', 'Tatanagar Station'],
+    railwayStation: 'Chakradharpur Junction (CKP) — SER Divisional HQ on Howrah–Mumbai Main Line',
+    nearbyAttractions: ['Chaibasa (35 km south)', 'Tonto Dam (20 km)', 'Koel River'],
+    relatedCityIds: ['jamshedpur', 'chaibasa', 'rourkela'],
+    popularRouteIds: ['jamshedpur-to-chakradharpur', 'jamshedpur-to-chaibasa'],
+    services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
+    travelTips: [
+      'Chakradharpur is 60 km from Jamshedpur — approximately 1.5 hours by cab.',
+      'Chakradharpur Junction (CKP): major trains on Howrah–Mumbai corridor stop here.',
+      'Combine with Chaibasa (35 km further south) for a full West Singhbhum day trip.',
+    ],
+    faqs: [
+      {
+        question: 'How far is Chakradharpur from Jamshedpur?',
+        answer: 'Chakradharpur is approximately 55–65 km from Jamshedpur. The cab ride takes about 1.5 hours.',
+      },
+      {
+        question: 'Why is Chakradharpur important for train travel?',
+        answer: 'Chakradharpur Junction (CKP) is the divisional HQ of South Eastern Railway on the busy Howrah–Mumbai Main Line. Many important express trains halt here.',
+      },
+    ],
+    mapQuery: 'Chakradharpur,+West+Singhbhum,+Jharkhand,+India',
+    index: true,
+    priority: 0.65,
   },
 ];
 

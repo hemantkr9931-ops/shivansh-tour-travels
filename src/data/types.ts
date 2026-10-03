@@ -26,6 +26,7 @@ export interface City {
   services: string[]; // service slugs
   travelTips: string[];
   faqs: CityFaq[];
+  aliases?: string[]; // Other popular names (e.g. Tata, Tata Nagar for Jamshedpur)
   mapQuery: string;
   index: boolean; // Whether to index this page
   priority: number; // Sitemap priority 0.1–1.0

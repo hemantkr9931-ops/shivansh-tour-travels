@@ -124,12 +124,12 @@ export const routes: Route[] = [
     approxDurationHours: 3,
     routeHighlights: [
       'Route via Adityapur, Gamharia, Jharia',
-      'Dhanbad Junction — one of India\'s busiest and most important railway stations',
+      "Dhanbad Junction — one of India\'s busiest and most important railway stations",
       'Coal capital of India — IIM Dhanbad campus',
-      'Jharkhand\'s second most important industrial city',
+      "Jharkhand\'s second most important industrial city",
     ],
     routeDescription:
-      'The Jamshedpur to Dhanbad cab route connects two of Jharkhand\'s most important industrial cities. At approximately 150–160 km, the journey takes about 2.5–3 hours via the Adityapur–Gamharia–Jharia corridor. Dhanbad is known as the coal capital of India and hosts Dhanbad Junction — one of the busiest railway stations in the country, IIM Dhanbad (Indian Institute of Management), and numerous coal company headquarters. Shivansh Tour & Travel serves this route regularly for corporate professionals, students, and families. Our sedan and SUV cabs are fully AC and maintained to a high standard.',
+      "The Jamshedpur to Dhanbad cab route connects two of Jharkhand\'s most important industrial cities. At approximately 150–160 km, the journey takes about 2.5–3 hours via the Adityapur–Gamharia–Jharia corridor. Dhanbad is known as the coal capital of India and hosts Dhanbad Junction — one of the busiest railway stations in the country, IIM Dhanbad (Indian Institute of Management), and numerous coal company headquarters. Shivansh Tour & Travel serves this route regularly for corporate professionals, students, and families. Our sedan and SUV cabs are fully AC and maintained to a high standard.",
     travelTips: [
       'Dhanbad city traffic is heavy near the station area — allow 30 extra minutes if heading there.',
       'Industrial area toll charges add approximately ₹150–180 to the journey.',
@@ -206,13 +206,13 @@ export const routes: Route[] = [
     approxDistanceKm: 160,
     approxDurationHours: 3.5,
     routeHighlights: [
-      'Bokaro Steel City — one of India\'s largest integrated steel plants',
+      "Bokaro Steel City — one of India\'s largest integrated steel plants",
       'Route via Adityapur, Gamharia, or via Dhanbad',
       'Bokaro airport (BOK) — small domestic airport',
       'SAIL Bokaro Steel Plant area',
     ],
     routeDescription:
-      'Jamshedpur to Bokaro Steel City is an important industrial route in Jharkhand covering approximately 155–170 km. Bokaro is home to one of India\'s largest integrated steel plants (SAIL BSL) and is a major destination for professionals, their families, and transfer postings in the steel sector. The route can be taken via Dhanbad or via Ramgarh depending on traffic conditions. Shivansh Tour & Travel provides this service with experienced drivers who know both route options.',
+      "Jamshedpur to Bokaro Steel City is an important industrial route in Jharkhand covering approximately 155–170 km. Bokaro is home to one of India\'s largest integrated steel plants (SAIL BSL) and is a major destination for professionals, their families, and transfer postings in the steel sector. The route can be taken via Dhanbad or via Ramgarh depending on traffic conditions. Shivansh Tour & Travel provides this service with experienced drivers who know both route options.",
     travelTips: [
       'Via Dhanbad route adds toll but is faster on certain days. Confirm preferred route at booking.',
       'SAIL Bokaro plant sector addresses are spread across a large township — confirm exact locality.',
@@ -466,7 +466,7 @@ export const routes: Route[] = [
       'Route via Chaibasa–Rourkela (NH-23/NH-143) — most common route',
       'Alternate route via Kharagpur–Balasore–Bhubaneswar via NH-16',
       'Biju Patnaik International Airport (BBI) at Bhubaneswar',
-      'Odisha\'s capital — Temple City with Lingaraj, Udayagiri Caves, AIIMS Bhubaneswar',
+      "Odisha\'s capital — Temple City with Lingaraj, Udayagiri Caves, AIIMS Bhubaneswar",
     ],
     routeDescription:
       'Jamshedpur to Bhubaneswar is one of the most requested long-distance outstation journeys from Jamshedpur. The Odisha capital is approximately 350–380 km away — a 7–9 hour journey depending on the route. Two main routes are available: via Chaibasa–Rourkela (NH-23 and Odisha highways) or via Kharagpur–Balasore (NH-16). Reasons for travel include Biju Patnaik Airport (BBI) connections, medical treatment at AIIMS Bhubaneswar, temple visits to Lingaraj and other ancient temples, official government work, and family visits. Shivansh recommends the Rourkela route for most travellers as it has good road conditions and is slightly shorter.',
@@ -606,7 +606,7 @@ export const routes: Route[] = [
       'Patna Sahib Gurudwara, Mahatma Gandhi Setu (Ganges bridge)',
     ],
     routeDescription:
-      'Jamshedpur to Patna is a significant intercity route connecting Jharkhand\'s industrial hub to Bihar\'s capital city. At approximately 330–360 km, the journey takes 7–8 hours. Patna is Bihar\'s administrative capital with Jay Prakash Narayan International Airport (PAT), major hospitals, universities, and government offices. The route passes through Dhanbad and continues via Aurangabad or Gaya depending on the selected path. Shivansh Tour & Travel provides reliable cab service on this corridor — ideal for government officials, business travellers, students at Patna University, and families visiting relatives.',
+      "Jamshedpur to Patna is a significant intercity route connecting Jharkhand\'s industrial hub to Bihar\'s capital city. At approximately 330–360 km, the journey takes 7–8 hours. Patna is Bihar\'s administrative capital with Jay Prakash Narayan International Airport (PAT), major hospitals, universities, and government offices. The route passes through Dhanbad and continues via Aurangabad or Gaya depending on the selected path. Shivansh Tour & Travel provides reliable cab service on this corridor — ideal for government officials, business travellers, students at Patna University, and families visiting relatives.",
     travelTips: [
       'Route via Dhanbad–Hazaribagh–Koderma–Gaya–Patna is commonly used.',
       'Allow a full day — 7–8 hours driving plus stops.',
@@ -648,7 +648,7 @@ export const routes: Route[] = [
     approxDistanceKm: 185,
     approxDurationHours: 4,
     routeHighlights: [
-      'Durgapur — West Bengal\'s second most important industrial city',
+      "Durgapur — West Bengal\'s second most important industrial city",
       'Durgapur Steel Plant (DSP) and SAIL campus',
       'Route via Asansol — smooth NH-19 highway',
       'Durgapur Barrage scenic area',
@@ -701,7 +701,7 @@ export const routes: Route[] = [
       'Gaya Airport (GAY) for connecting flights',
     ],
     routeDescription:
-      'The Jamshedpur to Gaya cab route serves one of Jharkhand\'s most important pilgrimage corridors. Gaya is a sacred city on the banks of the Falgu River where Hindus perform Pind Daan for ancestors — a ritual believed to grant moksha. Just 12 km from Gaya is Bodh Gaya, where Gautama Buddha attained enlightenment under the Bodhi Tree — now a UNESCO World Heritage Site and the most sacred site in Buddhism. The approximately 280–310 km journey takes 6–7 hours via Dhanbad and Hazaribagh. Shivansh Tour & Travel provides respectful, comfortable service for both Hindu and Buddhist pilgrims.',
+      "The Jamshedpur to Gaya cab route serves one of Jharkhand\'s most important pilgrimage corridors. Gaya is a sacred city on the banks of the Falgu River where Hindus perform Pind Daan for ancestors — a ritual believed to grant moksha. Just 12 km from Gaya is Bodh Gaya, where Gautama Buddha attained enlightenment under the Bodhi Tree — now a UNESCO World Heritage Site and the most sacred site in Buddhism. The approximately 280–310 km journey takes 6–7 hours via Dhanbad and Hazaribagh. Shivansh Tour & Travel provides respectful, comfortable service for both Hindu and Buddhist pilgrims.",
     travelTips: [
       'Bodh Gaya is just 12 km from Gaya — easily combined in the same trip.',
       'Pitrupaksha (Shraddha) period sees maximum demand — book 2–3 weeks in advance.',
@@ -747,12 +747,12 @@ export const routes: Route[] = [
     approxDistanceKm: 185,
     approxDurationHours: 4,
     routeHighlights: [
-      'IIT Kharagpur — India\'s premier engineering institution',
+      "IIT Kharagpur — India\'s premier engineering institution",
       'Kharagpur Junction — one of the longest railway platforms in India',
       'Gateway to Kolkata (90 km further on NH-16)',
     ],
     routeDescription:
-      'Jamshedpur to Kharagpur is a popular route for IIT students, parents dropping off children, and professionals. Kharagpur is approximately 175–195 km from Jamshedpur, about 3.5–4 hours via NH-16. The city is famous for IIT Kharagpur and Kharagpur Junction (one of the world\'s longest railway platforms). Many travellers use this as a drop-off point en route to Kolkata.',
+      "Jamshedpur to Kharagpur is a popular route for IIT students, parents dropping off children, and professionals. Kharagpur is approximately 175–195 km from Jamshedpur, about 3.5–4 hours via NH-16. The city is famous for IIT Kharagpur and Kharagpur Junction (one of the world\'s longest railway platforms). Many travellers use this as a drop-off point en route to Kolkata.",
     travelTips: ['Kharagpur is often a transit stop — consider combining with Kolkata.'],
     services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
     recommendedVehicles: ['sedan', 'muv'],
@@ -790,7 +790,7 @@ export const routes: Route[] = [
       'Hanuman Vatika — large park and temple complex',
     ],
     routeDescription:
-      'Jamshedpur to Rourkela via Chaibasa is approximately 180–200 km, taking about 4–5 hours. Rourkela, in Odisha\'s Sundergarh district, is a planned industrial city built around SAIL\'s Rourkela Steel Plant. It is home to NIT Rourkela, one of the premier engineering institutions. Students, SAIL employees, NIT families, and officials frequently travel this route. The road through Chaibasa and West Singhbhum is generally good quality.',
+      "Jamshedpur to Rourkela via Chaibasa is approximately 180–200 km, taking about 4–5 hours. Rourkela, in Odisha\'s Sundergarh district, is a planned industrial city built around SAIL\'s Rourkela Steel Plant. It is home to NIT Rourkela, one of the premier engineering institutions. Students, SAIL employees, NIT families, and officials frequently travel this route. The road through Chaibasa and West Singhbhum is generally good quality.",
     travelTips: ['Route passes through Chaibasa — good rest stop at 1.5 hours.'],
     services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi', 'corporate-travel'],
     recommendedVehicles: ['sedan', 'muv', 'suv'],
@@ -823,7 +823,7 @@ export const routes: Route[] = [
     approxDurationHours: 1.5,
     routeHighlights: [
       'West Singhbhum district headquarters',
-      'Gateway to Saranda — Asia\'s largest Sal forest',
+      "Gateway to Saranda — Asia\'s largest Sal forest",
       'District courts, government offices hub',
     ],
     routeDescription:
@@ -985,7 +985,7 @@ export const routes: Route[] = [
     routeHighlights: [
       'Netarhat — "Queen of Chotanagpur" — a breathtaking hill station at 3,622 ft',
       'Famous sunrise and sunset points over Chotanagpur valleys',
-      'Netarhat Residential School — one of India\'s most prestigious boarding schools',
+      "Netarhat Residential School — one of India\'s most prestigious boarding schools",
       'Magnolia Point, Upper Ghagri Falls, Lower Ghagri Falls',
     ],
     routeDescription:
@@ -1116,13 +1116,13 @@ export const routes: Route[] = [
     approxDistanceKm: 155,
     approxDurationHours: 3.5,
     routeHighlights: [
-      'Asansol — West Bengal\'s second largest city by population',
+      "Asansol — West Bengal\'s second largest city by population",
       'Major railway junction — Asansol Junction (ASN)',
       'Bengal coal-steel industrial belt',
       'Gateway to Durgapur (30 km) and Kolkata (175 km)',
     ],
     routeDescription:
-      'Jamshedpur to Asansol covers approximately 145–165 km, about 3–3.5 hours. Asansol is West Bengal\'s second largest city and a major railway hub on the Howrah–Delhi main line. The city is closely connected to the Bengal coal-steel industrial belt. Shivansh Tour & Travel provides cab service for professionals, students, and families travelling to Asansol for business, railway connections, or en route to Durgapur.',
+      "Jamshedpur to Asansol covers approximately 145–165 km, about 3–3.5 hours. Asansol is West Bengal\'s second largest city and a major railway hub on the Howrah–Delhi main line. The city is closely connected to the Bengal coal-steel industrial belt. Shivansh Tour & Travel provides cab service for professionals, students, and families travelling to Asansol for business, railway connections, or en route to Durgapur.",
     travelTips: ['Asansol Junction is a major railway hub — cab to station is a common booking.'],
     services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
     recommendedVehicles: ['sedan', 'muv'],
@@ -1194,7 +1194,7 @@ export const routes: Route[] = [
     approxDistanceKm: 390,
     approxDurationHours: 8.5,
     routeHighlights: [
-      'Cuttack — Odisha\'s Silver City and former capital',
+      "Cuttack — Odisha\'s Silver City and former capital",
       'Dhabaleswar Temple on island in Mahanadi River',
       'Cuttack Chandi Temple — historic Shakti temple',
     ],
@@ -1231,12 +1231,12 @@ export const routes: Route[] = [
     approxDistanceKm: 295,
     approxDurationHours: 7,
     routeHighlights: [
-      'Sambalpur — western Odisha\'s major city',
+      "Sambalpur — western Odisha\'s major city",
       'Hirakud Dam — one of the longest earthen dams in the world',
       'Sambalpuri sarees — famous handloom textile',
     ],
     routeDescription:
-      'Jamshedpur to Sambalpur covers approximately 280–310 km, about 6–7 hours via Rourkela. Sambalpur is western Odisha\'s major city, known for the Hirakud Dam (one of the world\'s longest earthen dams), Sambalpuri handloom textile, and proximity to Debrigarh Wildlife Sanctuary. This route is used for business, official travel, and tourism.',
+      "Jamshedpur to Sambalpur covers approximately 280–310 km, about 6–7 hours via Rourkela. Sambalpur is western Odisha\'s major city, known for the Hirakud Dam (one of the world\'s longest earthen dams), Sambalpuri handloom textile, and proximity to Debrigarh Wildlife Sanctuary. This route is used for business, official travel, and tourism.",
     travelTips: ['Via Rourkela route is standard — about 110 km from Rourkela to Sambalpur.'],
     services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
     recommendedVehicles: ['sedan', 'muv', 'suv'],
@@ -1268,12 +1268,12 @@ export const routes: Route[] = [
     approxDistanceKm: 450,
     approxDurationHours: 9.5,
     routeHighlights: [
-      'Muzaffarpur — Bihar\'s second largest city',
+      "Muzaffarpur — Bihar\'s second largest city",
       'Litchi capital of India — famous Shahi Litchi',
       'Vaishali — ancient Buddhist pilgrimage site (40 km)',
     ],
     routeDescription:
-      'Jamshedpur to Muzaffarpur covers approximately 430–470 km via Patna, about 9–10 hours. Muzaffarpur is Bihar\'s second largest city — famous for the world-renowned Shahi Litchi and as a commercial hub. Nearby Vaishali is an important Buddhist heritage site. This is typically a planned multi-day journey.',
+      "Jamshedpur to Muzaffarpur covers approximately 430–470 km via Patna, about 9–10 hours. Muzaffarpur is Bihar\'s second largest city — famous for the world-renowned Shahi Litchi and as a commercial hub. Nearby Vaishali is an important Buddhist heritage site. This is typically a planned multi-day journey.",
     travelTips: ['Long journey — overnight travel recommended. Start at 10 PM to reach by morning.'],
     services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
     recommendedVehicles: ['sedan', 'muv', 'suv'],
@@ -1934,7 +1934,7 @@ export const routes: Route[] = [
       'Chandil Dam and reservoir visible on the broader route',
     ],
     routeDescription:
-      'The Jamshedpur to Seraikela cab route covers approximately 35–40 km, taking about 1 hour by road. Seraikela, the headquarters of Seraikela-Kharsawan district, is famous worldwide for the Seraikela Chhau — a semi-classical dance form originating from the royal family of Seraikela and now listed among UNESCO\'s Intangible Cultural Heritage. The town has retained its cultural identity despite modernisation, and the annual Chaitra Parva festival (March–April) draws Chhau dancers and cultural enthusiasts from across the country. Shivansh Tour & Travel provides short-distance cab service for this route, ideal for government offices, court visits, and cultural tourism.',
+      "The Jamshedpur to Seraikela cab route covers approximately 35–40 km, taking about 1 hour by road. Seraikela, the headquarters of Seraikela-Kharsawan district, is famous worldwide for the Seraikela Chhau — a semi-classical dance form originating from the royal family of Seraikela and now listed among UNESCO\'s Intangible Cultural Heritage. The town has retained its cultural identity despite modernisation, and the annual Chaitra Parva festival (March–April) draws Chhau dancers and cultural enthusiasts from across the country. Shivansh Tour & Travel provides short-distance cab service for this route, ideal for government offices, court visits, and cultural tourism.",
     travelTips: [
       'Seraikela is under 1 hour from Jamshedpur — ideal for half-day or day trips.',
       'Best visited during Chaitra Parva (March–April) for Chhau dance performances.',
@@ -2066,7 +2066,7 @@ export const routes: Route[] = [
       'Passes near Chandil Dam reservoir',
     ],
     routeDescription:
-      'The Jamshedpur to Kharsawan cab covers approximately 55 km via NH-33, passing through Adityapur and Gamharia. Kharsawan is a historically significant sub-divisional town remembered for the 1948 Kharsawan Firing — a pivotal event in the movement for Jharkhand\'s creation. The town lies near Chandil Dam on the Subarnarekha River and is a transit point for travellers heading deeper into Seraikela-Kharsawan district.',
+      "The Jamshedpur to Kharsawan cab covers approximately 55 km via NH-33, passing through Adityapur and Gamharia. Kharsawan is a historically significant sub-divisional town remembered for the 1948 Kharsawan Firing — a pivotal event in the movement for Jharkhand\'s creation. The town lies near Chandil Dam on the Subarnarekha River and is a transit point for travellers heading deeper into Seraikela-Kharsawan district.",
     travelTips: ['Approximately 1–1.5 hours from Jamshedpur. Chandil Dam is nearby for a scenic detour.'],
     services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
     recommendedVehicles: ['sedan', 'muv'],
@@ -2171,12 +2171,12 @@ export const routes: Route[] = [
     approxDurationHours: 5.5,
     routeHighlights: [
       'NH-16 via Kharagpur — the primary Jamshedpur to Kolkata/Howrah highway',
-      'Howrah Junction — India\'s busiest railway terminus',
+      "Howrah Junction — India\'s busiest railway terminus",
       'Howrah Bridge (Rabindra Setu) — iconic landmark',
       'Direct access to major Kolkata hospitals and metro from Howrah',
     ],
     routeDescription:
-      'The Jamshedpur to Howrah cab covers approximately 265–275 km via NH-16 through Kharagpur, taking approximately 5.5–6 hours. Howrah Junction — located on the western bank of the Hooghly River opposite Kolkata — is India\'s busiest railway station and the departure point for trains to Delhi, Mumbai, Chennai, and across the country. Many Jamshedpur travellers prefer Howrah over Kolkata as their drop point due to direct train connectivity. Shivansh Tour & Travel provides comfortable, on-time cab service for Howrah station drops, with experience on the NH-16 corridor.',
+      "The Jamshedpur to Howrah cab covers approximately 265–275 km via NH-16 through Kharagpur, taking approximately 5.5–6 hours. Howrah Junction — located on the western bank of the Hooghly River opposite Kolkata — is India\'s busiest railway station and the departure point for trains to Delhi, Mumbai, Chennai, and across the country. Many Jamshedpur travellers prefer Howrah over Kolkata as their drop point due to direct train connectivity. Shivansh Tour & Travel provides comfortable, on-time cab service for Howrah station drops, with experience on the NH-16 corridor.",
     travelTips: [
       'Allow 6–7 hours from Jamshedpur to Howrah Junction, factoring in Kharagpur town traffic.',
       'For early morning trains from Howrah, depart Jamshedpur by midnight for punctual arrival.',
@@ -2294,7 +2294,7 @@ export const routes: Route[] = [
       'Mukutmanipur Dam — scenic reservoir',
     ],
     routeDescription:
-      'The Jamshedpur to Bankura cab covers approximately 170–185 km via Purulia, taking 3.5–4.5 hours. Bankura district is culturally one of the richest destinations in West Bengal — home to the iconic terracotta Bankura horse, Bishnupur\'s 17th-century temples (built using lakhauri brick in pancharatna and navaratna styles), the Bishnupur Gharana of classical music, Susunia Hill (a rock-climbing hub), and Mukutmanipur reservoir. This route is popular for weekend cultural tourism from Jamshedpur.',
+      "The Jamshedpur to Bankura cab covers approximately 170–185 km via Purulia, taking 3.5–4.5 hours. Bankura district is culturally one of the richest destinations in West Bengal — home to the iconic terracotta Bankura horse, Bishnupur\'s 17th-century temples (built using lakhauri brick in pancharatna and navaratna styles), the Bishnupur Gharana of classical music, Susunia Hill (a rock-climbing hub), and Mukutmanipur reservoir. This route is popular for weekend cultural tourism from Jamshedpur.",
     travelTips: [
       'Bankura via Purulia is the standard route — approximately 170–185 km.',
       'Bishnupur is 35 km from Bankura town — combine both in a round trip.',
@@ -2411,7 +2411,7 @@ export const routes: Route[] = [
       'Industrial corridor travel for corporate professionals',
     ],
     routeDescription:
-      'The Jamshedpur to Haldia cab covers approximately 300–315 km, following NH-16 to Kharagpur (175 km) before turning south toward Kolaghat and Haldia Port. This route is primarily used by corporate professionals and industrial workers connecting the Tata Group facilities in Jamshedpur to Haldia\'s port, petrochemical, and refinery operations. Shivansh Tour & Travel provides premium AC sedan and SUV service for corporate guests on this corridor.',
+      "The Jamshedpur to Haldia cab covers approximately 300–315 km, following NH-16 to Kharagpur (175 km) before turning south toward Kolaghat and Haldia Port. This route is primarily used by corporate professionals and industrial workers connecting the Tata Group facilities in Jamshedpur to Haldia\'s port, petrochemical, and refinery operations. Shivansh Tour & Travel provides premium AC sedan and SUV service for corporate guests on this corridor.",
     travelTips: [
       'Allow 6.5–7.5 hours for the Jamshedpur–Haldia journey.',
       'Kolaghat bridge area can experience congestion — plan accordingly.',
@@ -2645,7 +2645,7 @@ export const routes: Route[] = [
       'Bardhaman Railway Station — major junction on Howrah–Delhi main line',
     ],
     routeDescription:
-      'The Jamshedpur to Bardhaman cab covers approximately 245–255 km via Asansol on NH-19 (the Grand Trunk Road), taking approximately 5–6 hours. Bardhaman (Burdwan) is a historic city in West Bengal with architectural landmarks like Curzon Gate and the Nawab\'s Palace, and is globally known for the GI-tagged sweets Mihidana and Sitabhog. Bardhaman Railway Station is a major junction on the Howrah–Delhi Main Line, making this route particularly popular for travellers catching long-distance trains.',
+      "The Jamshedpur to Bardhaman cab covers approximately 245–255 km via Asansol on NH-19 (the Grand Trunk Road), taking approximately 5–6 hours. Bardhaman (Burdwan) is a historic city in West Bengal with architectural landmarks like Curzon Gate and the Nawab\'s Palace, and is globally known for the GI-tagged sweets Mihidana and Sitabhog. Bardhaman Railway Station is a major junction on the Howrah–Delhi Main Line, making this route particularly popular for travellers catching long-distance trains.",
     travelTips: [
       'Bardhaman is ~245 km from Jamshedpur, about 5–6 hours via Asansol on NH-19.',
       'For Bardhaman station trains, allow sufficient buffer for GT Road traffic near Asansol.',
@@ -2866,10 +2866,10 @@ export const routes: Route[] = [
       'Route via Rourkela or via Bhubaneswar toward South Odisha',
       'Berhampur — South Odisha silk city, Ganjam district headquarters',
       'Gopalpur-on-Sea beach 15 km from Berhampur',
-      'Chilika Lake — Asia\'s largest coastal lagoon — en route (via Bhubaneswar)',
+      "Chilika Lake — Asia\'s largest coastal lagoon — en route (via Bhubaneswar)",
     ],
     routeDescription:
-      'The Jamshedpur to Berhampur cab is a long-distance journey of approximately 470–490 km to the commercial capital of South Odisha, taking approximately 9–10 hours via Bhubaneswar (the preferred route via NH-16 through Chaibasa). Berhampur is famous for Patta silk weaving, with thousands of handloom weavers producing intricate ikat designs. Just 15 km from Berhampur is Gopalpur-on-Sea — one of Odisha\'s most historic and romantic beach resorts. Shivansh Tour & Travel provides this long-distance outstation cab for business and tourism.',
+      "The Jamshedpur to Berhampur cab is a long-distance journey of approximately 470–490 km to the commercial capital of South Odisha, taking approximately 9–10 hours via Bhubaneswar (the preferred route via NH-16 through Chaibasa). Berhampur is famous for Patta silk weaving, with thousands of handloom weavers producing intricate ikat designs. Just 15 km from Berhampur is Gopalpur-on-Sea — one of Odisha\'s most historic and romantic beach resorts. Shivansh Tour & Travel provides this long-distance outstation cab for business and tourism.",
     travelTips: [
       'Via Bhubaneswar route (through Rourkela): approximately 470–490 km, 9–10 hours.',
       'Plan an overnight stay in Berhampur for a comfortable trip.',
@@ -2985,7 +2985,7 @@ export const routes: Route[] = [
       'Ksheera Chora Gopinath Temple at Remuna (15 km)',
     ],
     routeDescription:
-      'The Jamshedpur to Balasore cab covers approximately 300–315 km via Chaibasa and Baripada (Mayurbhanj) into North Odisha, taking approximately 6–7 hours. Balasore (Baleshwar) is significant for the DRDO Integrated Test Range (ITR) at Chandipur — India\'s missile testing site. The unique Chandipur beach, where the sea recedes 5 km at low tide exposing a vast sandy plain, is a fascinating natural spectacle. The Ksheera Chora Gopinath Temple at Remuna — a Vaishnava pilgrimage site where Lord Krishna is said to have stolen kheer for Chaitanya Mahaprabhu — is another important stop.',
+      "The Jamshedpur to Balasore cab covers approximately 300–315 km via Chaibasa and Baripada (Mayurbhanj) into North Odisha, taking approximately 6–7 hours. Balasore (Baleshwar) is significant for the DRDO Integrated Test Range (ITR) at Chandipur — India\'s missile testing site. The unique Chandipur beach, where the sea recedes 5 km at low tide exposing a vast sandy plain, is a fascinating natural spectacle. The Ksheera Chora Gopinath Temple at Remuna — a Vaishnava pilgrimage site where Lord Krishna is said to have stolen kheer for Chaitanya Mahaprabhu — is another important stop.",
     travelTips: [
       'Allow 6–7 hours from Jamshedpur to Balasore.',
       'Chandipur beach is best visited at low tide — check tide timings before visiting.',
@@ -3096,11 +3096,11 @@ export const routes: Route[] = [
     routeHighlights: [
       'Route via Chaibasa and Barbil toward Keonjhar',
       'Keonjhar — mineral-rich district with iron ore and manganese mines',
-      'Gateway to Barehipani Falls (399 m — one of India\'s highest) in Simlipal range',
+      "Gateway to Barehipani Falls (399 m — one of India\'s highest) in Simlipal range",
       'Gonasika — sacred origin of Brahmani River',
     ],
     routeDescription:
-      'The Jamshedpur to Keonjhar cab covers approximately 170–185 km via Chaibasa and Barbil in North Odisha, taking approximately 3.5–4 hours. Keonjhar (Kendujhar) is one of India\'s most mineral-endowed districts and a key supplier of iron ore to steel plants including Tata Steel. The district is also a gateway to two stunning natural wonders — Barehipani Falls (399 metres, one of India\'s highest waterfalls) and Sanaghagara Falls, both within the Simlipal Biosphere Reserve corridor. Gonasika, believed to be where the Brahmani River emerges from a cow\'s nostril-shaped rock, is a sacred pilgrimage spot.',
+      "The Jamshedpur to Keonjhar cab covers approximately 170–185 km via Chaibasa and Barbil in North Odisha, taking approximately 3.5–4 hours. Keonjhar (Kendujhar) is one of India\'s most mineral-endowed districts and a key supplier of iron ore to steel plants including Tata Steel. The district is also a gateway to two stunning natural wonders — Barehipani Falls (399 metres, one of India\'s highest waterfalls) and Sanaghagara Falls, both within the Simlipal Biosphere Reserve corridor. Gonasika, believed to be where the Brahmani River emerges from a cow\'s nostril-shaped rock, is a sacred pilgrimage spot.",
     travelTips: [
       'Keonjhar is approximately 3.5–4 hours from Jamshedpur via Chaibasa.',
       'For Barehipani Falls, plan an additional 80 km from Keonjhar town within Simlipal area.',
@@ -3318,10 +3318,10 @@ export const routes: Route[] = [
       'Route via Chaibasa into Mayurbhanj district',
       'Baripada — Simlipal National Park gateway (UNESCO Biosphere Reserve)',
       'Simlipal: tigers, elephants, Barehipani Falls (399 m), Joranda Falls',
-      'Baripada Rath Yatra — said to precede Puri\'s Rath Yatra',
+      "Baripada Rath Yatra — said to precede Puri\'s Rath Yatra",
     ],
     routeDescription:
-      'The Jamshedpur to Baripada cab covers approximately 215–230 km via Chaibasa into Mayurbhanj district in North Odisha, taking approximately 4.5–5 hours. Baripada is the administrative headquarters of Mayurbhanj — the largest district in Odisha by area — and the primary gateway to Simlipal National Park, one of India\'s most biodiverse wildlife sanctuaries and a UNESCO Biosphere Reserve. Simlipal is home to Royal Bengal tigers, Asian elephants, leopards, crocodiles, and over 400 bird species, in addition to the spectacular Barehipani (399 m) and Joranda waterfalls. The annual Baripada Rath Yatra (preceding Puri\'s famous festival) is a major cultural event.',
+      "The Jamshedpur to Baripada cab covers approximately 215–230 km via Chaibasa into Mayurbhanj district in North Odisha, taking approximately 4.5–5 hours. Baripada is the administrative headquarters of Mayurbhanj — the largest district in Odisha by area — and the primary gateway to Simlipal National Park, one of India\'s most biodiverse wildlife sanctuaries and a UNESCO Biosphere Reserve. Simlipal is home to Royal Bengal tigers, Asian elephants, leopards, crocodiles, and over 400 bird species, in addition to the spectacular Barehipani (399 m) and Joranda waterfalls. The annual Baripada Rath Yatra (preceding Puri\'s famous festival) is a major cultural event.",
     travelTips: [
       'Baripada is approximately 4.5–5 hours from Jamshedpur.',
       'Simlipal National Park entry permit is mandatory — book via the Odisha Forest Department website.',
@@ -3564,13 +3564,13 @@ export const routes: Route[] = [
       'Route via Dhanbad and Deoghar toward Bhagalpur',
       'Bhagalpur — Silk City of India, Tussar (Bhagalpur silk) weaving centre',
       'Vikramshila University ruins (50 km from Bhagalpur)',
-      'Gangetic Dolphin Sanctuary — India\'s national aquatic animal can be spotted here',
+      "Gangetic Dolphin Sanctuary — India\'s national aquatic animal can be spotted here",
     ],
     routeDescription:
-      'The Jamshedpur to Bhagalpur cab covers approximately 270–290 km via Dhanbad and Deoghar (or via Dumka), taking approximately 6–7 hours. Bhagalpur, Bihar\'s third largest city, is the Silk City of India — its Tussar silk fabric and handloom sarees are exported globally. The ruins of Vikramshila University (50 km east) — one of medieval India\'s greatest Buddhist learning centres — are a significant heritage destination. The Vikramshila Gangetic Dolphin Sanctuary makes Bhagalpur one of the few places in the world where you can spot the rare Gangetic river dolphin (Platanista gangetica), India\'s national aquatic animal.',
+      "The Jamshedpur to Bhagalpur cab covers approximately 270–290 km via Dhanbad and Deoghar (or via Dumka), taking approximately 6–7 hours. Bhagalpur, Bihar\'s third largest city, is the Silk City of India — its Tussar silk fabric and handloom sarees are exported globally. The ruins of Vikramshila University (50 km east) — one of medieval India\'s greatest Buddhist learning centres — are a significant heritage destination. The Vikramshila Gangetic Dolphin Sanctuary makes Bhagalpur one of the few places in the world where you can spot the rare Gangetic river dolphin (Platanista gangetica), India\'s national aquatic animal.",
     travelTips: [
       'Approximately 6–7 hours from Jamshedpur via Dhanbad and Deoghar.',
-      'Visit the silk weavers\'s area (Nathnagar) to see Tussar silk being woven by hand.',
+      "Visit the silk weavers\'s area (Nathnagar) to see Tussar silk being woven by hand.",
       'Vikramshila ruins (50 km from Bhagalpur) can be visited en route to or from the city.',
     ],
     services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
@@ -3997,7 +3997,7 @@ export const routes: Route[] = [
       'Nalanda University ruins (12 km away)',
     ],
     routeDescription:
-      'The Jamshedpur to Rajgir cab covers approximately 315–330 km via Dhanbad and Gaya, taking approximately 7–8 hours. Rajgir is one of the most historically and spiritually significant towns in Bihar — the first capital of the Magadha Empire and a site deeply sacred to Buddhism (Buddha\'s discourses at Gridhakuta), Jainism (Mahavira spent 14 years here), and Hinduism (the sacred Brahma Kund hot springs). The Japanese-built Vishwa Shanti Stupa on Ratnagiri Hill (accessible by ropeway) offers panoramic views. Nalanda University ruins — one of the world\'s first great universities — are just 12 km away. Shivansh Tour & Travel provides pilgrimage and heritage tourism cab for this important route.',
+      "The Jamshedpur to Rajgir cab covers approximately 315–330 km via Dhanbad and Gaya, taking approximately 7–8 hours. Rajgir is one of the most historically and spiritually significant towns in Bihar — the first capital of the Magadha Empire and a site deeply sacred to Buddhism (Buddha\'s discourses at Gridhakuta), Jainism (Mahavira spent 14 years here), and Hinduism (the sacred Brahma Kund hot springs). The Japanese-built Vishwa Shanti Stupa on Ratnagiri Hill (accessible by ropeway) offers panoramic views. Nalanda University ruins — one of the world\'s first great universities — are just 12 km away. Shivansh Tour & Travel provides pilgrimage and heritage tourism cab for this important route.",
     travelTips: [
       'Allow 7–8 hours from Jamshedpur to Rajgir.',
       'Combine with Nalanda (12 km) for a complete heritage experience.',
@@ -4112,7 +4112,7 @@ export const routes: Route[] = [
     approxDurationHours: 7,
     routeHighlights: [
       'Route via Dhanbad and Gaya toward Nalanda',
-      'Nalanda Mahavihara — world\'s first great residential university (5th century CE)',
+      "Nalanda Mahavihara — world\'s first great residential university (5th century CE)",
       'UNESCO World Heritage Site since 2016',
       'Xuanzang (Hiuen Tsang) Memorial Hall at Nalanda',
       'Rajgir (12 km) and Pawapuri (20 km) can be combined',
@@ -4216,6 +4216,263 @@ export const routes: Route[] = [
     seoTitle: 'Nalanda to Ranchi Cab | Jharkhand Taxi | Shivansh Tour & Travel',
     seoDescription: 'Book cab from Nalanda to Ranchi with Shivansh Tour & Travel. Call +91 7061767617.',
     primaryKeyword: 'Nalanda to Ranchi cab',
+  },
+
+  // ==================== JAMSHEDPUR ↔ GHATSHILA ====================
+  {
+    id: 'jamshedpur-to-ghatshila',
+    slug: 'jamshedpur-to-ghatshila',
+    origin: 'jamshedpur',
+    destination: 'ghatshila',
+    originName: 'Jamshedpur',
+    destinationName: 'Ghatshila',
+    originState: 'jharkhand',
+    destinationState: 'jharkhand',
+    approxDistanceKm: 40,
+    approxDurationHours: 1,
+    routeHighlights: [
+      'NH-16 east from Tatanagar toward Baharagora, exit at Ghatshila',
+      "Ghatshila Ghat — Subarnarekha riverside, one of Jharkhand's finest natural spots",
+      'Maa Rankini Devi Temple on a hilltop with panoramic river views',
+      'Dharagiri Falls — 7 km from Ghatshila (best in monsoon)',
+      'Town immortalised by Bengali novelist Bibhutibhushan Bandyopadhyay',
+    ],
+    routeDescription:
+      "The Jamshedpur to Ghatshila cab covers approximately 38–42 km via NH-16 eastward, taking about 50–60 minutes. Ghatshila is one of Jharkhand's most beloved natural getaways — a hilly riverside town on the crystal-clear Subarnarekha River. The Ghatshila Ghat offers a serene riverside experience perfect for morning walks and photography. The Maa Rankini Devi Temple sits on a rocky hillock above the river with spectacular views. Dharagiri Falls (7 km) is a beautiful seasonal waterfall. Fuladoba Hill offers trekking trails through tropical forest. The town is also historically significant as the home of Bengali author Bibhutibhushan Bandyopadhyay, who wrote here. Shivansh Tour & Travel — based in Sonari, Jamshedpur — provides half-day, full-day, and one-way cabs for this popular day trip.",
+    travelTips: [
+      'Ghatshila is 40 km from Jamshedpur — about 1 hour via NH-16.',
+      'Half-day trip (4–5 hours): Ghatshila Ghat + Rankini Temple. Full-day: add Dharagiri Falls.',
+      'Best season: October–March. Monsoon (July–September): Dharagiri Falls at peak but roads slippery.',
+      "Jadugoda (India's uranium mines) is 15 km before Ghatshila — can be a quick stop.",
+    ],
+    services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
+    recommendedVehicles: ['sedan', 'muv'],
+    faqs: [
+      {
+        question: 'How far is Ghatshila from Jamshedpur?',
+        answer: 'Ghatshila is approximately 40 km east of Jamshedpur via NH-16. The cab ride takes about 50–60 minutes.',
+      },
+      {
+        question: 'Can I visit Dharagiri Falls on a Ghatshila day trip?',
+        answer: 'Yes. Dharagiri Falls is 7 km beyond Ghatshila town. Book a full-day round-trip cab from Jamshedpur to cover both. Call +91 7061767617.',
+      },
+    ],
+    relatedRouteIds: ['ghatshila-to-jamshedpur', 'jamshedpur-to-jadugoda'],
+    relatedCityIds: ['jamshedpur', 'ghatshila', 'jadugoda'],
+    index: true,
+    priority: 0.74,
+    seoTitle: 'Jamshedpur to Ghatshila Cab | Subarnarekha Day Trip Taxi | Shivansh',
+    seoDescription: 'Book cab from Jamshedpur (Tata) to Ghatshila. Rankini Temple, Dharagiri Falls. One-way and round-trip. Call +91 7061767617.',
+    primaryKeyword: 'Jamshedpur to Ghatshila cab',
+  },
+  {
+    id: 'ghatshila-to-jamshedpur',
+    slug: 'ghatshila-to-jamshedpur',
+    origin: 'ghatshila',
+    destination: 'jamshedpur',
+    originName: 'Ghatshila',
+    destinationName: 'Jamshedpur',
+    originState: 'jharkhand',
+    destinationState: 'jharkhand',
+    approxDistanceKm: 40,
+    approxDurationHours: 1,
+    routeHighlights: ['Return: Ghatshila to Jamshedpur via NH-16', '1-hour return from Subarnarekha riverside'],
+    routeDescription:
+      'The Ghatshila to Jamshedpur return cab covers ~40 km via NH-16 in about 50–60 minutes. Pickup available from Ghatshila Ghat, Rankini Temple area, or your lodge in Ghatshila.',
+    travelTips: ['For post-sunset returns, call ahead to arrange pickup.'],
+    services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
+    recommendedVehicles: ['sedan', 'muv'],
+    faqs: [
+      {
+        question: 'Can I book return cab from Ghatshila to Jamshedpur?',
+        answer: 'Yes. Shivansh Tour & Travel provides cab from Ghatshila to Jamshedpur. Call +91 7061767617.',
+      },
+    ],
+    relatedRouteIds: ['jamshedpur-to-ghatshila'],
+    relatedCityIds: ['jamshedpur', 'ghatshila'],
+    index: true,
+    priority: 0.70,
+    seoTitle: 'Ghatshila to Jamshedpur Cab | Return Taxi | Shivansh Tour & Travel',
+    seoDescription: 'Book return cab from Ghatshila to Jamshedpur (Tata) with Shivansh. Call +91 7061767617.',
+    primaryKeyword: 'Ghatshila to Jamshedpur cab',
+  },
+
+  // ==================== JAMSHEDPUR ↔ JADUGODA ====================
+  {
+    id: 'jamshedpur-to-jadugoda',
+    slug: 'jamshedpur-to-jadugoda',
+    origin: 'jamshedpur',
+    destination: 'jadugoda',
+    originName: 'Jamshedpur',
+    destinationName: 'Jadugoda',
+    originState: 'jharkhand',
+    destinationState: 'jharkhand',
+    approxDistanceKm: 25,
+    approxDurationHours: 0.75,
+    routeHighlights: [
+      'NH-16 east from Tatanagar toward Baharagora',
+      "Jadugoda — India's first uranium mines (UCIL, Department of Atomic Energy)",
+      'Gateway to Ghatshila (15 km further east)',
+    ],
+    routeDescription:
+      "The Jamshedpur to Jadugoda cab covers ~25 km via NH-16 in approximately 40–45 minutes. Jadugoda is a UCIL company township hosting India's first uranium mines. It is also a staging point for Ghatshila (15 km further). Shivansh Tour & Travel provides cab for UCIL employees, official visitors, and transit travellers.",
+    travelTips: ['Jadugoda is 25 km from Jamshedpur — 40–45 minutes via NH-16.', 'UCIL restricted zones require prior visitor clearance.'],
+    services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
+    recommendedVehicles: ['sedan', 'muv'],
+    faqs: [
+      { question: 'How far is Jadugoda from Jamshedpur?', answer: 'Approximately 25 km via NH-16. About 40–45 minutes.' },
+    ],
+    relatedRouteIds: ['jadugoda-to-jamshedpur', 'jamshedpur-to-ghatshila'],
+    relatedCityIds: ['jamshedpur', 'jadugoda', 'ghatshila'],
+    index: true,
+    priority: 0.66,
+    seoTitle: 'Jamshedpur to Jadugoda Cab | Uranium Mine Taxi | Shivansh Tour & Travel',
+    seoDescription: 'Book cab from Jamshedpur to Jadugoda (UCIL, 25 km) with Shivansh Tour & Travel. Call +91 7061767617.',
+    primaryKeyword: 'Jamshedpur to Jadugoda cab',
+  },
+  {
+    id: 'jadugoda-to-jamshedpur',
+    slug: 'jadugoda-to-jamshedpur',
+    origin: 'jadugoda',
+    destination: 'jamshedpur',
+    originName: 'Jadugoda',
+    destinationName: 'Jamshedpur',
+    originState: 'jharkhand',
+    destinationState: 'jharkhand',
+    approxDistanceKm: 25,
+    approxDurationHours: 0.75,
+    routeHighlights: ['Return: Jadugoda to Jamshedpur via NH-16'],
+    routeDescription: 'Return cab from Jadugoda to Jamshedpur, ~25 km via NH-16, ~40–45 minutes.',
+    travelTips: [],
+    services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
+    recommendedVehicles: ['sedan', 'muv'],
+    faqs: [{ question: 'Can I book cab from Jadugoda to Jamshedpur?', answer: 'Yes. Call +91 7061767617.' }],
+    relatedRouteIds: ['jamshedpur-to-jadugoda'],
+    relatedCityIds: ['jamshedpur', 'jadugoda'],
+    index: true,
+    priority: 0.62,
+    seoTitle: 'Jadugoda to Jamshedpur Cab | Taxi | Shivansh Tour & Travel',
+    seoDescription: 'Book cab from Jadugoda to Jamshedpur with Shivansh Tour & Travel. Call +91 7061767617.',
+    primaryKeyword: 'Jadugoda to Jamshedpur cab',
+  },
+
+  // ==================== JAMSHEDPUR ↔ CHAKRADHARPUR ====================
+  {
+    id: 'jamshedpur-to-chakradharpur',
+    slug: 'jamshedpur-to-chakradharpur',
+    origin: 'jamshedpur',
+    destination: 'chakradharpur',
+    originName: 'Jamshedpur',
+    destinationName: 'Chakradharpur',
+    originState: 'jharkhand',
+    destinationState: 'jharkhand',
+    approxDistanceKm: 60,
+    approxDurationHours: 1.5,
+    routeHighlights: [
+      'Route via Adityapur and Gamharia toward West Singhbhum',
+      'Chakradharpur Junction (CKP) — SER divisional HQ on Howrah–Mumbai rail line',
+      'Gateway to Chaibasa (35 km south) and Rourkela (Odisha, 70 km further)',
+    ],
+    routeDescription:
+      'The Jamshedpur to Chakradharpur cab covers approximately 55–65 km, taking about 1.5 hours. Chakradharpur Junction (CKP) is a major divisional headquarters of the South Eastern Railway on the busy Howrah–Mumbai Main Line. Many important long-distance express trains stop here. The town serves as the gateway to Chaibasa (district headquarters of West Singhbhum) and is an important transit point toward Rourkela and Odisha. Shivansh Tour & Travel provides cab service for railway station drops, official visits, and transit from Jamshedpur to Chakradharpur.',
+    travelTips: [
+      'Chakradharpur is approximately 60 km from Jamshedpur — about 1.5 hours.',
+      'CKP Junction trains: Gitanjali Express, Steel Express, Ispat Express, and more stop here.',
+      'Combine with Chaibasa (35 km further south) for a full West Singhbhum day trip.',
+    ],
+    services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
+    recommendedVehicles: ['sedan', 'muv'],
+    faqs: [
+      { question: 'How far is Chakradharpur from Jamshedpur?', answer: 'Approximately 55–65 km. About 1.5 hours by cab.' },
+      { question: 'Can I get station drop to Chakradharpur Junction from Jamshedpur?', answer: 'Yes. Shivansh Tour & Travel provides cab from Jamshedpur to Chakradharpur Junction (CKP). Call +91 7061767617.' },
+    ],
+    relatedRouteIds: ['chakradharpur-to-jamshedpur', 'jamshedpur-to-chaibasa'],
+    relatedCityIds: ['jamshedpur', 'chakradharpur', 'chaibasa'],
+    index: true,
+    priority: 0.67,
+    seoTitle: 'Jamshedpur to Chakradharpur Cab | CKP Station Taxi | Shivansh Tour & Travel',
+    seoDescription: 'Book cab from Jamshedpur to Chakradharpur Junction (CKP) with Shivansh Tour & Travel. Station drop, West Singhbhum taxi. Call +91 7061767617.',
+    primaryKeyword: 'Jamshedpur to Chakradharpur cab',
+  },
+  {
+    id: 'chakradharpur-to-jamshedpur',
+    slug: 'chakradharpur-to-jamshedpur',
+    origin: 'chakradharpur',
+    destination: 'jamshedpur',
+    originName: 'Chakradharpur',
+    destinationName: 'Jamshedpur',
+    originState: 'jharkhand',
+    destinationState: 'jharkhand',
+    approxDistanceKm: 60,
+    approxDurationHours: 1.5,
+    routeHighlights: ['Return: Chakradharpur to Jamshedpur — station pickup available from CKP'],
+    routeDescription:
+      'The Chakradharpur to Jamshedpur return cab covers ~60 km in 1.5 hours. Pickup from Chakradharpur Junction (CKP) or town addresses.',
+    travelTips: ['For CKP station pickup, share train number and arrival time.'],
+    services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
+    recommendedVehicles: ['sedan', 'muv'],
+    faqs: [
+      { question: 'Can I book cab from Chakradharpur station to Jamshedpur?', answer: 'Yes. Shivansh provides pickup from CKP Junction. Call +91 7061767617.' },
+    ],
+    relatedRouteIds: ['jamshedpur-to-chakradharpur'],
+    relatedCityIds: ['jamshedpur', 'chakradharpur'],
+    index: true,
+    priority: 0.63,
+    seoTitle: 'Chakradharpur to Jamshedpur Cab | CKP Station Taxi | Shivansh',
+    seoDescription: 'Book cab from Chakradharpur (CKP) to Jamshedpur with Shivansh Tour & Travel. Call +91 7061767617.',
+    primaryKeyword: 'Chakradharpur to Jamshedpur cab',
+  },
+
+  // ==================== RANCHI ↔ CHAKRADHARPUR ====================
+  {
+    id: 'ranchi-to-chakradharpur',
+    slug: 'ranchi-to-chakradharpur',
+    origin: 'ranchi',
+    destination: 'chakradharpur',
+    originName: 'Ranchi',
+    destinationName: 'Chakradharpur',
+    originState: 'jharkhand',
+    destinationState: 'jharkhand',
+    approxDistanceKm: 185,
+    approxDurationHours: 4,
+    routeHighlights: ['Route via Jamshedpur toward Chakradharpur'],
+    routeDescription: 'Ranchi to Chakradharpur covers ~180–190 km via Jamshedpur, taking 4–5 hours. Shivansh provides this outstation cab.',
+    travelTips: ['Approximately 4–5 hours via Jamshedpur.'],
+    services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
+    recommendedVehicles: ['sedan', 'muv'],
+    faqs: [{ question: 'How far is Chakradharpur from Ranchi?', answer: 'Approximately 180–190 km via Jamshedpur. About 4–5 hours.' }],
+    relatedRouteIds: ['chakradharpur-to-ranchi', 'ranchi-to-jamshedpur'],
+    relatedCityIds: ['ranchi', 'chakradharpur'],
+    index: true,
+    priority: 0.58,
+    seoTitle: 'Ranchi to Chakradharpur Cab | Jharkhand Taxi | Shivansh',
+    seoDescription: 'Book cab from Ranchi to Chakradharpur with Shivansh Tour & Travel. Call +91 7061767617.',
+    primaryKeyword: 'Ranchi to Chakradharpur cab',
+  },
+  {
+    id: 'chakradharpur-to-ranchi',
+    slug: 'chakradharpur-to-ranchi',
+    origin: 'chakradharpur',
+    destination: 'ranchi',
+    originName: 'Chakradharpur',
+    destinationName: 'Ranchi',
+    originState: 'jharkhand',
+    destinationState: 'jharkhand',
+    approxDistanceKm: 185,
+    approxDurationHours: 4,
+    routeHighlights: ['Return: Chakradharpur to Ranchi via Jamshedpur'],
+    routeDescription: 'Chakradharpur to Ranchi covers ~180–190 km via Jamshedpur, ~4–5 hours.',
+    travelTips: [],
+    services: ['outstation-taxi', 'one-way-taxi', 'round-trip-taxi'],
+    recommendedVehicles: ['sedan', 'muv'],
+    faqs: [{ question: 'Can I book cab from Chakradharpur to Ranchi?', answer: 'Yes. Shivansh Tour & Travel provides this route. Call +91 7061767617.' }],
+    relatedRouteIds: ['ranchi-to-chakradharpur'],
+    relatedCityIds: ['ranchi', 'chakradharpur'],
+    index: true,
+    priority: 0.55,
+    seoTitle: 'Chakradharpur to Ranchi Cab | Jharkhand Taxi | Shivansh',
+    seoDescription: 'Book cab from Chakradharpur to Ranchi with Shivansh Tour & Travel. Call +91 7061767617.',
+    primaryKeyword: 'Chakradharpur to Ranchi cab',
   },
 ];
 
