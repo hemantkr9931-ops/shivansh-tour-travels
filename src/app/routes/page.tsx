@@ -9,21 +9,26 @@ import HeroSlider from '@/components/ui/HeroSlider';
 export const metadata: Metadata = {
   title: 'Outstation Cab Routes from Jamshedpur | Shivansh Tour & Travel',
   description:
-    'Browse all outstation cab routes from Jamshedpur — to Ranchi, Kolkata, Dhanbad, Bokaro, Deoghar, Bhubaneswar, Puri, Patna and more. One-way and round-trip taxi.',
+    'Browse all outstation cab routes from Jamshedpur & Ranchi — to Kolkata, Dhanbad, Bokaro, Deoghar, Bhubaneswar, Puri, Patna, Varanasi, Ayodhya, Prayagraj, Digha, Raipur and more. One-way & round-trip taxi.',
   alternates: { canonical: `${SITE_CONFIG.url}/routes` },
 };
 
 const routesByState: Record<string, ReturnType<typeof getIndexedRoutes>> = {};
 
 getIndexedRoutes().forEach((route) => {
+  const states = [route.originState, route.destinationState];
   const stateKey =
-    route.originState === 'jharkhand' && route.destinationState === 'jharkhand'
-      ? 'Jharkhand'
-      : route.destinationState === 'west-bengal' || route.originState === 'west-bengal'
+    states.includes('uttar-pradesh')
+      ? 'Uttar Pradesh'
+      : states.includes('chhattisgarh')
+      ? 'Chhattisgarh'
+      : states.includes('west-bengal')
       ? 'West Bengal'
-      : route.destinationState === 'odisha' || route.originState === 'odisha'
+      : states.includes('odisha')
       ? 'Odisha'
-      : 'Bihar';
+      : states.includes('bihar')
+      ? 'Bihar'
+      : 'Jharkhand';
 
   if (!routesByState[stateKey]) routesByState[stateKey] = [];
   routesByState[stateKey].push(route);

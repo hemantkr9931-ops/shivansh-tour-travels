@@ -83,7 +83,7 @@ function ArticleSchema({ route }: { route: ReturnType<typeof getRouteBySlug> }) 
       url: SITE_CONFIG.url,
       logo: {
         '@type': 'ImageObject',
-        url: `${SITE_CONFIG.url}/favicon-512x512.png`,
+        url: `${SITE_CONFIG.url}/logo.jpeg`,
       },
     },
     mainEntityOfPage: {

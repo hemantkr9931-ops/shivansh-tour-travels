@@ -1616,6 +1616,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   animation: gradient-shimmer 4s linear infinite;
+  will-change: background-position;
 }
 .text-gradient-white {
   background: linear-gradient(135deg, #ffffff 0%, #f5a623 40%, #ffffff 70%, #fbbf47 100%);
@@ -1624,6 +1625,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   animation: gradient-shimmer 5s linear infinite;
+  will-change: background-position;
 }
 @keyframes gradient-shimmer {
   0% { background-position: 0% center; }
