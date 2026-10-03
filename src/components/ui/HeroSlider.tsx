@@ -7,7 +7,7 @@ const SLIDES = [
   '/shivansh hero bg3.png',
 ];
 
-const INTERVAL_MS = 2000;
+const INTERVAL_MS = 5000; // 5 seconds between slides (industry standard)
 
 export default function HeroSlider() {
   const [current, setCurrent] = useState(0);
@@ -22,7 +22,7 @@ export default function HeroSlider() {
         setCurrent((c) => (c + 1) % SLIDES.length);
         setNext((c) => (c + 2) % SLIDES.length);
         setTransitioning(false);
-      }, 800); // crossfade duration
+      }, 600); // crossfade duration
     };
 
     const interval = setInterval(tick, INTERVAL_MS);

@@ -36,8 +36,22 @@ export default function BookingWidget({
 
   const update = (f: string, v: string) => setForm((p) => ({ ...p, [f]: v }));
 
+  const [errors, setErrors] = useState<Record<string, string>>({});
+
+  const validate = () => {
+    const e: Record<string, string> = {};
+    if (!form.pickup.trim()) e.pickup = 'Pickup location is required';
+    if (!form.drop.trim()) e.drop = 'Drop location is required';
+    if (form.phone && !/^[\d\s+\-()]{7,15}$/.test(form.phone)) {
+      e.phone = 'Enter a valid phone number';
+    }
+    setErrors(e);
+    return Object.keys(e).length === 0;
+  };
+
   const handleWhatsApp = (e: React.FormEvent) => {
     e.preventDefault();
+    if (!validate()) return;
     const tripLabels: Record<string, string> = {
       'one-way': 'One Way', 'round-trip': 'Round Trip',
       'local': 'Local Rental', 'airport': 'Airport Transfer',
@@ -50,6 +64,7 @@ export default function BookingWidget({
     const msg = `Hello Shivansh Tour & Travel! 🙏\n\n📋 *Booking Request*\n📍 Pickup: ${form.pickup || '-'}\n🏁 Drop: ${form.drop || '-'}\n📅 Date: ${form.date || '-'}  ⏰ Time: ${form.time || '-'}\n🔄 Trip: ${tripLabels[form.tripType] || form.tripType}\n🚗 Vehicle: ${vehicleLabels[form.vehicle] || form.vehicle}\n👤 Name: ${form.name || '-'}\n📞 Phone: ${form.phone || '-'}\n\nPlease confirm fare & availability. Thank you!`;
     window.open(getWhatsAppLink(msg), '_blank', 'noopener,noreferrer');
   };
+
 
   const inputStyle = {
     width: '100%', padding: '11px 14px', borderRadius: '10px',
@@ -106,15 +121,21 @@ export default function BookingWidget({
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '10px', marginBottom: '12px' }}>
             <div>
               <label style={labelStyle} htmlFor="bk-pickup">📍 Pickup Location</label>
-              <input id="bk-pickup" style={inputStyle} type="text"
+              <input id="bk-pickup"
+                style={{ ...inputStyle, borderColor: errors.pickup ? '#ef4444' : '#e2e8f0' }}
+                type="text"
                 placeholder="e.g. Bistupur, Jamshedpur"
-                value={form.pickup} onChange={e => update('pickup', e.target.value)} required />
+                value={form.pickup} onChange={e => { update('pickup', e.target.value); if (errors.pickup) setErrors(p => ({...p, pickup: ''})); }} required />
+              {errors.pickup && <p style={{ color: '#ef4444', fontSize: '11px', marginTop: '3px' }}>{errors.pickup}</p>}
             </div>
             <div>
               <label style={labelStyle} htmlFor="bk-drop">🏁 Drop Location</label>
-              <input id="bk-drop" style={inputStyle} type="text"
+              <input id="bk-drop"
+                style={{ ...inputStyle, borderColor: errors.drop ? '#ef4444' : '#e2e8f0' }}
+                type="text"
                 placeholder="e.g. Ranchi Airport"
-                value={form.drop} onChange={e => update('drop', e.target.value)} required />
+                value={form.drop} onChange={e => { update('drop', e.target.value); if (errors.drop) setErrors(p => ({...p, drop: ''})); }} required />
+              {errors.drop && <p style={{ color: '#ef4444', fontSize: '11px', marginTop: '3px' }}>{errors.drop}</p>}
             </div>
           </div>
 
