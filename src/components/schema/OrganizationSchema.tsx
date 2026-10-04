@@ -34,8 +34,7 @@ export default function OrganizationSchema() {
         '@type': 'ContactPoint',
         telephone: SITE_CONFIG.phone,
         contactType: 'customer service',
-        contactOption: 'TollFree',
-        areaServed: ['IN'],
+        areaServed: 'IN',
         availableLanguage: ['English', 'Hindi'],
         hoursAvailable: {
           '@type': 'OpeningHoursSpecification',
@@ -48,7 +47,7 @@ export default function OrganizationSchema() {
         '@type': 'ContactPoint',
         telephone: SITE_CONFIG.phone,
         contactType: 'reservations',
-        areaServed: ['IN'],
+        areaServed: 'IN',
         availableLanguage: ['English', 'Hindi'],
       },
     ],

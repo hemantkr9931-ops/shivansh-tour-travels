@@ -7,6 +7,25 @@
   "background_color": "#ffffff",
   "theme_color": "#0a1628",
   "orientation": "portrait",
+  "lang": "en-IN",
+  "scope": "/",
+  "categories": ["travel", "transportation"],
+  "shortcuts": [
+    {
+      "name": "Book on WhatsApp",
+      "short_name": "WhatsApp",
+      "description": "Book a cab via WhatsApp",
+      "url": "https://wa.me/917061767617?text=Hello%20Shivansh%2C%20I%20want%20to%20book%20a%20cab.",
+      "icons": [{ "src": "/favicon-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Call Now",
+      "short_name": "Call",
+      "description": "Call Shivansh Tour & Travel",
+      "url": "tel:+917061767617",
+      "icons": [{ "src": "/favicon-192x192.png", "sizes": "192x192" }]
+    }
+  ],
   "icons": [
     {
       "src": "/favicon-16x16.png",

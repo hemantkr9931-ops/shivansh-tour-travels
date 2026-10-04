@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { SITE_CONFIG, getWhatsAppLink, getCallLink } from '@/lib/config';
+import BreadcrumbSchema from '@/components/schema/BreadcrumbSchema';
 
 type BlogPost = {
   title: string;
@@ -563,6 +564,58 @@ export default async function BlogPostPage({ params }: Props) {
 
   return (
     <>
+      {/* ── JSON-LD: Article + Breadcrumb schemas ─────────────────────── */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'BlogPosting',
+            '@id': `${SITE_CONFIG.url}/blog/${slug}`,
+            headline: post.title,
+            description: post.description,
+            url: `${SITE_CONFIG.url}/blog/${slug}`,
+            datePublished: post.publishedDate,
+            dateModified: post.publishedDate,
+            author: {
+              '@type': 'Organization',
+              name: SITE_CONFIG.name,
+              url: SITE_CONFIG.url,
+            },
+            publisher: {
+              '@type': 'Organization',
+              name: SITE_CONFIG.name,
+              url: SITE_CONFIG.url,
+              logo: {
+                '@type': 'ImageObject',
+                url: `${SITE_CONFIG.url}/logo.jpeg`,
+                width: 512,
+                height: 512,
+              },
+            },
+            image: {
+              '@type': 'ImageObject',
+              url: `${SITE_CONFIG.url}/og-image.png`,
+              width: 1200,
+              height: 630,
+            },
+            mainEntityOfPage: {
+              '@type': 'WebPage',
+              '@id': `${SITE_CONFIG.url}/blog/${slug}`,
+            },
+            keywords: post.tags.concat(['Jamshedpur cab', 'taxi Jamshedpur']).join(', '),
+            articleSection: post.category,
+            inLanguage: 'en-IN',
+          }),
+        }}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: 'Home', url: SITE_CONFIG.url },
+          { name: 'Travel Guides', url: `${SITE_CONFIG.url}/blog` },
+          { name: post.title, url: `${SITE_CONFIG.url}/blog/${slug}` },
+        ]}
+      />
       {/* ── HERO ─────────────────────────────────────────────────────── */}
       <section
         style={{ background: 'var(--gradient-navy)', padding: '56px 0 0', position: 'relative', overflow: 'hidden' }}

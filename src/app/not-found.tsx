@@ -1,6 +1,13 @@
 // src/app/not-found.tsx
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getCallLink, getWhatsAppLink } from '@/lib/config';
+
+// Tell search engines NOT to index 404 pages — saves crawl budget
+export const metadata: Metadata = {
+  title: '404 — Page Not Found | Shivansh Tour & Travel',
+  robots: { index: false, follow: false },
+};
 
 export default function NotFound() {
   return (

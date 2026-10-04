@@ -9,6 +9,7 @@ import FloatingButtons from '@/components/ui/FloatingButtons';
 import AnalyticsScript from '@/components/AnalyticsScript';
 import OrganizationSchema from '@/components/schema/OrganizationSchema';
 import LocalBusinessSchema from '@/components/schema/LocalBusinessSchema';
+import WebsiteSchema from '@/components/schema/WebsiteSchema';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -151,9 +152,10 @@ export default function RootLayout({
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
       </head>
       <body>
-        {/* Global Structured Data */}
+        {/* Global Structured Data — injected on every page */}
         <OrganizationSchema />
         <LocalBusinessSchema />
+        <WebsiteSchema />
 
         {/* Site Layout */}
         <Header />
