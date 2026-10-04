@@ -4,6 +4,16 @@ import { SITE_CONFIG } from '@/lib/config';
 import { getIndexedRoutes } from '@/data/routes';
 import { getIndexedCities } from '@/data/cities';
 
+// Blog slugs for sitemap
+const BLOG_SLUGS = [
+  'jamshedpur-to-ranchi-cab-guide',
+  'jamshedpur-to-puri-tempo-traveller',
+  'deoghar-pilgrimage-cab-jamshedpur',
+  'tatanagar-railway-station-taxi-guide',
+  'jamshedpur-to-kolkata-cab-guide',
+  'innova-crysta-hire-jamshedpur',
+];
+
 const BASE_URL = SITE_CONFIG.url;
 
 // All service slugs available on service-specific city pages
@@ -78,6 +88,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/services`,                   lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${BASE_URL}/routes`,                     lastModified: now, changeFrequency: 'weekly',  priority: 0.9 },
     { url: `${BASE_URL}/cities`,                     lastModified: now, changeFrequency: 'weekly',  priority: 0.9 },
+    { url: `${BASE_URL}/blog`,                       lastModified: now, changeFrequency: 'weekly',  priority: 0.85 },
     { url: `${BASE_URL}/fleet`,                      lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE_URL}/fare-calculator`,            lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${BASE_URL}/about`,                      lastModified: now, changeFrequency: 'monthly', priority: 0.7 },
@@ -86,6 +97,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE_URL}/terms-and-conditions`,       lastModified: now, changeFrequency: 'yearly',  priority: 0.3 },
     { url: `${BASE_URL}/refund-cancellation-policy`, lastModified: now, changeFrequency: 'yearly',  priority: 0.3 },
   ];
+
+  // Blog pages
+  const blogPages: MetadataRoute.Sitemap = BLOG_SLUGS.map((slug) => ({
+    url: `${BASE_URL}/blog/${slug}`,
+    lastModified: now,
+    changeFrequency: 'monthly' as const,
+    priority: 0.8,
+  }));
 
   // 2. Service landing pages — /[serviceSlug]
   const servicePages: MetadataRoute.Sitemap = SERVICE_SLUGS.map((slug) => ({
@@ -130,6 +149,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return [
     ...staticPages,
+    ...blogPages,
     ...servicePages,
     ...routePages,
     ...cityPages,

@@ -42,6 +42,7 @@ const navLinks = [
   { label: 'Routes', href: '/routes' },
   { label: 'Fleet', href: '/fleet' },
   { label: 'Fare Calculator', href: '/fare-calculator' },
+  { label: 'Blog', href: '/blog' },
   { label: 'About', href: '/about' },
   { label: 'Contact', href: '/contact' },
 ];
@@ -274,6 +275,7 @@ export default function Header() {
             <Link href="/routes" className="mobile-nav-link">🗺️ Popular Routes</Link>
             <Link href="/fleet" className="mobile-nav-link">🚗 Our Fleet</Link>
             <Link href="/fare-calculator" className="mobile-nav-link">🧮 Fare Calculator</Link>
+            <Link href="/blog" className="mobile-nav-link">📖 Travel Guides &amp; Blog</Link>
             <Link href="/about" className="mobile-nav-link">ℹ️ About Us</Link>
             <Link href="/contact" className="mobile-nav-link">📞 Contact</Link>
           </nav>

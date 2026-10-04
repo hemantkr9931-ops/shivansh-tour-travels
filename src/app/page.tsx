@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+﻿import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { SITE_CONFIG, getCallLink, getWhatsAppLink } from '@/lib/config';
@@ -1259,6 +1259,46 @@ export default function HomePage() {
       </section>
 
 
+      {/* ===================== BLOG / TRAVEL GUIDES ===================== */}
+      <section className="section" style={{ background: 'var(--color-gray-50)' }} aria-labelledby="blog-home-heading">
+        <div className="container">
+          <div className="section-header">
+            <div className="section-label">Travel Knowledge Hub</div>
+            <h2 className="section-title" id="blog-home-heading">
+              <span className="accent">Jamshedpur Travel</span> Guides &amp; Tips
+            </h2>
+            <p className="section-subtitle">
+              Expert guides on cab routes, fares, and travel tips — from your trusted Jamshedpur taxi service.
+            </p>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '20px' }}>
+            {[
+              { slug: 'jamshedpur-to-ranchi-cab-guide', title: 'Jamshedpur to Ranchi Cab Guide', desc: 'Distance, route via NH33, fare for Sedan/Innova, and airport transfer tips.', icon: '🛣️', tag: 'Route Guide' },
+              { slug: 'deoghar-pilgrimage-cab-jamshedpur', title: 'Deoghar Baidyanath Dham Cab Guide', desc: 'Route, fare, darshan timings, and Sawan season booking tips from Jamshedpur.', icon: '🛕', tag: 'Pilgrimage' },
+              { slug: 'jamshedpur-to-kolkata-cab-guide', title: 'Jamshedpur to Kolkata Cab Guide', desc: 'NH16 route, fare comparison, vehicle choice, and overnight travel tips.', icon: '🌆', tag: 'Route Guide' },
+            ].map((post) => (
+              <Link key={post.slug} href={`/blog/${post.slug}`} style={{ textDecoration: 'none' }}>
+                <div style={{ background: 'white', borderRadius: '16px', overflow: 'hidden', border: '1px solid var(--color-gray-100)', boxShadow: '0 2px 8px rgba(0,0,0,0.06)', display: 'flex', flexDirection: 'column', height: '100%' }}>
+                  <div style={{ background: 'var(--gradient-navy)', padding: '20px', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    <span style={{ fontSize: '28px' }}>{post.icon}</span>
+                    <span style={{ fontSize: '10px', fontWeight: 700, color: 'var(--color-gold)', background: 'rgba(245,166,35,0.12)', border: '1px solid rgba(245,166,35,0.2)', padding: '2px 8px', borderRadius: '20px', letterSpacing: '0.06em', textTransform: 'uppercase' as const }}>
+                      {post.tag}
+                    </span>
+                  </div>
+                  <div style={{ padding: '16px 20px', flex: 1 }}>
+                    <h3 style={{ fontSize: '15px', fontWeight: 700, color: 'var(--color-navy)', marginBottom: '8px', lineHeight: 1.4 }}>{post.title}</h3>
+                    <p style={{ fontSize: '13px', color: 'var(--color-gray-500)', lineHeight: 1.7 }}>{post.desc}</p>
+                    <div style={{ marginTop: '12px', fontSize: '12px', fontWeight: 700, color: 'var(--color-gold-dark)' }}>Read Guide →</div>
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+          <div style={{ textAlign: 'center', marginTop: '28px' }}>
+            <Link href="/blog" className="btn btn-outline">View All Travel Guides →</Link>
+          </div>
+        </div>
+      </section>
       {/* ===================== FAQ ===================== */}
       <FAQSection
         faqs={homepageFaqs}
