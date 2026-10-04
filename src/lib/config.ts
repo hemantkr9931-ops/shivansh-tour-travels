@@ -11,7 +11,7 @@ export const SITE_CONFIG = {
   phone: '+91 7061767617',
   phoneRaw: '+917061767617',
   whatsappNumber: '917061767617',
-  email: 'shivanshtourandtravels01@gmail.com',
+  email: 'shivanshtourandtravels910@gmail.com',
   address: {
     street: 'Near 11th Phase, Adarsh Nagar',
     locality: 'Sonari',
