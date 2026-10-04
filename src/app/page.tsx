@@ -244,7 +244,7 @@ export default function HomePage() {
                 }}
               >
                 {[
-                  { label: 'Service Regions', value: '4 States' },
+                  { label: 'Service Regions', value: '6 States' },
                   { label: 'Vehicle Types', value: '6 Categories' },
                   { label: 'Primary Base', value: 'Jamshedpur' },
                 ].map((stat) => (
@@ -303,7 +303,7 @@ export default function HomePage() {
         <div className="stats-grid">
           {[
             { num: '500', suffix: '+', label: 'Happy Customers' },
-            { num: '4',   suffix: ' States', label: 'Service Coverage' },
+            { num: '6',   suffix: ' States', label: 'Service Coverage' },
             { num: '6',   suffix: ' Types', label: 'Vehicle Categories' },
             { num: '24', suffix: '/7', label: 'Booking Available' },
           ].map((s) => (
@@ -739,15 +739,17 @@ export default function HomePage() {
               Outstation Taxi from Jamshedpur
             </h2>
             <p className="section-subtitle">
-              We operate outstation cab routes across four states — Jharkhand, West Bengal, Odisha, and Bihar.
+              We operate outstation cab routes across 6 states &mdash; Jharkhand, West Bengal, Odisha, Bihar, Chhattisgarh &amp; Uttar Pradesh.
             </p>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '16px' }}>
             {[
               { state: 'Jharkhand', cities: ['Ranchi', 'Dhanbad', 'Bokaro', 'Deoghar', 'Hazaribagh', 'Chaibasa'], color: '#0a1628' },
-              { state: 'West Bengal', cities: ['Kolkata', 'Kharagpur', 'Purulia', 'Durgapur', 'Asansol'], color: '#1d3a75' },
+              { state: 'West Bengal', cities: ['Kolkata', 'Durgapur', 'Digha', 'Mandarmani'], color: '#1d3a75' },
               { state: 'Odisha', cities: ['Bhubaneswar', 'Puri', 'Rourkela', 'Cuttack'], color: '#152b5a' },
               { state: 'Bihar', cities: ['Patna', 'Gaya', 'Bodh Gaya'], color: '#0f2042' },
+              { state: 'Chhattisgarh', cities: ['Raipur', 'Raigarh'], color: '#713f12' },
+              { state: 'Uttar Pradesh', cities: ['Varanasi', 'Prayagraj', 'Ayodhya', 'Vindhyachal', 'Lucknow'], color: '#7e1a1a' },
             ].map((region) => (
               <div
                 key={region.state}
@@ -836,42 +838,115 @@ export default function HomePage() {
           <div className="section-header">
             <div className="section-label">Our Service Network</div>
             <h2 className="section-title" id="coverage-heading">
-              We Cover <span className="accent">4 States</span> — 50+ Cities &amp; Towns
+              We Cover <span className="accent">6 States</span> &mdash; 80+ Cities &amp; Towns
             </h2>
             <p className="section-subtitle">
-              From Jamshedpur&apos;s every locality to major cities across Jharkhand, West Bengal, Odisha &amp; Bihar — Shivansh Tour &amp; Travel is your trusted cab partner.
+              From Jamshedpur&apos;s every locality to pilgrimage cities across Jharkhand, West Bengal, Odisha, Bihar, Chhattisgarh &amp; Uttar Pradesh &mdash; Shivansh Tour &amp; Travel is your trusted cab partner.
             </p>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: '20px', marginTop: '40px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '20px', marginTop: '40px' }}>
             {[
               {
                 state: 'Jharkhand',
+                stateSlug: 'jharkhand',
                 flag: '🏔️',
                 color: '#1a237e',
                 bg: '#e8eaf6',
-                cities: ['Jamshedpur', 'Bistupur', 'Sakchi', 'Kadma', 'Sonari', 'Mango', 'Adityapur', 'Telco', 'Golmuri', 'Jugsalai', 'Boram', 'Bagbera', 'Parsudih', 'Ranchi', 'Dhanbad', 'Bokaro', 'Deoghar', 'Hazaribagh', 'Giridih', 'Ramgarh', 'Chaibasa', 'Seraikela', 'Kharsawan', 'Jamshedpur Airport'],
+                cities: [
+                  { name: 'Jamshedpur', slug: 'jamshedpur' },
+                  { name: 'Ranchi', slug: 'ranchi' },
+                  { name: 'Dhanbad', slug: 'dhanbad' },
+                  { name: 'Bokaro', slug: 'bokaro' },
+                  { name: 'Deoghar', slug: 'deoghar' },
+                  { name: 'Hazaribagh', slug: 'hazaribagh' },
+                  { name: 'Bistupur', slug: 'bistupur' },
+                  { name: 'Sakchi', slug: 'sakchi' },
+                  { name: 'Mango', slug: 'mango' },
+                  { name: 'Adityapur', slug: 'adityapur' },
+                  { name: 'Sonari', slug: 'sonari' },
+                  { name: 'Giridih', slug: 'giridih' },
+                  { name: 'Chaibasa', slug: 'chaibasa' },
+                  { name: 'Ramgarh', slug: 'ramgarh' },
+                ],
               },
               {
                 state: 'West Bengal',
+                stateSlug: 'west-bengal',
                 flag: '🌊',
                 color: '#1b5e20',
                 bg: '#e8f5e9',
-                cities: ['Kolkata', 'Howrah', 'Asansol', 'Durgapur', 'Kharagpur', 'Purulia', 'Bankura', 'Haldia', 'Siliguri', 'Bardhaman', 'Midnapore'],
+                cities: [
+                  { name: 'Kolkata', slug: 'kolkata' },
+                  { name: 'Howrah', slug: 'howrah' },
+                  { name: 'Durgapur', slug: 'durgapur' },
+                  { name: 'Asansol', slug: 'asansol' },
+                  { name: 'Kharagpur', slug: 'kharagpur' },
+                  { name: 'Purulia', slug: 'purulia' },
+                  { name: 'Digha', slug: 'digha' },
+                  { name: 'Mandarmani', slug: 'mandarmani' },
+                  { name: 'Haldia', slug: 'haldia' },
+                  { name: 'Bankura', slug: 'bankura' },
+                ],
               },
               {
                 state: 'Odisha',
+                stateSlug: 'odisha',
                 flag: '🏛️',
                 color: '#e65100',
                 bg: '#fff3e0',
-                cities: ['Bhubaneswar', 'Puri', 'Cuttack', 'Rourkela', 'Sambalpur', 'Berhampur', 'Balasore', 'Keonjhar', 'Sundergarh', 'Baripada'],
+                cities: [
+                  { name: 'Bhubaneswar', slug: 'bhubaneswar' },
+                  { name: 'Puri', slug: 'puri' },
+                  { name: 'Cuttack', slug: 'cuttack' },
+                  { name: 'Rourkela', slug: 'rourkela' },
+                  { name: 'Sambalpur', slug: 'sambalpur' },
+                  { name: 'Berhampur', slug: 'berhampur' },
+                  { name: 'Balasore', slug: 'balasore' },
+                  { name: 'Keonjhar', slug: 'keonjhar' },
+                  { name: 'Baripada', slug: 'baripada' },
+                ],
               },
               {
                 state: 'Bihar',
+                stateSlug: 'bihar',
                 flag: '🕌',
                 color: '#b71c1c',
                 bg: '#ffebee',
-                cities: ['Patna', 'Gaya', 'Bodh Gaya', 'Muzaffarpur', 'Bhagalpur', 'Darbhanga', 'Munger', 'Nawada', 'Rajgir', 'Nalanda'],
+                cities: [
+                  { name: 'Patna', slug: 'patna' },
+                  { name: 'Gaya', slug: 'gaya' },
+                  { name: 'Bodh Gaya', slug: 'bodh-gaya' },
+                  { name: 'Rajgir', slug: 'rajgir' },
+                  { name: 'Nalanda', slug: 'nalanda' },
+                  { name: 'Muzaffarpur', slug: 'muzaffarpur' },
+                  { name: 'Bhagalpur', slug: 'bhagalpur' },
+                ],
+              },
+              {
+                state: 'Chhattisgarh',
+                stateSlug: 'chhattisgarh',
+                flag: '🌾',
+                color: '#713f12',
+                bg: '#fefce8',
+                cities: [
+                  { name: 'Raipur', slug: 'raipur' },
+                  { name: 'Raigarh', slug: 'raigarh' },
+                ],
+              },
+              {
+                state: 'Uttar Pradesh',
+                stateSlug: 'uttar-pradesh',
+                flag: '🛕',
+                color: '#7e1a1a',
+                bg: '#fff1f1',
+                cities: [
+                  { name: 'Varanasi', slug: 'varanasi' },
+                  { name: 'Prayagraj', slug: 'prayagraj' },
+                  { name: 'Ayodhya', slug: 'ayodhya' },
+                  { name: 'Vindhyachal', slug: 'vindhyachal' },
+                  { name: 'Lucknow', slug: 'lucknow' },
+                ],
               },
             ].map((region) => (
               <div
@@ -889,32 +964,43 @@ export default function HomePage() {
                   <span style={{ fontSize: '22px' }}>{region.flag}</span>
                   <h3 style={{ fontSize: '16px', fontWeight: 800, color: region.color, margin: 0 }}>{region.state}</h3>
                 </div>
-                {/* City chips */}
+                {/* Clickable city chips */}
                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
                   {region.cities.map((city) => (
-                    <span
-                      key={city}
+                    <Link
+                      key={city.slug}
+                      href={`/cities/${region.stateSlug}/${city.slug}`}
                       style={{
                         background: region.bg,
                         color: region.color,
-                        padding: '3px 10px',
+                        padding: '4px 12px',
                         borderRadius: '20px',
-                        fontSize: '11px',
+                        fontSize: '12px',
                         fontWeight: 600,
-                        cursor: 'default',
+                        textDecoration: 'none',
+                        transition: 'opacity 0.15s, transform 0.15s',
+                        display: 'inline-block',
+                        border: `1px solid ${region.color}25`,
                       }}
+                      onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.8'; e.currentTarget.style.transform = 'scale(1.04)'; }}
+                      onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; e.currentTarget.style.transform = 'scale(1)'; }}
                     >
-                      {city}
-                    </span>
+                      {city.name}
+                    </Link>
                   ))}
                 </div>
               </div>
             ))}
           </div>
 
-          <p style={{ textAlign: 'center', fontSize: '13px', color: 'var(--color-gray-400)', marginTop: '20px' }}>
-            Don&apos;t see your city? We serve many more destinations — call us to confirm availability.
-          </p>
+          <div style={{ textAlign: 'center', marginTop: '32px' }}>
+            <p style={{ fontSize: '13px', color: 'var(--color-gray-400)', marginBottom: '16px' }}>
+              Don&apos;t see your city? We serve many more destinations — call us to confirm availability.
+            </p>
+            <Link href="/cities" className="btn btn-primary">
+              View All Cities &amp; Routes →
+            </Link>
+          </div>
         </div>
       </section>
 
