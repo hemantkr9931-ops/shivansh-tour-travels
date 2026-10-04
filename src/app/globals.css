@@ -2336,3 +2336,9 @@ h1, h2, h3, h4, h5, h6 {
   .bw-title  { font-size: 15px; }
 }
 
+.city-link-badge:hover {
+  opacity: 0.8 !important;
+  transform: scale(1.04) !important;
+}
+
+

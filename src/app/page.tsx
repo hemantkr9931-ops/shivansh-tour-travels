@@ -970,6 +970,7 @@ export default function HomePage() {
                     <Link
                       key={city.slug}
                       href={`/cities/${region.stateSlug}/${city.slug}`}
+                      className="city-link-badge"
                       style={{
                         background: region.bg,
                         color: region.color,
@@ -982,8 +983,6 @@ export default function HomePage() {
                         display: 'inline-block',
                         border: `1px solid ${region.color}25`,
                       }}
-                      onMouseEnter={(e) => { e.currentTarget.style.opacity = '0.8'; e.currentTarget.style.transform = 'scale(1.04)'; }}
-                      onMouseLeave={(e) => { e.currentTarget.style.opacity = '1'; e.currentTarget.style.transform = 'scale(1)'; }}
                     >
                       {city.name}
                     </Link>
