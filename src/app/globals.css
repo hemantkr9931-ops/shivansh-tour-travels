@@ -2001,3 +2001,338 @@ h1, h2, h3, h4, h5, h6 {
   border-color: var(--color-navy);
   text-decoration: none;
 }
+
+/* ============================================
+   BOOKING WIDGET — Mobile-First Design
+   ============================================ */
+
+.bw-card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px -10px rgba(10,22,40,0.18), 0 0 0 1px rgba(10,22,40,0.06);
+}
+
+/* Header */
+.bw-header {
+  background: linear-gradient(135deg, #0a1628 0%, #1a3358 100%);
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.bw-header-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #ffc107, #ff9800);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+.bw-header-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  flex: 1;
+  min-width: 0;
+}
+.bw-title {
+  color: white;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+.bw-sub {
+  color: rgba(255,255,255,0.5);
+  font-size: 11px;
+}
+.bw-badges {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.bw-badges span {
+  padding: 3px 9px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.1);
+  color: rgba(255,255,255,0.8);
+  font-size: 10px;
+  font-weight: 600;
+}
+
+/* Body */
+.bw-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.bw-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.bw-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+}
+.bw-input {
+  width: 100%;
+  padding: 11px 14px;
+  border-radius: 10px;
+  border: 1.5px solid #e2e8f0;
+  font-size: 15px;
+  font-weight: 500;
+  outline: none;
+  box-sizing: border-box;
+  background: #fafbfc;
+  color: #1a202c;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  font-family: inherit;
+  min-height: 48px;
+}
+.bw-input:focus {
+  border-color: #0a1628;
+  box-shadow: 0 0 0 3px rgba(10,22,40,0.07);
+  background: white;
+}
+.bw-input-err { border-color: #ef4444 !important; }
+.bw-err { color: #ef4444; font-size: 11px; font-weight: 600; }
+
+/* 2-column row */
+.bw-row-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+/* Trip type pill buttons */
+.bw-trip-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+.bw-trip-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 10px 6px;
+  border-radius: 12px;
+  border: 1.5px solid #e2e8f0;
+  background: white;
+  color: #374151;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.18s;
+  font-family: inherit;
+  line-height: 1.2;
+}
+.bw-trip-icon { font-size: 20px; }
+.bw-trip-btn.active {
+  border-color: #0a1628;
+  background: #0a1628;
+  color: white;
+  box-shadow: 0 4px 12px rgba(10,22,40,0.2);
+}
+.bw-trip-btn:hover:not(.active) {
+  border-color: #0a1628;
+  background: #f0f4ff;
+}
+
+/* Vehicle cards */
+.bw-vehicle-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+.bw-vehicle-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  padding: 10px 4px 8px;
+  border-radius: 12px;
+  border: 1.5px solid #e2e8f0;
+  background: white;
+  color: #374151;
+  cursor: pointer;
+  transition: all 0.18s;
+  font-family: inherit;
+  text-align: center;
+}
+.bw-vehicle-icon { font-size: 22px; }
+.bw-vehicle-name { font-size: 11px; font-weight: 700; color: inherit; }
+.bw-vehicle-sub  { font-size: 9px; color: #94a3b8; line-height: 1.2; }
+.bw-vehicle-btn.active {
+  border-color: #0a1628;
+  background: #0a1628;
+  color: white;
+  box-shadow: 0 4px 12px rgba(10,22,40,0.2);
+}
+.bw-vehicle-btn.active .bw-vehicle-sub { color: rgba(255,255,255,0.55); }
+.bw-vehicle-btn:hover:not(.active) {
+  border-color: #0a1628;
+  background: #f0f4ff;
+}
+
+/* Action buttons */
+.bw-actions {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+.bw-submit {
+  padding: 15px 20px;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(135deg, #25d366, #128c7e);
+  color: white;
+  font-size: 16px;
+  font-weight: 800;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0 6px 24px rgba(37,211,102,0.35);
+  font-family: inherit;
+  transition: all 0.2s;
+  min-height: 52px;
+}
+.bw-submit:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 30px rgba(37,211,102,0.45);
+}
+.bw-submit-sent {
+  background: linear-gradient(135deg, #10b981, #059669) !important;
+}
+.bw-call-btn {
+  padding: 13px 20px;
+  border-radius: 12px;
+  border: 2px solid #0a1628;
+  color: #0a1628;
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.18s;
+  min-height: 48px;
+  font-family: inherit;
+}
+.bw-call-btn:hover {
+  background: #0a1628;
+  color: white;
+}
+
+/* ============================================
+   MOBILE OPTIMIZATIONS — Comprehensive
+   ============================================ */
+
+@media (max-width: 640px) {
+  /* BookingWidget — stack row-2 fields */
+  .bw-row-2 {
+    grid-template-columns: 1fr;
+  }
+
+  /* Trip type: 2×2 grid on mobile */
+  .bw-trip-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Vehicle: 2 or 3 per row on mobile */
+  .bw-vehicle-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  /* Actions: full width column */
+  .bw-actions {
+    flex-direction: column;
+  }
+
+  /* Hide text badges in header on small screens */
+  .bw-badges {
+    display: none;
+  }
+
+  /* Fare table — horizontal scroll */
+  table {
+    font-size: 12px !important;
+  }
+  th, td {
+    padding: 10px 10px !important;
+    white-space: nowrap;
+  }
+
+  /* Stats bar — 2-col grid on mobile */
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 0 !important;
+  }
+
+  /* Popular routes — single column */
+  .grid-3 {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Fleet cards — single column */
+  .fleet-card {
+    max-width: 100%;
+  }
+
+  /* Section label — smaller on mobile */
+  .section-label {
+    font-size: 11px;
+    padding: 3px 10px;
+  }
+
+  /* Hero padding */
+  .hero-section {
+    padding: 36px 0 48px !important;
+  }
+
+  /* Marquee strip — smaller text */
+  .marquee-item {
+    font-size: 12px !important;
+    padding: 0 12px !important;
+  }
+
+  /* Trust bar — scrollable on mobile */
+  .trust-bar-inner {
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch;
+    gap: 12px !important;
+    padding-bottom: 4px;
+    scrollbar-width: none;
+  }
+  .trust-bar-inner::-webkit-scrollbar { display: none; }
+  .trust-item { flex-shrink: 0; }
+
+  /* Coverage area chips — wrap nicely */
+  .bw-body { padding: 16px; gap: 14px; }
+}
+
+@media (max-width: 480px) {
+  /* Vehicle: 2 per row on very small screens */
+  .bw-vehicle-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* City chips — slightly smaller */
+  .bw-header { padding: 14px 16px; }
+  .bw-title  { font-size: 15px; }
+}
+
